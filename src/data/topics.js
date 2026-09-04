@@ -603,7 +603,7 @@ export const topicsByCourse = {
     {
       question: "Define the following: (i) Mining (ii) Mining operations (iii) Tailings (iv) Stripping ratio (v) Waste rock.",
 
-      type: "theory",
+      type: "PAST-QUESTION",
 
       marks: 10
     },
