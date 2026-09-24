@@ -27,8 +27,7 @@ export const pastQuestionsByCourse = {
   "IBBUL-GEY214": [],
   GEY202: [],
   GEY210: [],
-  GEY212: [],
-};
+  };
 
 export function getPastQuestions(courseCode) {
   return pastQuestionsByCourse[courseCode] ?? [];

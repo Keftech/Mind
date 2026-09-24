@@ -1,6 +1,15 @@
+import dotenv from "dotenv";
+import path from "path";
+
+// Forcing dotenv to look at the absolute root of your project
+dotenv.config({ path: path.resolve(process.cwd(), ".env") });
+
+const groqApiKey = process.env.GROQ_API_KEY?.trim();
+
 export async function handler(event) {
   // Only allow POST requests.
   if (event.httpMethod !== "POST") {
+
     return {
       statusCode: 405,
       headers: {
@@ -31,7 +40,7 @@ export async function handler(event) {
       };
     }
 
-    if (!process.env.GROQ_API_KEY) {
+    if (!groqApiKey) {
       console.error("GROQ_API_KEY is not configured.");
 
       return {
@@ -71,10 +80,10 @@ ${courseContext || "General university studies"}`;
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${process.env.GROQ_API_KEY}`,
+          Authorization: `Bearer ${groqApiKey}`,
         },
         body: JSON.stringify({
-          model: "llama-3.3-70b-versatile",
+          model: "openai/gpt-oss-120b",
           messages: [
             {
               role: "system",

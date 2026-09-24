@@ -13,3 +13,18 @@ export async function askMind({ question, courseContext, country = "Nigeria" }) 
 
   return res.json(); // { answer: string }
 }
+const GRADE_ENDPOINT = "/.netlify/functions/grade-theory-answer";
+
+export async function gradeTheoryAnswer({ question, answerGuide, studentAnswer, courseContext }) {
+  const res = await fetch(GRADE_ENDPOINT, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ question, answerGuide, studentAnswer, courseContext }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`gradeTheoryAnswer failed: ${res.status}`);
+  }
+
+  return res.json();
+}

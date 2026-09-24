@@ -12,6 +12,6 @@ export const mockStudent = {
     "IBBUL-GEY214",
     "IBBUL-GEY216",
     "IBBUL-GEY218",
-    "GEY212",
+    
   ],
 };

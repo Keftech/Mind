@@ -274,8 +274,207 @@ export const topicsByCourse = {
 
       subsections: []
     },
+    {
+      title: "12. Mineral Processing",
+
+      paragraphs: [
+        "After the ore is transported to the processing plant, the valuable minerals are separated and concentrated.",
+
+        "The purpose of mineral processing is to separate the valuable mineral from unwanted minerals and other materials so that the valuable material can be further treated, refined or recovered.",
+
+        "The lecturer's notes identify separation and concentration as important parts of mineral processing."
+      ],
+
+      subsections: [
+        {
+          title: "Separation and Concentration",
+
+          paragraphs: [
+            "Separation and concentration involve separating valuable minerals from unwanted minerals or materials so that the valuable mineral can be recovered more effectively."
+          ],
+
+          points: [
+            "Magnetic separation",
+            "Gravity separation",
+            "Flotation",
+            "Chemical leaching"
+          ]
+        }
+      ]
+    },
 
 
+    {
+      title: "13. Magnetic Separation",
+
+      paragraphs: [
+        "Magnetic separation is used to separate magnetic minerals from non-magnetic minerals using a magnetic separator.",
+
+        "The lecturer's notes describe the use of a large rotating magnet for this purpose.",
+
+        "Magnetic separation can also remove magnetic gangue minerals or, in the case of iron ore mining, help separate magnetic ore minerals from other material."
+      ],
+
+      subsections: [
+        {
+          title: "Main Idea",
+
+          paragraphs: [
+            "Magnetic separation works by using magnetic properties to separate magnetic minerals from non-magnetic minerals."
+          ],
+
+          points: [
+            "Separates magnetic minerals from non-magnetic minerals.",
+            "Uses magnetic equipment such as a rotating magnet.",
+            "Can be applied in iron ore processing."
+          ]
+        }
+      ]
+    },
+
+
+    {
+      title: "14. Gravity Separation",
+
+      paragraphs: [
+        "Gravity separation uses differences in density to separate heavier minerals from lighter ones.",
+
+        "Panning is a typical method of gravity separation. Gravel and sand from a river are shaken and mixed in a pan, allowing lighter particles to be removed while heavy gold sinks to the bottom of the pan.",
+
+        "In a large processing plant, gravity separation may take place using cyclones, spirals and shaking tables, usually with water."
+      ],
+
+      subsections: [
+        {
+          title: "Panning",
+
+          paragraphs: [
+            "In panning, material containing mineral particles is shaken and washed in a pan. Lighter material is removed while heavier particles settle toward the bottom."
+          ],
+
+          points: [
+            "Uses differences in density.",
+            "Heavy particles tend to settle toward the bottom.",
+            "Light particles are removed with the lighter material.",
+            "Gold panning is a typical example."
+          ]
+        },
+
+        {
+          title: "Gravity Separation in Processing Plants",
+
+          paragraphs: [
+            "Larger processing operations can use equipment such as cyclones, spirals and shaking tables for gravity separation."
+          ],
+
+          points: [
+            "Cyclones",
+            "Spirals",
+            "Shaking tables",
+            "Water may be used in the process"
+          ]
+        }
+      ]
+    },
+
+
+    {
+      title: "15. Flotation",
+
+      paragraphs: [
+        "Flotation is a common technique used to separate sulphide minerals from other minerals in a series of flotation tanks.",
+
+        "Many metals occur as sulphide minerals.",
+
+        "Flotation separates hydrophobic materials, which do not readily mix with water, from other materials.",
+
+        "The separation is enhanced by adding chemical reagents to the water, including surfactants and wetting agents, which help make selected mineral particles attach to air bubbles in the flotation tank.",
+
+        "Air is pumped into the flotation tank, producing bubbles that carry the selected mineral particles toward the surface as froth."
+      ],
+
+      subsections: [
+        {
+          title: "Main Idea",
+
+          paragraphs: [
+            "Flotation uses differences in the interaction of mineral particles with water and air bubbles to separate selected minerals from other materials."
+          ],
+
+          points: [
+            "Commonly used for sulphide minerals.",
+            "Uses flotation tanks.",
+            "Chemical reagents are added to assist separation.",
+            "Air is pumped into the flotation tank.",
+            "Selected mineral particles attach to air bubbles and rise toward the surface as froth."
+          ]
+        }
+      ]
+    },
+
+
+    {
+      title: "16. Chemical Leaching",
+
+      paragraphs: [
+        "Chemical leaching is a separation method that uses an acid, alkaline or cyanide solution to dissolve minerals.",
+
+        "The lecturer's notes identify acid leaching of oxide minerals in tanks or on large piles of crushed rock, cyanide leaching of gold ore, and alkaline leaching of uranium ore as common variations of chemical leaching."
+      ],
+
+      subsections: [
+        {
+          title: "Heap Leaching",
+
+          paragraphs: [
+            "In heap leaching, an acid, alkaline or other suitable leaching solution is sprinkled over large piles of crushed ore.",
+
+            "The solution percolates through the pile and dissolves the minerals of interest.",
+
+            "The resulting solution, called pregnant solution or pregnant liquor, is collected at the base of the heap and transferred for further metal recovery."
+          ],
+
+          points: [
+            "Crushed ore is arranged in a large pile or heap.",
+            "A suitable leaching solution is applied to the heap.",
+            "The solution percolates through the ore.",
+            "The solution dissolves the mineral of interest.",
+            "Pregnant solution or pregnant liquor is collected at the base of the heap."
+          ]
+        },
+
+        {
+          title: "Examples of Chemical Leaching",
+
+          paragraphs: [
+            "The lecturer's notes give acid leaching of oxide minerals, cyanide leaching of gold ore and alkaline leaching of uranium ore as examples."
+          ],
+
+          points: [
+            "Acid leaching of oxide minerals",
+            "Cyanide leaching of gold ore",
+            "Alkaline leaching of uranium ore"
+          ]
+        },
+
+        {
+          title: "Recovery of the Metal",
+
+          paragraphs: [
+            "The product of chemical leaching may be a solution from which the metal is later recovered. The lecturer's notes mention precipitation and electrowinning as ways of recovering the metal from the solution."
+          ],
+
+          points: [
+            "Metal may be recovered by precipitation.",
+            "Metal may be recovered by electrowinning.",
+            "The recovered material can then undergo further refining where required."
+          ]
+        }
+      ]
+    },
+
+
+    
     {
       title: "13. Tailings",
 
@@ -403,6 +602,12 @@ export const topicsByCourse = {
     "The stripping ratio is influenced by factors such as the depth and geometry of the ore body, the mining method, and the composition and stability of the surrounding rock.",
     "Ore contains valuable minerals together with unwanted minerals and material.",
     "Gangue minerals are unwanted minerals associated with the valuable minerals in ore.",
+    "Magnetic separation separates magnetic minerals from non-magnetic minerals.",
+    "Gravity separation uses differences in density to separate heavier minerals from lighter ones.",
+    "Panning is a simple example of gravity separation.",
+    "Flotation is a common technique used to separate sulphide minerals from other minerals using flotation tanks, chemical reagents and air bubbles.",
+    "Chemical leaching uses suitable solutions such as acidic, alkaline or cyanide solutions to dissolve minerals of interest.",
+    "Heap leaching involves applying a leaching solution to a large pile of crushed ore and collecting the resulting pregnant solution or pregnant liquor.",
     "Tailings are unwanted materials produced during mineral processing.",
     "Waste rock and tailings are not the same: waste rock is mainly produced during mining, while tailings are produced during processing.",
     "Mine closure and rehabilitation should be considered before mining begins.",
@@ -418,224 +623,40 @@ export const topicsByCourse = {
     "Define stripping ratio.",
     "Define waste rock.",
     "Explain what a stripping ratio of 2:1 means.",
-    "Mention factors that affect the stripping ratio.",
     "Explain the difference between ore and waste rock.",
+    "Mention important methods used in the seperation of ore.",
     "Explain the difference between waste rock and tailings.",
     "Explain the role of valuable minerals and gangue minerals in ore.",
     "Mention and explain the five stages of the mining industry.",
-    "Explain mine closure and mine rehabilitation."
-  ],
-
-
-  quiz: [
-    {
-      question: "Which of the following best defines mining?",
-
-      options: [
-        "The process of transporting rocks from one place to another",
-        "The process of extracting minerals from the surface and sub-surface of the Earth",
-        "The process of processing only metallic minerals",
-        "The process of constructing underground tunnels"
       ],
 
-      correctIndex: 1,
 
-      explanation:
-        "Mining is the process of extracting minerals from both the surface and sub-surface of the Earth."
-    },
-
-
+   examQuestions: [
+  
     {
-      question: "Which of the following is NOT one of the major mining operations discussed in this topic?",
-
-      options: [
-        "Drilling",
-        "Blasting",
-        "Loading",
-        "Photosynthesis"
-      ],
-
-      correctIndex: 3,
-
-      explanation:
-        "The major mining operations discussed include drilling, blasting, loading and hauling."
-    },
-
-
-    {
-      question: "What is overburden?",
-
-      options: [
-        "The valuable mineral in an ore",
-        "Material covering a mineral deposit that must be removed",
-        "The final product from a processing plant",
-        "Material remaining after mineral concentration"
-      ],
-
-      correctIndex: 1,
-
-      explanation:
-        "Overburden is the material covering a mineral deposit that must be removed before the deposit can be accessed."
-    },
-
-
-    {
-      question: "What is waste rock?",
-
-      options: [
-        "The valuable mineral recovered from ore",
-        "Unwanted rock removed during mining",
-        "A mineral concentrate",
-        "A type of processing equipment"
-      ],
-
-      correctIndex: 1,
-
-      explanation:
-        "Waste rock is unwanted rock that is removed during mining in order to access or extract the ore."
-    },
-
-
-    {
-      question: "A stripping ratio of 2:1 means:",
-
-      options: [
-        "Two tonnes of ore are obtained for every tonne of waste",
-        "One tonne of waste is removed for every two tonnes of ore",
-        "Two tonnes of waste are removed for every one tonne of ore",
-        "Two tonnes of ore are processed for every tonne of product"
-      ],
-
-      correctIndex: 2,
-
-      explanation:
-        "A stripping ratio of 2:1 means that two tonnes of waste rock are removed for every one tonne of ore obtained."
-    },
-
-
-    {
-      question: "Which factor can affect the stripping ratio?",
-
-      options: [
-        "Depth and geometry of the ore body",
-        "Colour of the mining equipment",
-        "Number of workers' uniforms",
-        "Time of day"
-      ],
-
-      correctIndex: 0,
-
-      explanation:
-        "The stripping ratio is influenced by factors such as the depth and geometry of the ore body, the mining method, and the composition and stability of the surrounding rock."
-    },
-
-
-    {
-      question: "What are tailings?",
-
-      options: [
-        "Valuable minerals in the ore",
-        "Overburden above the ore body",
-        "Unwanted materials produced after mineral processing",
-        "Fresh ore before mining"
-      ],
-
-      correctIndex: 2,
-
-      explanation:
-        "Tailings are unwanted materials remaining after valuable minerals have been separated during mineral processing."
-    },
-
-
-    {
-      question: "Which stage involves searching for mineral deposits through geoscientific surveys and prospecting?",
-
-      options: [
-        "Production",
-        "Exploration",
-        "Reclamation",
-        "Closure"
-      ],
-
-      correctIndex: 1,
-
-      explanation:
-        "Exploration involves geoscientific surveys and prospecting to search for mineral deposits."
-    },
-
-
-    {
-      question: "Which of the following is associated with the development stage of a mining project?",
-
-      options: [
-        "Feasibility studies and construction",
-        "Only waste disposal",
-        "Only blasting",
-        "Only reclamation"
-      ],
-
-      correctIndex: 0,
-
-      explanation:
-        "Development may involve feasibility studies, geoscience investigations, engineering, raising capital and construction."
-    },
-
-
-    {
-      question: "What is the main difference between waste rock and tailings?",
-
-      options: [
-        "Waste rock is valuable while tailings are always ore",
-        "Waste rock is mainly removed during mining while tailings are produced during processing",
-        "They are exactly the same material",
-        "Tailings are removed before mining begins"
-      ],
-
-      correctIndex: 1,
-
-      explanation:
-        "Waste rock is mainly associated with the mining stage, while tailings are produced during mineral processing."
-    }
-  ],
-
-
-  examQuestions: [
-    {
-      question: "Define the following: (i) Mining (ii) Mining operations (iii) Tailings (iv) Stripping ratio (v) Waste rock.",
+      question: "Define i) Mining ii) Mining operations iii) Tailings iv) stripping ratio v) watse rock",
 
       type: "PAST-QUESTION",
 
       marks: 10
     },
-
     {
-      question: "Explain the major operations involved in mining.",
+      question: "Name four important methods used in the seperation of ore",
 
-      type: "theory"
+      type: "PAST-QUESTION",
+
+      marks: 6
     },
-
     {
-      question: "Explain what is meant by a stripping ratio of 2:1.",
+      question: "The mining industry operates through a sequence of five (5) stages, name them",
 
-      type: "theory"
-    },
-
-    {
-      question: "Mention the factors that affect the stripping ratio.",
-
-      type: "theory"
-    },
-
-    {
-      question: "The mining industry operates through a sequence of five stages. Name and explain the five stages.",
-
-      type: "theory",
+      type: "PAST-QUESTION",
 
       marks: 3
     },
 
     {
-      question: "Explain mine closure and rehabilitation and state why they should be considered in mining projects.",
+      question: "Explain the major operations involved in mining.",
 
       type: "theory"
     },
@@ -831,7 +852,7 @@ export const topicsByCourse = {
         }
       ]
     },
-
+  
     {
       title: "6. Stoping",
       paragraphs: [
@@ -968,165 +989,63 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is another name for underground mining?",
-      options: [
-        "Open-pit mining",
-        "Sub-surface mining",
-        "Surface stripping",
-        "Hydraulic mining"
-      ],
-      correctIndex: 1,
-      explanation: "Underground mining is also known as sub-surface mining because the mineral deposit is accessed below the ground surface."
-    },
-    {
-      question: "Which of the following is an important factor in selecting an underground mining method?",
-      options: [
-        "Colour of the mineral",
-        "Geometry of the deposit",
-        "Name of the mine",
-        "Weather alone"
-      ],
-      correctIndex: 1,
-      explanation: "The geometry of the ore deposit, including its shape, size, thickness, depth, and inclination, affects the choice of mining method."
-    },
-    {
-      question: "Which group represents the major classification according to ground support?",
-      options: [
-        "Soft, medium, and hard",
-        "Selective, mixed, and bulk",
-        "Unsupported, supported, and caving",
-        "Deep, shallow, and surface"
-      ],
-      correctIndex: 2,
-      explanation: "According to ground support, underground mining methods are grouped into unsupported, supported, and caving methods."
-    },
-    {
-      question: "Which method leaves pillars behind to help support the ground?",
-      options: [
-        "Room-and-pillar",
-        "Cut-and-fill",
-        "Square-set",
-        "Shrinkage stoping"
-      ],
-      correctIndex: 0,
-      explanation: "Room-and-pillar mining removes ore from rooms while leaving pillars behind to provide support."
-    },
-    {
-      question: "Which underground method temporarily retains broken ore inside the stope?",
-      options: [
-        "Room-and-pillar",
-        "Shrinkage stoping",
-        "Square-set stoping",
-        "Cut-and-fill"
-      ],
-      correctIndex: 1,
-      explanation: "Shrinkage stoping temporarily retains broken ore inside the stope while mining progresses."
-    },
-    {
-      question: "Sub-level stoping is mainly associated with which type of ore body?",
-      options: [
-        "Flat surface deposits",
-        "Steeply inclined or near-vertical ore bodies",
-        "Only horizontal deposits",
-        "Only surface deposits"
-      ],
-      correctIndex: 1,
-      explanation: "Sub-level stoping is mainly associated with steeply inclined or near-vertical ore bodies."
-    },
-    {
-      question: "What is a stope?",
-      options: [
-        "A mining machine",
-        "A surface waste dump",
-        "An underground excavation created by ore extraction",
-        "A type of mineral"
-      ],
-      correctIndex: 2,
-      explanation: "A stope is the underground opening or excavation created as ore is extracted."
-    },
-    {
-      question: "What does stoping mean?",
-      options: [
-        "The process of extracting ore from an underground mine",
-        "The process of building a road",
-        "The process of removing surface soil only",
-        "The process of transporting miners"
-      ],
-      correctIndex: 0,
-      explanation: "Stoping refers to the process of extracting the desired ore from an underground mine."
-    },
-    {
-      question: "Which of the following is a supported mining method?",
-      options: [
-        "Room-and-pillar",
-        "Shrinkage stoping",
-        "Cut-and-fill stoping",
-        "Sub-level stoping"
-      ],
-      correctIndex: 2,
-      explanation: "Cut-and-fill stoping is classified as a supported underground mining method."
-    },
-    {
-      question: "What is the basic sequence of cut-and-fill stoping?",
-      options: [
-        "Fill, abandon, and drill",
-        "Mine, remove ore, fill, and continue",
-        "Collapse, remove, and abandon",
-        "Surface mine, fill, and stop"
-      ],
-      correctIndex: 1,
-      explanation: "In cut-and-fill stoping, ore is mined and removed, the excavation is filled, and mining continues."
-    },
-    {
-      question: "Which method uses a framework of artificial supports?",
-      options: [
-        "Square-set stoping",
-        "Room-and-pillar",
-        "Shrinkage stoping",
-        "Sub-level stoping"
-      ],
-      correctIndex: 0,
-      explanation: "Square-set stoping uses a framework of artificial supports to maintain underground stability."
-    },
-    {
-      question: "What is the main idea behind caving methods?",
-      options: [
-        "Accidental mine collapse",
-        "Planned and controlled collapse as part of mining",
-        "Removing only surface soil",
-        "Leaving all ore underground"
-      ],
-      correctIndex: 1,
-      explanation: "Caving methods use planned and controlled collapse as part of the mining process."
-    }
-  ],
-
+  
   examQuestions: [
-    "Define underground mining.",
-    "What is meant by sub-surface mining?",
-    "State the conditions that may favour underground mining.",
-    "Mention the factors considered when selecting an underground mining method.",
-    "Explain the importance of the geometry of an ore deposit in selecting a mining method.",
-    "Explain the importance of the strength of the ore, hanging wall, and footwall.",
-    "Classify underground mining methods according to ground support.",
-    "What are unsupported underground mining methods?",
-    "Describe room-and-pillar mining.",
-    "Explain shrinkage stoping.",
-    "Explain sub-level stoping.",
-    "What is stoping?",
-    "Differentiate between a stope and stoping.",
-    "What are supported underground mining methods?",
-    "Describe cut-and-fill stoping.",
-    "Explain square-set stoping.",
-    "What are caving methods?",
-    "Explain the basic idea behind caving methods.",
-    "Compare unsupported and supported underground mining methods.",
-    "Discuss the major underground mining methods covered in the course."
+      {
+      question: "What is underground mining and when do we mine underground?.",
+
+      type: "PAST-QUESTION",
+
+      marks: 5
+    },
+
+    {
+      question: "Reflecting the importance of ground support, underground mining methods are categorized to three classes, name them.",
+
+      type: "PAST-QUESTION",
+      mark: 4
+    
+    },
+    {
+      question: "Reflecting the importance of ground support, underground mining methods are categorized to three classes, briefly explain them.",
+
+      type: "PAST-QUESTION",
+      mark: 6
+    
+    },
+
+    
+    {
+      question: "Mention the factors that affect the stripping ratio.",
+
+      type: "theory"
+    },
+    {
+      question: "Describe room-and-pillar mining.",
+
+      type: "theory"
+    },
+     {
+      question: "What is stoping?, Explain the followings (i) hrinkage stoping. (ii)sub-level stoping.",
+
+      type: "theory"
+    },
+    {
+      question: "What are supported underground mining methods?, Explain the followings (i) cut-and-fill stoping. (ii)square-set stoping.",
+
+      type: "theory"
+    },
+    {
+      question: "What are caving methods?",
+
+      type: "theory"
+    },
+          
+    
   ]
 },
 
+  
 {
   id: "alluvial-mining",
   title: "Alluvial Mining",
@@ -1195,9 +1114,31 @@ export const topicsByCourse = {
             "The material is processed.",
             "Valuable minerals or materials are recovered."
           ]
+        },
+        {
+          title: "Hydrolic Mining",
+
+          paragraphs: [
+            "In hydrolic, high pressure jets of water are used to break up the surface material and wash it away revelling the valuable mineral or materiaqls beneath."
+          ],
+
+          points: [
+            "high pressure jets of water break up the surface material.",
+            "wash it away.",
+            "revells the valuable mineral or materiaqls beneath."
+          ]
+        },
+        {
+          title: "Panning",
+
+          paragraphs: [
+            "Panning is the act of using a shallow pan to wash away and seperate heavy minerals"
+          ],
+
         }
       ]
     },
+    
 
     {
       title: "Washing",
@@ -1231,7 +1172,7 @@ export const topicsByCourse = {
           title: "Washing Equipment",
 
           paragraphs: [
-            "The lecturer's notes mention vibrating screens and cylinder washing machines as equipment used during the washing operation."
+            "Vibrating screens and cylinder washing machines as equipment used during the washing operation."
           ],
 
           points: [
@@ -1360,7 +1301,7 @@ export const topicsByCourse = {
 
       paragraphs: [
         "The shaking table is suitable for processing minerals with fine particle sizes. It is featured by stable and reliable operation and clear ore separation.",
-        "The lecturer's notes state that the shaking table has a higher rich ore ratio than some other gold extraction methods and is easy to manage.",
+        "Shaking table has a higher rich ore ratio than some other gold extraction methods and is easy to manage.",
         "According to the particle size of the ore, the shaking table can be divided into coarse sand shaking bed, fine sand shaking bed and mud shaking bed."
       ],
 
@@ -1407,7 +1348,7 @@ export const topicsByCourse = {
       title: "Spiral Separation",
 
       paragraphs: [
-        "The lecturer's notes identify the spiral as another method used in gravity separation.",
+        "The spiral is another method used in gravity separation.",
         "According to particle size, the spiral can be converted into fine-grain and coarse-grain types."
       ],
 
@@ -1439,7 +1380,7 @@ export const topicsByCourse = {
           title: "Methods of Concentration",
 
           paragraphs: [
-            "The lecturer's notes identify several separation approaches that may be adopted during concentration."
+            "Several separation approaches that may be adopted during concentration."
           ],
 
           points: [
@@ -1516,8 +1457,8 @@ export const topicsByCourse = {
     },
     {
       priority: "High",
-      topic: "Sluicing and Dredging",
-      focus: "Understand and distinguish the two alluvial mining techniques described in the lecturer's notes."
+      topic: "Sluicing, Dredging, Hydrolic Mining & Panning",
+      focus: "Understand and distinguish the four alluvial mining techniques ."
     },
     {
       priority: "High",
@@ -1556,172 +1497,54 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is alluvial mining?",
-      options: [
-        "Mining only from deep underground hard rock",
-        "Mining valuable minerals from transported surface deposits such as sand and gravel",
-        "Mining only coal from horizontal seams",
-        "Mining only minerals from volcanic rocks"
-      ],
-      answer: 1,
-      explanation:
-        "The lecturer's notes define alluvial mining as mining that seeks to recover valuable minerals or geological materials from deposits of sand, gravel and other surface materials transported by water or wind."
-    },
-
-    {
-      question: "Which of the following is identified in the notes as a typical location for alluvial mining?",
-      options: [
-        "River beds",
-        "Only underground shafts",
-        "Only mountain tops",
-        "Only crystalline basement rocks"
-      ],
-      answer: 0,
-      explanation:
-        "The notes identify river beds, river banks and coastal areas as typical locations."
-    },
-
-    {
-      question: "What happens during sluicing?",
-      options: [
-        "A strong stream of water washes away soil and gravel while valuable material is left behind",
-        "Ore is blasted underground",
-        "Minerals are separated using only magnets",
-        "Rock is melted to recover gold"
-      ],
-      answer: 0,
-      explanation:
-        "Sluicing uses a strong stream of water to wash away surface soil and gravel while leaving the valuable material behind."
-    },
-
-    {
-      question: "What is the main purpose of screening after washing?",
-      options: [
-        "To add more gravel to the ore",
-        "To remove large pieces of gravel and waste material",
-        "To increase the moisture content",
-        "To convert gold into another mineral"
-      ],
-      answer: 1,
-      explanation:
-        "The notes state that screening removes large pieces of gravel without gold and improves the efficiency of gold extraction."
-    },
-
-    {
-      question: "Which of these is NOT listed as gravity-separation equipment in the notes?",
-      options: [
-        "Jig",
-        "Shaking table",
-        "Spiral chute",
-        "Blast furnace"
-      ],
-      answer: 3,
-      explanation:
-        "The notes identify the jig, shaking table and spiral chute as gravity-separation equipment."
-    },
-
-    {
-      question: "Which is an advantage of jigging mentioned in the notes?",
-      options: [
-        "Very complicated operation",
-        "Simple operation and large processing capacity",
-        "It requires no processing capacity",
-        "It works only on large waste rocks"
-      ],
-      answer: 1,
-      explanation:
-        "The notes specifically mention simple operation and large processing capacity as advantages of jigging."
-    },
-
-    {
-      question: "Which shaking-table bed is stated to process particles between 0.5 mm and 2.0 mm?",
-      options: [
-        "Mud shaking bed",
-        "Fine sand shaking bed",
-        "Coarse sand shaking bed",
-        "Clay bed"
-      ],
-      answer: 2,
-      explanation:
-        "The notes state that the coarse sand shaking bed is suitable for mineral sizes between 0.5 mm and 2.0 mm."
-    },
-
-    {
-      question: "Which method may be used to further improve the grade of gold during concentration?",
-      options: [
-        "Magnetic separation",
-        "Only digging",
-        "Only blasting",
-        "Only drilling"
-      ],
-      answer: 0,
-      explanation:
-        "The notes identify gravity separation, magnetic separation, flotation separation and combined separation as concentration approaches."
-    }
-  ],
-
+ 
   examQuestions: [
-    {
-      question: "Define alluvial mining and state where it is typically carried out.",
-      type: "Theory",
-      marks: 5
-    },
-
-    {
-      question: "Explain the principle of sluicing in alluvial mining.",
-      type: "Theory",
-      marks: 5
-    },
-
-    {
-      question: "Explain dredging as a technique of alluvial mining.",
-      type: "Theory",
-      marks: 5
-    },
-
-    {
-      question: "Explain the washing operation in alluvial gold mining.",
-      type: "Theory",
-      marks: 8
-    },
-
-    {
-      question: "State the main purpose of screening in alluvial gold mining and mention the screening equipment used.",
-      type: "Theory",
-      marks: 8
-    },
-
-    {
-      question: "What is gravity separation? Mention three pieces of equipment used for gravity separation in alluvial gold mining.",
-      type: "Theory",
-      marks: 8
-    },
-
-    {
-      question: "Explain jigging and state its advantages.",
-      type: "Theory",
-      marks: 8
-    },
-
-    {
-      question: "Explain the shaking table and distinguish between the coarse sand, fine sand and mud shaking beds.",
-      type: "Theory",
+   {
+      question: "Name and briefly explain the common gold alluvial mining processes.",
+      type: "PAST-QUESTION",
       marks: 10
     },
 
     {
+      question: "Discribe brieftly  the methods used in alluvial mining.",
+      type: "PAST-QUESTION",
+      marks: 8
+    },
+    
+    {
+      question: "Highlight briefly the differnece between alluvial and placer deposits.",
+      type: "PAST-QUESTION",
+      marks: 5
+    },
+
+    {
+      question: "List the four types alluvial mining methods.",
+      type: "PAST-QUESTION",
+      marks: 4
+    },
+
+
+    {
+      question: "Define alluvial mining and state where it is typically carried out.",
+      type: "Practice",
+      },
+
+    {
+      question: "Explain the principle of sluicing and dredging as a technique in alluvial mining.",
+      type: "Practice",
+        },
+  
+      
+      {
       question: "Explain concentration and mention the separation methods that can be adopted.",
-      type: "Theory",
+      type: "practice",
       marks: 8
     },
 
     {
       question: "Explain the de-watering operation in alluvial gold mining.",
-      type: "Theory",
-      marks: 8
-    }
+      type: "Practice",
+      }
   ]
 },
 {
@@ -1846,7 +1669,7 @@ export const topicsByCourse = {
     {
       title: "6. Technology Stack for Non-Entry Mining",
       paragraphs: [
-        "Non-entry mining depends on several technologies working together. The lecturer identifies AI-driven navigation, robotic drilling rigs, communication systems and sensor systems as important parts of this technology stack."
+        "Non-entry mining depends on several technologies working together. AI-driven navigation, robotic drilling rigs, communication systems and sensor systems as important parts of this technology stack."
       ],
       subsections: [
         {
@@ -1905,7 +1728,7 @@ export const topicsByCourse = {
       title: "8. Operational Challenges",
       paragraphs: [
         "Although non-entry mining offers important advantages, it also introduces technical and operational challenges.",
-        "The lecturer specifically identifies communication, underground energy infrastructure and sensor reliability as important challenges."
+        "Specifically identifies communication, underground energy infrastructure and sensor reliability as important challenges."
       ],
       subsections: [
         {
@@ -2083,113 +1906,20 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is the main idea behind non-entry mining?",
-      options: [
-        "Increasing the number of workers entering the mine",
-        "Minimizing human presence in hazardous mining environments",
-        "Removing all machines from mining",
-        "Returning completely to manual mining"
-      ],
-      answer: 1,
-      explanation:
-        "Non-entry mining seeks to reduce human exposure to hazardous mining environments through remote operation, robotics and automation."
-    },
-    {
-      question: "Which of the following is an important technology in non-entry mining?",
-      options: [
-        "Robotic drilling rigs",
-        "Manual excavation only",
-        "Paper-based communication",
-        "Uncontrolled equipment"
-      ],
-      answer: 0,
-      explanation:
-        "Robotic drilling rigs can perform drilling activities while reducing the need for direct human presence."
-    },
-    {
-      question: "Why are sensors important in non-entry mining?",
-      options: [
-        "They replace the mine completely",
-        "They provide information needed for monitoring and automated operation",
-        "They eliminate the need for communication",
-        "They are used only for decoration"
-      ],
-      answer: 1,
-      explanation:
-        "Sensors provide information about the equipment and its environment, supporting monitoring, navigation and automated decision-making."
-    },
-    {
-      question: "Which is an operational challenge identified for non-entry mining?",
-      options: [
-        "Communication reliability",
-        "Lack of minerals everywhere",
-        "Absence of rocks",
-        "Elimination of all equipment"
-      ],
-      answer: 0,
-      explanation:
-        "Reliable communication is important because remote and automated systems depend on the movement of information."
-    },
-    {
-      question: "What does economic feasibility of non-entry mining involve?",
-      options: [
-        "Ignoring costs",
-        "Comparing the costs and benefits with traditional mining",
-        "Using technology regardless of cost",
-        "Removing all infrastructure"
-      ],
-      answer: 1,
-      explanation:
-        "Economic feasibility requires evaluating whether the benefits of non-entry mining justify its technological, infrastructure and operating costs."
-    },
-    {
-      question: "What is the difference between remote operation and autonomous operation?",
-      options: [
-        "They are exactly the same",
-        "Remote operation involves human control from another location, while autonomous systems can perform defined tasks with reduced direct control",
-        "Autonomous operation always requires workers to stand beside the machine",
-        "Remote operation does not involve technology"
-      ],
-      answer: 1,
-      explanation:
-        "Remote operation moves the human operator away from the machine, while autonomous operation allows the system to perform defined activities with reduced direct human control."
-    }
-  ],
-
+ 
   examQuestions: [
     {
-      question: "Define non-entry mining and explain its main objective.",
-      answer:
-        "Non-entry mining, also called zero-entry mining, is an approach in which human presence in hazardous mining environments is minimized through remote operation, robotics, automation and related technologies. Its main objective is to reduce human exposure to dangerous mining conditions while allowing mining activities to continue."
+      question: "Describe briefly zero-entry mine.",
+      type: "PAST-QUESTION",
+      marks: 5
     },
-    {
-      question: "Discuss non-entry mining.",
-      answer:
-        "Non-entry mining is a modern mining approach aimed at minimizing human presence in hazardous working environments. It relies on remote operation, robotics and autonomous systems. The mine must be suitably designed for remote and automated operation. Important technologies include AI-driven navigation, robotic drilling rigs, communication systems and sensors. However, the approach faces challenges such as communication reliability, underground energy infrastructure and sensor reliability. Its economic feasibility must also be evaluated by comparing the cost and benefits of non-entry mining with traditional mining methods."
-    },
+
     {
       question: "Discuss the technology stack of non-entry mining.",
-      answer:
-        "The technology stack includes AI-driven navigation, robotic drilling rigs, communication systems and sensors. AI-driven navigation supports movement and positioning of automated equipment. Robotic drilling rigs perform drilling with reduced human exposure. Communication systems transfer information between equipment, sensors and operators or control systems. Sensors collect information about the machine and its environment. These technologies work together to support remote and automated mining operations."
-    },
-    {
-      question: "State and explain the major operational challenges of non-entry mining.",
-      answer:
-        "Major operational challenges include communication, underground energy infrastructure and sensor reliability. Communication must be reliable because remote and automated systems depend on continuous information exchange. Adequate energy infrastructure is required to power mining equipment, sensors and communication systems. Sensor reliability is also important because automated systems depend on accurate information from sensors for monitoring, navigation and operation."
-    },
-    {
-      question: "Explain the economic feasibility of non-entry mining.",
-      answer:
-        "Economic feasibility means determining whether non-entry mining is financially worthwhile. The system may require substantial investment in robotics, automation, communication systems, sensors, energy infrastructure and mine design. These costs must be compared with the benefits obtained from reduced human exposure, improved automation and possible operational improvements. Therefore, non-entry mining should be evaluated through a cost-benefit comparison with traditional mining methods."
-    },
-    {
-      question: "Why is mine design important in non-entry mining?",
-      answer:
-        "Mine design is important because non-entry mining requires an environment suitable for remote and automated equipment. The design must consider equipment movement, communication coverage, sensor systems, energy infrastructure and monitoring. A mine designed mainly for direct human operation may not provide the conditions required for efficient remote or autonomous operation."
-    },
-    {
+      type: "Practice"
+      },
+       
+       {
       question: "Differentiate between traditional mining and non-entry mining.",
       answer:
         "Traditional mining generally involves greater direct human presence in the mining environment and may depend more heavily on manually or locally operated equipment. Non-entry mining seeks to minimize human presence in hazardous areas by using remote operation, robotics, autonomous systems, sensors and communication technologies. Non-entry mining therefore requires greater integration between technology, mine design and infrastructure."
@@ -2577,7 +2307,7 @@ export const topicsByCourse = {
     {
       title: "13. The Seven Mining Tools/Equipment to Know for Examination",
       paragraphs: [
-        "One of the clearest examination signals available to us is the lecturer's question asking students to list seven mining tools applicable to both surface and underground mining.",
+        "One of the clearest examination signals available to us is question asking students to list seven mining tools applicable to both surface and underground mining.",
         "For examination preparation, you should be able to list seven suitable examples and briefly state the function of each."
       ],
       subsections: [
@@ -2634,6 +2364,7 @@ export const topicsByCourse = {
   ],
 
   examFocus: [
+    
     {
       question: "What is mining equipment?",
       focus:
@@ -2671,129 +2402,18 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is the main purpose of mining equipment?",
-      options: [
-        "To decorate the mine",
-        "To perform or support mining operations",
-        "To replace mineral deposits",
-        "To prevent all mining activities"
-      ],
-      answer: 1,
-      explanation:
-        "Mining equipment is used to perform or support activities such as drilling, blasting, excavation, loading, hauling and material handling."
-    },
-    {
-      question: "Which equipment is primarily used to create holes in rock?",
-      options: [
-        "Drilling equipment",
-        "Haul truck",
-        "Pump",
-        "Crusher"
-      ],
-      answer: 0,
-      explanation:
-        "Drilling equipment is designed to create holes in rock."
-    },
-    {
-      question: "What is the main function of a loader?",
-      options: [
-        "To ventilate an underground mine",
-        "To load broken material into transportation equipment",
-        "To pump water",
-        "To crush all minerals"
-      ],
-      answer: 1,
-      explanation:
-        "A loader collects broken material and loads it into a truck or another transportation system."
-    },
-    {
-      question: "What is the main function of a haul truck?",
-      options: [
-        "Drilling holes",
-        "Transporting mined material",
-        "Providing ventilation",
-        "Breaking rock with explosives"
-      ],
-      answer: 1,
-      explanation:
-        "Haul trucks transport ore, waste rock and other materials around the mining operation."
-    },
-    {
-      question: "Why is equipment selection important?",
-      options: [
-        "Every machine works equally well in every mine",
-        "Equipment must be suitable for the mining method and working conditions",
-        "Equipment selection has no effect on production",
-        "Only the colour of the machine matters"
-      ],
-      answer: 1,
-      explanation:
-        "Equipment must match the deposit, mining method, working conditions, production requirements and other factors."
-    },
-    {
-      question: "Which of the following is an example of auxiliary equipment?",
-      options: [
-        "Pump",
-        "Mineral deposit",
-        "Ore body",
-        "Overburden"
-      ],
-      answer: 0,
-      explanation:
-        "Pumps support mining operations by helping to remove or control water."
-    },
-    {
-      question: "Why may underground mining equipment be smaller than surface equipment?",
-      options: [
-        "Underground mines contain no rocks",
-        "Underground workings generally have restricted space",
-        "Surface mines cannot use machines",
-        "Underground equipment does not perform real work"
-      ],
-      answer: 1,
-      explanation:
-        "Underground workings generally have restricted spaces, so equipment must be suitable for those conditions."
-    }
-  ],
-
-  examQuestions: [
-    {
-      question: "Define mining equipment.",
-      answer:
-        "Mining equipment refers to the tools and machines used to perform or support mining activities such as drilling, blasting, excavation, loading, hauling and material handling."
-    },
-    {
+   examQuestions: [
+   {
       question: "List seven mining tools applicable to both surface and underground mining.",
-      answer:
-        "1. Drilling equipment — used to make holes in rock.\n2. Excavators — used for digging and removing earth or rock.\n3. Loaders — used to collect and load broken material.\n4. Haul trucks or haulage equipment — used to transport mined material.\n5. Rock-breaking or blasting equipment — used to break and fragment rock.\n6. Pumps — used to remove or control water.\n7. Crushing equipment — used to reduce the size of mined material."
+      type: "PAST-QUESTION",
+      marks: 7
     },
-    {
-      question: "Briefly explain the functions of mining equipment.",
-      answer:
-        "Mining equipment performs different functions within the mining cycle. Drilling equipment creates holes in rock. Blasting or rock-breaking equipment breaks and fragments rock. Excavators dig and remove material. Loaders collect and load broken material. Haulage equipment transports ore and waste rock. Crushers reduce the size of mined material. Auxiliary equipment such as pumps and ventilation systems supports the main mining activities."
-    },
-    {
+    
+  {
       question: "Classify mining equipment according to function.",
-      answer:
-        "Mining equipment can be classified into drilling equipment, excavation and digging equipment, loading equipment, hauling and transportation equipment, crushing and material-handling equipment, and auxiliary or supporting equipment."
-    },
-    {
-      question: "Mention factors that affect the selection of mining equipment.",
-      answer:
-        "Factors include the nature and characteristics of the mineral deposit, rock properties, mining method, required production rate, working conditions, available space, equipment capacity, operating requirements and cost."
-    },
-    {
-      question: "Explain why mining equipment must be properly matched.",
-      answer:
-        "Mining equipment must be matched because mining operations work as a sequence. For example, drilling and blasting produce material for loading, while loaders supply material to haulage equipment. If one part of the system is significantly slower than another, machines may spend time waiting, reducing overall production efficiency."
-    },
-    {
-      question: "Differentiate between surface and underground mining equipment.",
-      answer:
-        "Surface mining generally provides more open working space and can therefore accommodate very large machines. Underground mining has restricted spaces, tunnels and working areas, so equipment often needs to be more compact and specially designed for underground conditions. However, some types of equipment such as drills, loaders, pumps and haulage equipment can be used in both environments."
-    }
+      type: "Theory"
+            },
+    
   ]
 },
 {
@@ -3224,140 +2844,34 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is ore handling?",
-      options: [
-        "The process of identifying rocks only",
-        "The movement, transfer, storage and management of mined ore",
-        "The formation of minerals",
-        "The geological formation of an ore body"
-      ],
-      answer: 1,
-      explanation:
-        "Ore handling involves moving, transferring, storing and managing mined material."
-    },
-    {
-      question: "What is the main purpose of sampling?",
-      options: [
-        "To take every piece of ore from the mine",
-        "To obtain a portion of material for examination that represents the larger material",
-        "To destroy the ore",
-        "To increase the size of the ore"
-      ],
-      answer: 1,
-      explanation:
-        "Sampling obtains a portion of a larger quantity for examination or analysis."
-    },
-    {
-      question: "What is a representative sample?",
-      options: [
-        "A sample taken only from the highest-grade part",
-        "A sample that reasonably reflects the larger material",
-        "A sample containing only waste rock",
-        "A sample selected randomly without any purpose"
-      ],
-      answer: 1,
-      explanation:
-        "A representative sample should reasonably reflect the characteristics of the larger material."
-    },
-    {
-      question: "Which of the following is an ore-handling activity?",
-      options: [
-        "Transportation",
-        "Mineral crystallization",
-        "Rock formation",
-        "Weathering"
-      ],
-      answer: 0,
-      explanation:
-        "Transportation is one of the major activities involved in ore handling."
-    },
-    {
-      question: "Which equipment can be used for continuous movement of ore?",
-      options: [
-        "Conveyor",
-        "Hand lens",
-        "Compass",
-        "Geological hammer only"
-      ],
-      answer: 0,
-      explanation:
-        "Conveyors can transport material continuously along a defined route."
-    },
-    {
-      question: "Which of the following can cause sampling error?",
-      options: [
-        "Contamination",
-        "Proper representation",
-        "Correct sample preparation",
-        "Systematic collection"
-      ],
-      answer: 0,
-      explanation:
-        "Contamination can change the composition of a sample and lead to an inaccurate result."
-    },
-    {
-      question: "Which sampling method involves collecting material across a defined section?",
-      options: [
-        "Channel sampling",
-        "Transportation",
-        "Stockpiling",
-        "Hauling"
-      ],
-      answer: 0,
-      explanation:
-        "Channel sampling involves collecting material across a defined section of an exposure or mineralized zone."
-    }
-  ],
-
+   
   examQuestions: [
     {
-      question: "Define ore handling.",
-      answer:
-        "Ore handling is the process of moving, transferring, storing and managing mined ore from the mining area to another appropriate stage or location such as a stockpile, crusher or processing plant."
+      question: "Highlight the methods that you will employ as a Mining geologist to collect ore samples from underground and surface mining.",
+      type: "PAST-QUESTION",
+    },
+        {
+      question: "Describe briefly the methods mentioned above.",
+      type: "PAST-QUESTION",
     },
     {
-      question: "Define sampling.",
-      answer:
-        "Sampling is the process of taking a portion of a larger quantity of material for examination or analysis, with the aim of obtaining information that represents the larger material."
-    },
-    {
-      question: "What is a representative sample?",
-      answer:
-        "A representative sample is a sample whose characteristics reasonably reflect those of the larger quantity of material from which it was collected."
-    },
+      question: "Define ore handling. Define sampling",
+      type: "PRACTICE"
+     },
+    
     {
       question: "Mention four activities involved in ore handling.",
-      answer:
-        "Four major activities are loading, transportation, unloading and storage or stockpiling."
-    },
-    {
-      question: "Mention four pieces of equipment used in ore handling.",
-      answer:
-        "Examples include trucks, loaders, conveyors and hoppers or transfer systems."
-    },
-    {
-      question: "Mention four sampling methods.",
-      answer:
-        "Examples include grab sampling, channel sampling, chip sampling and systematic sampling."
+      type: "PRACTICE"
     },
     {
       question: "State the importance of sampling in mining.",
-      answer:
-        "Sampling provides information about the grade, mineral content and other characteristics of ore. It supports decisions concerning mining, stockpiling, blending and mineral processing. Reliable sampling also reduces the risk of making decisions based on inaccurate information."
+      type: "PRACTICE"
     },
     {
       question: "Mention four possible sources of sampling error.",
-      answer:
-        "Possible sources include poor sample selection, contamination, sample loss and poor sample preparation."
+      type: "PRACTICE"
     },
-    {
-      question: "Explain the relationship between ore handling and sampling.",
-      answer:
-        "Ore handling deals with the movement, storage and management of mined material, while sampling provides information about the characteristics of that material. The way ore is moved, mixed and stored can affect how representative a sample is. Therefore, proper ore handling supports reliable sampling, while reliable sampling helps the mining operation understand and manage its ore."
-    }
-  ]
+      ]
 },
 {
   id: "comminution",
@@ -3825,157 +3339,31 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is comminution?",
-      options: [
-        "The process of increasing the size of ore",
-        "The process of reducing the size of rock or ore",
-        "The process of transporting workers",
-        "The process of forming an ore deposit"
-      ],
-      answer: 1,
-      explanation:
-        "Comminution is the process of reducing the size of mined rock or ore."
-    },
-    {
-      question: "What are the two major stages of comminution?",
-      options: [
-        "Mining and hauling",
-        "Crushing and grinding",
-        "Sampling and storage",
-        "Drilling and blasting"
-      ],
-      answer: 1,
-      explanation:
-        "Crushing and grinding are the major stages of the overall comminution process."
-    },
-    {
-      question: "Why is mineral liberation important?",
-      options: [
-        "It makes the mine deeper",
-        "It helps separate valuable minerals from unwanted material",
-        "It increases the size of ore",
-        "It eliminates the need for processing"
-      ],
-      answer: 1,
-      explanation:
-        "Liberation exposes or frees valuable mineral particles so that they can be separated more effectively."
-    },
-    {
-      question: "Which stage generally produces finer particles?",
-      options: [
-        "Grinding",
-        "Hauling",
-        "Drilling",
-        "Stockpiling"
-      ],
-      answer: 0,
-      explanation:
-        "Grinding generally reduces material to much finer particle sizes than crushing."
-    },
-    {
-      question: "Which of the following is a force involved in comminution?",
-      options: [
-        "Compression",
-        "Evaporation",
-        "Condensation",
-        "Magnetism only"
-      ],
-      answer: 0,
-      explanation:
-        "Compression is one of the mechanical forces that can break rock during comminution."
-    },
-    {
-      question: "Why should over-grinding be avoided?",
-      options: [
-        "It always increases ore size",
-        "It can consume unnecessary energy and create excessive fines",
-        "It prevents all crushing",
-        "It eliminates mineral processing"
-      ],
-      answer: 1,
-      explanation:
-        "Grinding beyond what is required can waste energy and create unnecessarily fine material."
-    },
-    {
-      question: "Which factor can affect the energy required for comminution?",
-      options: [
-        "Ore hardness",
-        "The colour of the equipment",
-        "The name of the mine",
-        "The operator's clothing"
-      ],
-      answer: 0,
-      explanation:
-        "Harder ore generally requires greater effort and energy to break and reduce in size."
-    },
-    {
-      question: "What is the main purpose of comminution before mineral separation?",
-      options: [
-        "To make the ore larger",
-        "To prepare the ore by reducing size and promoting liberation",
-        "To remove all water from the mine",
-        "To transport workers underground"
-      ],
-      answer: 1,
-      explanation:
-        "Comminution prepares the ore for later separation by reducing particle size and promoting liberation."
-    }
-  ],
-
+  
   examQuestions: [
     {
       question: "Define comminution.",
-      answer:
-        "Comminution is the process of reducing the size of mined rock or ore by applying mechanical forces. It prepares the material for subsequent mineral processing and helps promote mineral liberation."
+      type: "PAST-QUESTION"
+    },
+    {
+      question: "Highlight any three processes in comminution.",
+      type: "PAST-QUESTION"
     },
     {
       question: "Why is comminution important in mineral processing?",
-      answer:
-        "Comminution is important because mined ore is often too coarse for effective mineral separation. Reducing its size produces particles suitable for subsequent processing and helps liberate valuable minerals from gangue and other minerals."
+      type: "PRACTICE"
     },
-    {
-      question: "Mention the major stages of comminution.",
-      answer:
-        "The two major stages of comminution are crushing and grinding. Crushing generally performs the coarser stage of size reduction, while grinding produces much finer particles."
-    },
+   
     {
       question: "Differentiate between comminution, crushing and grinding.",
-      answer:
-        "Comminution is the overall process of reducing the size of rock or ore. Crushing is a major stage of comminution that generally reduces relatively large pieces into smaller pieces. Grinding is another stage that reduces crushed material to much finer particle sizes."
+      type: "PRACTICE"
     },
     {
       question: "What is mineral liberation?",
-      answer:
-        "Mineral liberation is the process of freeing valuable mineral particles from gangue or other minerals with which they are physically associated, making subsequent separation more effective."
+      type: "PRACTICE"
     },
-    {
-      question: "Mention four forces involved in comminution.",
-      answer:
-        "Four forces involved in comminution are compression, impact, attrition and shearing."
-    },
-    {
-      question: "Mention factors that affect comminution.",
-      answer:
-        "Factors include ore hardness, feed size, desired product size, mineral liberation requirement, material condition and energy requirement."
-    },
-    {
-      question: "Why is energy an important consideration in comminution?",
-      answer:
-        "Comminution requires energy because mechanical forces must overcome the strength of the ore. Excessive size reduction can consume unnecessary energy, so the process should produce the required particle size without unnecessary over-grinding."
-    },
-    {
-      question: "State the challenges associated with comminution.",
-      answer:
-        "Major challenges include high energy consumption, equipment wear, over-grinding and differences in the physical characteristics of ores."
-    },
-    {
-      question: "Explain the relationship between comminution and mineral processing.",
-      answer:
-        "Comminution prepares mined ore for mineral processing by reducing its particle size and promoting liberation of valuable minerals. Once the valuable minerals are sufficiently liberated, subsequent separation and concentration processes can work more effectively."
-    }
-  ]
+    
+    ]
 },
 {
   id: "crushing",
@@ -4153,207 +3541,7 @@ export const topicsByCourse = {
       ]
     },
 
-    {
-      title: "7. Crushing Equipment",
-      paragraphs: [
-        "Different types of crushers are used depending on the size of the feed, the desired product size and the characteristics of the ore."
-      ],
-      subsections: [
-        {
-          title: "Jaw crusher",
-          paragraphs: [
-            "A jaw crusher reduces material mainly by compression between a fixed surface and a moving surface.",
-            "It is commonly associated with primary crushing because it can accept relatively large pieces of rock."
-          ]
-        },
-        {
-          title: "Gyratory crusher",
-          paragraphs: [
-            "A gyratory crusher reduces rock by compressing it between crushing surfaces.",
-            "It is commonly used where large quantities of material need to be processed and is associated with large-scale crushing operations."
-          ]
-        },
-        {
-          title: "Cone crusher",
-          paragraphs: [
-            "A cone crusher uses a moving crushing surface working against a fixed surface to reduce material.",
-            "It is commonly used in secondary and tertiary crushing."
-          ]
-        },
-        {
-          title: "Impact crusher",
-          paragraphs: [
-            "An impact crusher breaks material mainly through impact forces.",
-            "The material is struck with sufficient force to cause it to fracture into smaller pieces."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "8. Jaw Crusher",
-      paragraphs: [
-        "The jaw crusher is one of the important crushers used in mining and mineral processing.",
-        "It is particularly useful for the initial reduction of relatively large pieces of rock."
-      ],
-      subsections: [
-        {
-          title: "Basic working principle",
-          paragraphs: [
-            "A jaw crusher has two main crushing surfaces or jaws.",
-            "One jaw remains relatively fixed while the other moves.",
-            "As the moving jaw approaches the fixed jaw, the material between them is compressed and broken.",
-            "When the jaws move apart, the broken material can move downward and eventually leave the crusher."
-          ]
-        },
-        {
-          title: "Simple way to remember it",
-          paragraphs: [
-            "Think of a jaw crusher like a mechanical mouth.",
-            "The jaws close on large pieces of rock, break them, and allow the smaller pieces to move downward."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "9. Gyratory Crusher",
-      paragraphs: [
-        "A gyratory crusher is another crusher used for reducing large quantities of rock.",
-        "It operates through compression between a gyrating crushing surface and a surrounding fixed surface."
-      ],
-      subsections: [
-        {
-          title: "Basic idea",
-          paragraphs: [
-            "The crushing movement creates pressure on the rock and causes it to break into smaller pieces.",
-            "Gyratory crushers are commonly associated with large-scale operations where high material throughput is required."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "10. Cone Crusher",
-      paragraphs: [
-        "The cone crusher is commonly used after the initial crushing stage to produce smaller material.",
-        "It operates by compressing ore between a moving cone and a fixed crushing surface."
-      ],
-      subsections: [
-        {
-          title: "Role in the crushing circuit",
-          paragraphs: [
-            "Cone crushers are commonly used in secondary and tertiary crushing.",
-            "They help reduce the material further after the larger pieces have already been reduced during earlier crushing."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "11. Impact Crusher",
-      paragraphs: [
-        "Impact crushers reduce material primarily through the sudden application of impact forces.",
-        "Instead of relying mainly on slow compression, the material is struck or accelerated against a surface so that it breaks."
-      ],
-      subsections: [
-        {
-          title: "Basic principle",
-          paragraphs: [
-            "The material receives a forceful impact.",
-            "The impact causes the rock to fracture into smaller pieces."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "12. Feed and Product in Crushing",
-      paragraphs: [
-        "Two important terms in crushing are feed and product."
-      ],
-      subsections: [
-        {
-          title: "Feed",
-          paragraphs: [
-            "Feed is the material entering the crusher.",
-            "The feed size can be relatively large, particularly during primary crushing."
-          ]
-        },
-        {
-          title: "Product",
-          paragraphs: [
-            "Product is the material leaving the crusher after size reduction.",
-            "The required product size depends on what the material will be used for in the next stage."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "13. Factors Affecting Crushing",
-      paragraphs: [
-        "The performance of a crushing operation depends on several factors."
-      ],
-      subsections: [
-        {
-          title: "Feed size",
-          paragraphs: [
-            "The size of the material entering the crusher influences the type and stage of crushing required."
-          ]
-        },
-        {
-          title: "Hardness of the ore",
-          paragraphs: [
-            "Harder material generally requires greater crushing effort and can increase equipment wear."
-          ]
-        },
-        {
-          title: "Desired product size",
-          paragraphs: [
-            "The required size of the crushed material determines how many crushing stages may be needed."
-          ]
-        },
-        {
-          title: "Capacity",
-          paragraphs: [
-            "The quantity of material that must be processed over a given period affects the choice and arrangement of crushing equipment."
-          ]
-        },
-        {
-          title: "Moisture and material condition",
-          paragraphs: [
-            "The physical condition of the ore can affect how easily it moves through the crusher and how the crushing operation performs."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "14. Crushing Circuit",
-      paragraphs: [
-        "In a mineral-processing plant, crushers are usually connected in a sequence rather than operating completely independently.",
-        "This arrangement is known as a crushing circuit."
-      ],
-      subsections: [
-        {
-          title: "Basic crushing sequence",
-          paragraphs: [
-            "A simplified sequence is:",
-            "ROM ORE → PRIMARY CRUSHING → SECONDARY CRUSHING → TERTIARY CRUSHING → GRINDING",
-            "ROM means run-of-mine material, referring to material as it comes from the mining operation before the relevant processing stages."
-          ]
-        },
-        {
-          title: "Not every mine uses every stage",
-          paragraphs: [
-            "A crushing circuit does not necessarily contain all three crushing stages.",
-            "The arrangement depends on the characteristics of the ore and the required product size."
-          ]
-        }
-      ]
-    },
-
+    
     {
       title: "15. Crushing and Mineral Liberation",
       paragraphs: [
@@ -4394,37 +3582,6 @@ export const topicsByCourse = {
         }
       ]
     },
-
-    {
-      title: "17. Problems and Challenges of Crushing",
-      paragraphs: [
-        "Although crushing is essential, it also involves practical challenges."
-      ],
-      subsections: [
-        {
-          title: "Equipment wear",
-          paragraphs: [
-            "Continuous contact with hard rock causes wear of crusher components."
-          ]
-        },
-        {
-          title: "Energy requirement",
-          paragraphs: [
-            "Mechanical energy is required to break rock into smaller pieces."
-          ]
-        },
-        {
-          title: "Variable ore properties",
-          paragraphs: [
-            "Different ores have different hardness, strength and physical characteristics, which can affect crusher performance."
-          ]
-        },
-        {
-          title: "Dust and noise",
-          paragraphs: [
-            "Crushing operations can generate dust and noise, so appropriate control measures are necessary in an operating mine or processing plant."
-          ]
-        }
       ]
     },
 
@@ -4547,170 +3704,25 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "Crushing is a major stage of which process?",
-      options: [
-        "Mining exploration",
-        "Comminution",
-        "Mine reclamation",
-        "Ore sampling only"
-      ],
-      answer: 1,
-      explanation:
-        "Crushing is one of the major stages of the overall comminution process."
-    },
-    {
-      question: "What is the main purpose of crushing?",
-      options: [
-        "To increase the size of ore",
-        "To reduce large pieces of ore to smaller pieces",
-        "To form new minerals",
-        "To remove groundwater"
-      ],
-      answer: 1,
-      explanation:
-        "Crushing reduces large pieces of mined rock or ore into smaller pieces."
-    },
-    {
-      question: "Which stage usually handles the largest feed material?",
-      options: [
-        "Primary crushing",
-        "Tertiary crushing",
-        "Grinding",
-        "Concentration"
-      ],
-      answer: 0,
-      explanation:
-        "Primary crushing receives relatively large pieces of mined material."
-    },
-    {
-      question: "Which crusher uses two jaws, one moving and one relatively fixed?",
-      options: [
-        "Jaw crusher",
-        "Cone crusher",
-        "Impact crusher",
-        "Grinding mill"
-      ],
-      answer: 0,
-      explanation:
-        "A jaw crusher uses a moving jaw and a relatively fixed jaw to compress and break the material."
-    },
-    {
-      question: "Which crusher is commonly associated with secondary and tertiary crushing?",
-      options: [
-        "Cone crusher",
-        "Hand tool",
-        "Drill",
-        "Shovel"
-      ],
-      answer: 0,
-      explanation:
-        "Cone crushers are commonly used in secondary and tertiary crushing."
-    },
-    {
-      question: "Which force is especially important in compression crushing?",
-      options: [
-        "Compression",
-        "Evaporation",
-        "Freezing",
-        "Condensation"
-      ],
-      answer: 0,
-      explanation:
-        "Compression breaks material by squeezing it between crushing surfaces."
-    },
-    {
-      question: "What is the material entering a crusher called?",
-      options: [
-        "Product",
-        "Feed",
-        "Tailings",
-        "Gangue only"
-      ],
-      answer: 1,
-      explanation:
-        "The material entering a crushing operation is called the feed."
-    },
-    {
-      question: "Which statement best describes the difference between crushing and grinding?",
-      options: [
-        "Crushing is generally coarse while grinding is generally finer",
-        "Grinding always occurs before crushing",
-        "Crushing increases particle size",
-        "There is no difference"
-      ],
-      answer: 0,
-      explanation:
-        "Crushing generally performs the coarser size reduction, while grinding produces finer particles."
-    },
-    {
-      question: "Which of the following can affect crushing performance?",
-      options: [
-        "Ore hardness",
-        "Desired product size",
-        "Feed size",
-        "All of the above"
-      ],
-      answer: 3,
-      explanation:
-        "Ore hardness, feed size and desired product size can all affect crushing performance."
-    }
-  ],
-
+  
   examQuestions: [
     {
-      question: "Define crushing.",
-      answer:
-        "Crushing is the process of reducing large pieces of rock or ore into smaller pieces by applying mechanical forces."
+      question: "Define crushing & Explain the relationship between crushing and comminution.",
+      type: "PRACTICE"
     },
     {
-      question: "Explain the relationship between crushing and comminution.",
-      answer:
-        "Comminution is the overall process of reducing the size of rock or ore, while crushing is a major stage of comminution that generally performs the coarser size reduction."
-    },
-    {
-      question: "Mention the three stages of crushing.",
-      answer:
-        "The three stages are primary crushing, secondary crushing and tertiary crushing. However, not every operation requires all three stages."
-    },
-    {
-      question: "Mention four types of crushers.",
-      answer:
-        "Four examples are jaw crusher, gyratory crusher, cone crusher and impact crusher."
-    },
-    {
-      question: "Briefly explain the working principle of a jaw crusher.",
-      answer:
-        "A jaw crusher has a relatively fixed jaw and a moving jaw. Ore enters between the jaws and is compressed as the moving jaw approaches the fixed jaw. The material breaks into smaller pieces and moves downward through the crusher."
-    },
-    {
+      question: "Mention and briefly explain the three stages of crushing.",
+      type: "PRACTICE"
+      },
+        {
       question: "State the importance of crushing in mineral processing.",
-      answer:
-        "Crushing reduces large pieces of ore to smaller sizes, prepares the material for grinding and later processing, makes the material easier to handle and can begin the liberation of valuable minerals."
+      answer: "PRACTICE"
     },
-    {
-      question: "Mention five factors affecting crushing.",
-      answer:
-        "Factors include feed size, ore hardness, desired product size, required processing capacity and the physical condition of the material."
-    },
-    {
-      question: "Differentiate between crushing and grinding.",
-      answer:
-        "Crushing is generally the coarser stage of size reduction in which large pieces of ore are reduced to smaller pieces. Grinding is the finer stage in which crushed material is reduced to much smaller particles, often to achieve the required mineral liberation."
-    },
-    {
-      question: "Describe primary, secondary and tertiary crushing.",
-      answer:
-        "Primary crushing is the first major stage and reduces relatively large run-of-mine material. Secondary crushing receives the product of primary crushing and reduces it further. Tertiary crushing may provide additional size reduction when a finer crushed product is required before grinding or another processing stage."
-    },
-    {
-      question: "Mention four problems or challenges associated with crushing.",
-      answer:
-        "Major challenges include equipment wear, energy requirement, variation in ore properties, and the generation of dust and noise."
-    }
-  ]
-},
+    
+  
+
+
+
 {
   id: "grinding",
   title: "Grinding",
@@ -4728,16 +3740,7 @@ export const topicsByCourse = {
         "Grinding is therefore an important stage between crushing and mineral concentration."
       ],
 
-      visual: {
-        type: "diagram",
-        src: "/images/topics/grinding/comminution-flow.svg",
-        alt: "Flow diagram showing crushing followed by grinding and mineral concentration",
-        caption:
-          "Grinding follows crushing and prepares the ore for subsequent separation or concentration."
-      },
-      
-
-      subsections: [
+          subsections: [
         {
           title: "Simple meaning",
 
@@ -4853,15 +3856,7 @@ export const topicsByCourse = {
         "The repeated movement and collision of the grinding media and ore produces size reduction."
       ],
 
-      visual: {
-        type: "diagram",
-        src: "/images/topics/grinding/inside-mill.svg",
-        alt: "Simplified cross-section of a rotating grinding mill showing ore and grinding media",
-        caption:
-          "Inside a rotating mill, grinding media move with the mill and break ore through repeated mechanical action."
-      },
-
-      subsections: [
+            subsections: [
         {
           title: "The basic idea",
 
@@ -4979,13 +3974,7 @@ export const topicsByCourse = {
             "The rods tumble inside the rotating mill and help reduce the size of the ore."
           ],
 
-          visual: {
-            type: "image",
-            src: "/images/topics/grinding/rod-mill.jpg",
-            alt: "Rod mill used in mineral processing",
-            caption:
-              "Rod mill: long steel rods provide the grinding medium."
-          }
+         
         },
 
         {
@@ -4996,13 +3985,7 @@ export const topicsByCourse = {
             "The balls move inside the rotating mill and provide repeated impact and grinding action."
           ],
 
-          visual: {
-            type: "image",
-            src: "/images/topics/grinding/ball-mill.jpg",
-            alt: "Ball mill used for grinding mineral ore",
-            caption:
-              "Ball mill: spherical grinding media provide repeated grinding action."
-          }
+          
         },
 
         {
@@ -5013,13 +3996,7 @@ export const topicsByCourse = {
             "The ore pieces break and grind one another as they move inside the mill."
           ],
 
-          visual: {
-            type: "image",
-            src: "/images/topics/grinding/ag-mill.jpg",
-            alt: "Autogenous grinding mill",
-            caption:
-              "Autogenous grinding uses the ore itself as the major grinding medium."
-          }
+        
         },
 
         {
@@ -5030,13 +4007,7 @@ export const topicsByCourse = {
             "The addition of steel balls helps provide more consistent grinding action when the ore alone is not sufficient."
           ],
 
-          visual: {
-            type: "image",
-            src: "/images/topics/grinding/sag-mill.jpg",
-            alt: "Semi-autogenous grinding mill used in mineral processing",
-            caption:
-              "SAG mill: ore provides much of the grinding action, with steel balls added."
-          }
+
         }
       ]
     },
@@ -5049,14 +4020,6 @@ export const topicsByCourse = {
         "As the mill rotates, the rods move and tumble in a relatively parallel arrangement.",
         "The resulting grinding action is particularly useful for reducing relatively coarse material."
       ],
-
-      visual: {
-        type: "image",
-        src: "/images/topics/grinding/rod-mill.jpg",
-        alt: "Rod mill showing cylindrical body used for grinding ore",
-        caption:
-          "Rod mill with long steel rods serving as the grinding medium."
-      },
 
       subsections: [
         {
@@ -5086,14 +4049,7 @@ export const topicsByCourse = {
         "Ball mills are widely used when finer grinding is required."
       ],
 
-      visual: {
-        type: "diagram",
-        src: "/images/topics/grinding/ball-mill-operation.svg",
-        alt: "Diagram showing a rotating ball mill with steel balls and ore",
-        caption:
-          "Simplified ball-mill operation: rotation lifts grinding balls before they fall back onto the ore."
-      },
-
+      
       subsections: [
         {
           title: "Main feature",
@@ -5159,14 +4115,7 @@ export const topicsByCourse = {
         "This repeated movement produces the forces required for size reduction."
       ],
 
-      visual: {
-        type: "diagram",
-        src: "/images/topics/grinding/mill-action.svg",
-        alt: "Diagram showing grinding media being lifted and falling inside a rotating mill",
-        caption:
-          "The rotating mill lifts the charge and creates repeated grinding action through movement and impact."
-      },
-
+     
       subsections: [
         {
           title: "Important idea",
@@ -5283,13 +4232,6 @@ export const topicsByCourse = {
         "Coarse particles can be returned to the mill for additional grinding."
       ],
 
-      visual: {
-        type: "diagram",
-        src: "/images/topics/grinding/grinding-circuit.svg",
-        alt: "Simplified closed grinding circuit showing mill, classifier and recycle stream",
-        caption:
-          "Simplified closed grinding circuit: coarse particles return to the mill while suitable fine particles proceed to the next stage."
-      },
 
       subsections: [
         {
@@ -5498,182 +4440,8 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "Grinding is mainly what stage of comminution?",
-      options: [
-        "The coarsest stage",
-        "The finer stage",
-        "The mining stage",
-        "The sampling stage"
-      ],
-      answer: 1,
-      explanation:
-        "Grinding normally performs the finer size reduction after crushing."
-    },
-    {
-      question: "What is one major reason for grinding ore?",
-      options: [
-        "To make the ore larger",
-        "To promote mineral liberation",
-        "To increase waste rock",
-        "To stop mineral processing"
-      ],
-      answer: 1,
-      explanation:
-        "Grinding helps liberate valuable minerals from gangue and other minerals."
-    },
-    {
-      question: "What grinding medium is used in a rod mill?",
-      options: [
-        "Steel rods",
-        "Steel balls only",
-        "Water only",
-        "Sand only"
-      ],
-      answer: 0,
-      explanation:
-        "Rod mills use long steel rods as the grinding medium."
-    },
-    {
-      question: "What grinding medium is normally associated with a ball mill?",
-      options: [
-        "Steel balls",
-        "Steel rods only",
-        "Explosives",
-        "Drill bits"
-      ],
-      answer: 0,
-      explanation:
-        "Ball mills use balls as the grinding medium."
-    },
-    {
-      question: "What does AG stand for in AG mill?",
-      options: [
-        "Automatic Grinding",
-        "Autogenous Grinding",
-        "Advanced Grinding",
-        "Air Grinding"
-      ],
-      answer: 1,
-      explanation:
-        "AG means autogenous grinding."
-    },
-    {
-      question: "What is added to a SAG mill in addition to the ore?",
-      options: [
-        "A smaller quantity of steel balls",
-        "Only water",
-        "Only sand",
-        "Only air"
-      ],
-      answer: 0,
-      explanation:
-        "SAG grinding uses ore as the major grinding material and adds steel balls to supplement the grinding action."
-    },
-    {
-      question: "Which of the following can affect grinding?",
-      options: [
-        "Ore hardness",
-        "Mill speed",
-        "Feed size",
-        "All of the above"
-      ],
-      answer: 3,
-      explanation:
-        "Ore hardness, mill speed and feed size can all affect grinding performance."
-    },
-    {
-      question: "What is the major difference between crushing and grinding?",
-      options: [
-        "Crushing is generally coarse while grinding is finer",
-        "Grinding always occurs before crushing",
-        "Crushing increases ore size",
-        "There is no difference"
-      ],
-      answer: 0,
-      explanation:
-        "Crushing generally performs coarse size reduction, while grinding performs finer size reduction."
-    },
-    {
-      question: "Why should over-grinding be avoided?",
-      options: [
-        "It increases ore size",
-        "It can waste energy and create excessive fines",
-        "It prevents crushing",
-        "It removes the need for concentration"
-      ],
-      answer: 1,
-      explanation:
-        "Grinding beyond the required size can waste energy and produce unnecessarily fine material."
-    },
-    {
-      question: "What may happen to coarse particles in a closed grinding circuit?",
-      options: [
-        "They may be returned to the mill",
-        "They must always be discarded",
-        "They become explosives",
-        "They increase in size"
-      ],
-      answer: 0,
-      explanation:
-        "A classifier can return coarse particles to the mill for further grinding."
-    }
-  ],
 
-  examQuestions: [
-    {
-      question: "Define grinding.",
-      answer:
-        "Grinding is the finer stage of comminution in which crushed ore is reduced to smaller particles, mainly to achieve the required mineral liberation and prepare the material for subsequent processing."
-    },
-    {
-      question: "State four objectives of grinding.",
-      answer:
-        "The objectives include size reduction, mineral liberation, preparation of ore for concentration or separation, and achieving the required product size without unnecessary over-grinding."
-    },
-    {
-      question: "Mention four types of grinding mills.",
-      answer:
-        "Four important types are rod mills, ball mills, autogenous (AG) mills and semi-autogenous (SAG) mills."
-    },
-    {
-      question: "Explain the working principle of a ball mill.",
-      answer:
-        "A ball mill is a rotating cylindrical mill containing balls as grinding media. As the mill rotates, the balls move with the shell and fall or roll through the ore, producing repeated impact and grinding action that reduces the ore to finer particles."
-    },
-    {
-      question: "What is a rod mill?",
-      answer:
-        "A rod mill is a cylindrical grinding mill that uses long steel rods as the grinding medium to reduce the size of ore."
-    },
-    {
-      question: "Differentiate between AG and SAG mills.",
-      answer:
-        "An AG mill uses the ore itself as the major grinding medium. A SAG mill also uses ore as the major grinding material but adds a smaller quantity of steel balls to supplement the grinding action."
-    },
-    {
-      question: "Mention five factors affecting grinding.",
-      answer:
-        "Factors include ore hardness, feed size, desired product size, grinding-media characteristics, mill speed, mill loading and pulp or water condition."
-    },
-    {
-      question: "Explain the importance of mineral liberation during grinding.",
-      answer:
-        "Valuable minerals may be physically locked within gangue or other minerals. Grinding reduces the ore to smaller particles and helps expose the valuable minerals so they can be separated more effectively during subsequent processing."
-    },
-    {
-      question: "Differentiate between crushing and grinding.",
-      answer:
-        "Crushing generally performs coarse size reduction of relatively large pieces of ore, while grinding performs finer size reduction of crushed material. Crushers are used for crushing, while grinding mills are used for grinding."
-    },
-    {
-      question: "Why should over-grinding be avoided?",
-      answer:
-        "Over-grinding should be avoided because it consumes unnecessary energy and may produce excessive fine particles. The ore should be ground only to the size required for adequate liberation and effective downstream processing."
-    }
-  ]
-},
+  },
 {
   id: "concentration-methods",
   title: "Concentration Methods",
@@ -6232,199 +5000,24 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is the main purpose of mineral concentration?",
-      options: [
-        "To increase the size of ore particles",
-        "To separate valuable minerals from unwanted material",
-        "To drill the ore body",
-        "To transport ore to the mine"
-      ],
-      answer: 1,
-      explanation:
-        "Concentration separates valuable minerals from unwanted minerals or gangue and produces a material richer in the valuable mineral."
-    },
-
-    {
-      question: "What is gangue?",
-      options: [
-        "The valuable mineral",
-        "The final metal produced",
-        "Unwanted minerals associated with the valuable mineral",
-        "Grinding equipment"
-      ],
-      answer: 2,
-      explanation:
-        "Gangue refers to unwanted minerals associated with the valuable mineral in an ore."
-    },
-
-    {
-      question: "Which product contains a relatively higher proportion of the valuable mineral?",
-      options: [
-        "Tailings",
-        "Concentrate",
-        "Overburden",
-        "Waste rock"
-      ],
-      answer: 1,
-      explanation:
-        "The concentrate is the product containing a relatively higher proportion of the valuable mineral."
-    },
-
-    {
-      question: "Which concentration method mainly uses differences in density?",
-      options: [
-        "Magnetic separation",
-        "Gravity concentration",
-        "Electrostatic separation",
-        "Froth flotation"
-      ],
-      answer: 1,
-      explanation:
-        "Gravity concentration separates minerals mainly according to differences in density or specific gravity."
-    },
-
-    {
-      question: "Magnetic separation mainly depends on differences in:",
-      options: [
-        "Magnetic response",
-        "Ore colour only",
-        "Particle temperature",
-        "Mine depth"
-      ],
-      answer: 0,
-      explanation:
-        "Magnetic separation uses differences in the magnetic response of minerals."
-    },
-
-    {
-      question: "Electrostatic separation mainly uses differences in:",
-      options: [
-        "Density",
-        "Electrical properties",
-        "Rock age",
-        "Mine depth"
-      ],
-      answer: 1,
-      explanation:
-        "Electrostatic separation exploits differences in electrical properties and charging behaviour."
-    },
-
-    {
-      question: "Froth flotation mainly depends on differences in:",
-      options: [
-        "Surface properties",
-        "Mine elevation",
-        "Rock colour only",
-        "Drilling speed"
-      ],
-      answer: 0,
-      explanation:
-        "Froth flotation exploits differences in mineral surface properties and their interaction with water and air."
-    },
-
-    {
-      question: "What is the purpose of a collector in froth flotation?",
-      options: [
-        "To increase the size of the ore",
-        "To promote attachment of selected mineral particles to air bubbles",
-        "To crush the ore",
-        "To remove all water from the ore"
-      ],
-      answer: 1,
-      explanation:
-        "A collector promotes the attachment of selected mineral particles to air bubbles."
-    },
-
-    {
-      question: "What are tailings?",
-      options: [
-        "The valuable-mineral-rich product",
-        "The grinding media",
-        "The material remaining after valuable mineral separation",
-        "The original ore deposit"
-      ],
-      answer: 2,
-      explanation:
-        "Tailings are the material remaining after the valuable mineral has been separated into the concentrate."
-    },
-
-    {
-      question: "Why is mineral liberation important before concentration?",
-      options: [
-        "It makes the valuable mineral easier to separate",
-        "It increases the size of the ore",
-        "It prevents all processing",
-        "It converts gangue into metal"
-      ],
-      answer: 0,
-      explanation:
-        "Liberation exposes valuable mineral particles from gangue or other minerals, making subsequent separation more effective."
-    }
-  ],
-
-  examQuestions: [
+     examQuestions: [
     {
       question:
         "Highlight and explain the various methods of concentration used in mineral processing.",
-      answer:
-        "Mineral concentration is the process of separating valuable minerals from unwanted minerals or gangue in order to produce a material richer in the valuable mineral. The major methods include gravity concentration, magnetic separation, electrostatic separation, froth flotation and hand or ore sorting. Gravity concentration separates minerals mainly according to differences in density or specific gravity. Magnetic separation separates minerals according to their response to a magnetic field. Electrostatic separation uses differences in electrical properties or charging behaviour. Froth flotation uses differences in surface properties, allowing selected mineral particles to attach to air bubbles and rise into a froth that can be collected. Hand or ore sorting separates valuable and unwanted material using visible or detectable differences. The appropriate method depends on the properties of the valuable mineral and the gangue."
+      type: "PRACTICE"
     },
 
     {
-      question: "Define concentration in mineral processing.",
-      answer:
-        "Concentration is the process of separating valuable minerals from unwanted minerals or gangue so that the proportion of the valuable mineral is increased in the resulting concentrate."
-    },
-
-    {
-      question: "Mention five methods of concentration used in mineral processing.",
-      answer:
-        "Five important methods are gravity concentration, magnetic separation, electrostatic separation, froth flotation and hand or ore sorting."
-    },
-
-    {
-      question: "Explain gravity concentration.",
-      answer:
-        "Gravity concentration separates minerals mainly according to differences in density or specific gravity. When particles are subjected to gravity and controlled movement of water or another separating medium, particles with different densities behave differently. This difference in behaviour allows relatively heavy valuable minerals to be separated from lighter material. Examples of gravity equipment include jigs, shaking tables, spirals and sluices."
-    },
-
-    {
-      question: "Explain magnetic separation.",
-      answer:
-        "Magnetic separation is a method of concentration that separates minerals according to differences in their response to a magnetic field. Magnetic minerals respond differently from weakly magnetic or non-magnetic minerals, allowing the different materials to follow different paths and become separated."
-    },
-
-    {
-      question: "Explain electrostatic separation.",
-      answer:
-        "Electrostatic separation separates mineral particles according to differences in their electrical properties. When particles are exposed to an electrical field, minerals with different electrical behaviour respond differently, allowing them to be separated."
-    },
-
-    {
-      question: "Explain froth flotation.",
-      answer:
-        "Froth flotation is a concentration method based mainly on differences in mineral surface properties. The ground ore is mixed with water and suitable reagents, and air is introduced to produce bubbles. Selected mineral particles attach to the bubbles and rise to the surface to form a froth. The froth is collected as concentrate while unwanted material remains mainly in the pulp."
+      question: "Mention five and briefly explainmethods of concentration used in mineral processing.",
+      answer: "PRACTICE"
     },
 
     {
       question: "Differentiate between concentrate and tailings.",
-      answer:
-        "A concentrate is the product containing a relatively higher proportion of the valuable mineral after concentration. Tailings are the material remaining after the valuable mineral has been separated and recovered into the concentrate."
+      type: "PRACTICE"
     },
 
-    {
-      question: "Explain the relationship between comminution and concentration.",
-      answer:
-        "Comminution involves crushing and grinding the ore to reduce particle size and help liberate valuable minerals from gangue or other minerals. Concentration then separates the liberated valuable minerals from unwanted material. Therefore, comminution prepares the ore for separation while concentration performs the separation."
-    },
-
-    {
-      question: "State the main principle used by each of the following concentration methods: gravity concentration, magnetic separation, electrostatic separation and froth flotation.",
-      answer:
-        "Gravity concentration uses differences in density or specific gravity. Magnetic separation uses differences in magnetic response. Electrostatic separation uses differences in electrical properties. Froth flotation uses differences in mineral surface properties and interaction with air and water."
-    }
+    
   ]
 },
 
@@ -6471,15 +5064,15 @@ export const topicsByCourse = {
           title: "Mineral resource",
 
           paragraphs: [
-            "A mineral resource is a natural concentration or occurrence of mineral material that has potential economic interest and may be useful for extraction and use."
+            "A mineral resource is a natural concentration of mineral material that has potential economic interest that is found in and around the earth crust."
           ]
         },
 
         {
-          title: "Ore",
+          title: "Ores",
 
           paragraphs: [
-            "An ore is a naturally occurring material containing valuable mineral or minerals in sufficient concentration for economic extraction under suitable conditions."
+            "An ores are defined as part of the mineral that can be mined economically at a present time."
           ]
         }
       ]
@@ -6711,7 +5304,7 @@ export const topicsByCourse = {
       title: "9. Conditions for a Commercial Petroleum Accumulation",
 
       paragraphs: [
-        "The notes emphasize that an accumulation of a small amount of oil in an unconsolidated sediment is not necessarily a commercial oil pool.",
+        "Accumulation of a small amount of oil in an unconsolidated sediment is not necessarily a commercial oil pool.",
         "For petroleum to accumulate in a commercially useful quantity, several geological conditions must be present."
       ],
 
@@ -6747,7 +5340,7 @@ export const topicsByCourse = {
 
       paragraphs: [
         "A source rock is an organically rich rock containing material from which petroleum can be generated.",
-        "The notes describe source rocks as organically rich materials that accumulate mainly in clay-rich sediments and are later subjected to heat and pressure.",
+        "Source rocks as organically rich materials that accumulate mainly in clay-rich sediments and are later subjected to heat and pressure.",
         "The generated hydrocarbons may occur in liquid, solid or gaseous forms depending on the geological conditions."
       ],
 
@@ -6787,7 +5380,7 @@ export const topicsByCourse = {
 
       paragraphs: [
         "A reservoir rock is a rock capable of storing and transmitting petroleum because it has suitable pore spaces and permeability.",
-        "The notes identify sandstone, limestone and dolomite as examples of suitable reservoir rocks.",
+        "Sandstone, limestone and dolomite as examples of suitable reservoir rocks.",
         "Porosity provides the spaces in which fluids can occur, while permeability allows fluids to move through connected pore spaces."
       ],
 
@@ -6833,7 +5426,7 @@ export const topicsByCourse = {
 
       subsections: [
         {
-          title: "Two main types mentioned in the notes",
+          title: "Two main types",
 
           paragraphs: [
             "Structural traps.",
@@ -6882,7 +5475,7 @@ export const topicsByCourse = {
         },
 
         {
-          title: "Porosity ranges in selected rocks from the lecturer's note",
+          title: "Porosity ranges in selected rocks ",
 
           paragraphs: [
             "Clay — about 45–53%.",
@@ -6996,226 +5589,30 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is a resource?",
-      options: [
-        "A rock that has no useful purpose",
-        "A source of supply from which a benefit can be produced",
-        "Only a metallic mineral",
-        "Only a fossil fuel"
-      ],
-      answer: 1,
-      explanation:
-        "A resource is a source of supply from which a useful benefit can be produced."
-    },
-
-    {
-      question: "Which of the following is a mineral resource?",
-      options: [
-        "A naturally occurring material of economic interest",
-        "Only water in a river",
-        "Only agricultural crops",
-        "Only manufactured materials"
-      ],
-      answer: 0,
-      explanation:
-        "Mineral resources are naturally occurring materials of economic interest found in or around the Earth's crust."
-    },
-
-    {
-      question: "Which of the following is a renewable resource?",
-      options: [
-        "Petroleum",
-        "Natural gas",
-        "Trees",
-        "Coal"
-      ],
-      answer: 2,
-      explanation:
-        "Trees are renewable because they can be replaced naturally through growth when properly managed."
-    },
-
-    {
-      question: "Which of the following is a non-renewable resource?",
-      options: [
-        "Solar energy",
-        "Trees",
-        "Petroleum",
-        "Grass"
-      ],
-      answer: 2,
-      explanation:
-        "Petroleum is a non-renewable resource because it forms over geological time and cannot be replenished rapidly enough to match human consumption."
-    },
-
-    {
-      question: "Metallic mineral resources are mainly important because they:",
-      options: [
-        "Provide useful metals",
-        "Always form in rivers",
-        "Cannot be mined",
-        "Are all renewable"
-      ],
-      answer: 0,
-      explanation:
-        "Metallic mineral resources are sources of useful metals."
-    },
-
-    {
-      question: "Which of the following is NOT one of the five petroleum accumulation conditions emphasized in the notes?",
-      options: [
-        "Source rock",
-        "Migration",
-        "Reservoir rock",
-        "Rainfall"
-      ],
-      answer: 3,
-      explanation:
-        "The five conditions are source rock, migration, reservoir rock, seal or cap rock and trap."
-    },
-
-    {
-      question: "What is the main function of a source rock?",
-      options: [
-        "To generate hydrocarbons from organic material",
-        "To stop petroleum from escaping",
-        "To provide the drilling equipment",
-        "To remove water from petroleum"
-      ],
-      answer: 0,
-      explanation:
-        "A source rock contains organic material from which hydrocarbons can be generated."
-    },
-
-    {
-      question: "What is the main role of a reservoir rock?",
-      options: [
-        "To generate all petroleum",
-        "To store and transmit petroleum where suitable pore space and permeability exist",
-        "To prevent all fluid movement",
-        "To destroy hydrocarbons"
-      ],
-      answer: 1,
-      explanation:
-        "A reservoir rock provides pore spaces for storing petroleum and permeability for fluid movement."
-    },
-
-    {
-      question: "What is the main function of a seal or cap rock?",
-      options: [
-        "To increase petroleum movement",
-        "To restrict petroleum from escaping from the reservoir",
-        "To generate sunlight",
-        "To increase rainfall"
-      ],
-      answer: 1,
-      explanation:
-        "A seal or cap rock restricts petroleum from escaping from the reservoir."
-    },
-
-    {
-      question: "Which of the following is a structural trap?",
-      options: [
-        "Anticline",
-        "River",
-        "Soil horizon",
-        "Rainfall zone"
-      ],
-      answer: 0,
-      explanation:
-        "Anticlines are structural features that can form structural petroleum traps."
-    },
-
-    {
-      question: "What is porosity?",
-      options: [
-        "The ability of a rock to resist weathering",
-        "The amount or percentage of pore space in a rock",
-        "The magnetic strength of a mineral",
-        "The age of a rock"
-      ],
-      answer: 1,
-      explanation:
-        "Porosity refers to the pore space in a rock and is commonly expressed as a percentage of total rock volume."
-    },
-
-    {
-      question: "Which property mainly describes the ability of a rock to allow fluids to pass through connected pore spaces?",
-      options: [
-        "Porosity",
-        "Permeability",
-        "Density",
-        "Hardness"
-      ],
-      answer: 1,
-      explanation:
-        "Permeability describes the ability of a rock to allow fluids to move through connected pore spaces."
-    }
-  ],
+  
 
   examQuestions: [
     {
       question:
         "What is a Mineral Resource? Differentiate between a Renewable and Non-renewable resource.",
-      answer:
-        "A mineral resource is a naturally occurring material or concentration of mineral material in or around the Earth's crust that has economic interest and potential usefulness. Renewable resources are resources that can be replenished naturally over time, while non-renewable resources are finite or are replenished so slowly that they are effectively limited on the human time scale. Examples of renewable resources include water, trees, grasses and solar energy. Examples of non-renewable resources include petroleum, natural gas, coal and many mineral deposits."
+      type: "PAST-QUESTION"
     },
 
     {
       question:
         "What are the five conditions that must be met before a commercial pool for petroleum is reached?",
-      answer:
-        "The five important conditions are: 1. Source rock, 2. Migration, 3. Reservoir rock, 4. Seal or cap rock, and 5. Trap. The source rock provides the organic material from which hydrocarbons are generated. Migration allows the generated petroleum to move from the source area. The reservoir rock provides suitable pore spaces for petroleum accumulation and adequate permeability for fluid movement. The seal or cap rock restricts petroleum from escaping. The trap prevents or restricts further movement of petroleum and allows it to accumulate."
+      type: "PAST-QUESTION"
     },
 
-    {
-      question: "Define a resource.",
-      answer:
-        "A resource is a source of supply from which a useful benefit can be produced."
-    },
-
-    {
+       {
       question:
         "Differentiate between metallic and non-metallic mineral resources.",
-      answer:
-        "Metallic mineral resources are mineral resources from which useful metals can be obtained, such as iron, aluminium, manganese and magnesium. Non-metallic mineral resources are used mainly for their physical or chemical properties rather than as sources of metals. Examples include limestone, clay, gypsum and sand."
-    },
-
-    {
-      question: "What is a source rock?",
-      answer:
-        "A source rock is an organically rich rock containing material from which petroleum or other hydrocarbons can be generated after burial and suitable geological conditions of heat and pressure."
-    },
-
-    {
-      question: "What is a reservoir rock?",
-      answer:
-        "A reservoir rock is a rock with suitable pore spaces and permeability that can store and transmit petroleum. Sandstone, limestone and dolomite can serve as reservoir rocks when their properties are suitable."
-    },
-
-    {
-      question: "What is a seal or cap rock?",
-      answer:
-        "A seal or cap rock is a very low-permeability or impermeable rock layer that restricts the movement of petroleum and prevents it from escaping from the reservoir."
-    },
-
-    {
-      question: "What is a petroleum trap?",
-      answer:
-        "A petroleum trap is a geological arrangement that prevents or restricts the further movement of petroleum and allows it to accumulate. The two main types mentioned in the notes are structural traps and stratigraphic traps."
-    },
-
-    {
-      question: "Mention two types of petroleum traps.",
-      answer:
-        "The two types are structural traps and stratigraphic traps. Structural traps are associated with structural deformation and include features such as folds, faults and anticlines."
+      type: "PRACTICE"
     },
 
     {
       question: "Define porosity.",
-      answer:
-        "Porosity is the amount or percentage of pore space within a rock. It represents the space available for storing fluids."
+      type: "PRACTICE"
     }
   ]
 },
@@ -7223,7 +5620,7 @@ export const topicsByCourse = {
   id: "fuel",
   title: "Fuel",
   summary:
-    "Fuel resources are natural resources that can be used to produce energy. In the lecturer's notes, petroleum is the main fuel resource discussed. Petroleum is a complex mixture of hydrocarbons formed from organic matter that was buried, heated and transformed over geological time.",
+    "Fuel resources are natural resources that can be used to produce energy. Petroleum is the main fuel resource discussed. Petroleum is a complex mixture of hydrocarbons formed from organic matter that was buried, heated and transformed over geological time.",
 
   sections: [
     {
@@ -7232,7 +5629,7 @@ export const topicsByCourse = {
       paragraphs: [
         "Fuel is a material that can be used as a source of energy.",
         "Fuel resources are important because energy is required for transportation, industry, electricity generation and many other human activities.",
-        "In the lecturer's notes for this course, petroleum is the main fuel resource discussed in detail.",
+        "Petroleum is the main fuel resource discussed in detail.",
         "Petroleum is therefore the main focus of this topic."
       ],
 
@@ -7260,7 +5657,7 @@ export const topicsByCourse = {
 
       paragraphs: [
         "Petroleum is a complex mixture of hydrocarbons that occurs naturally in gaseous, liquid and solid forms.",
-        "The lecturer's notes describe petroleum as being associated with organic matter deposited in marine sediments on the continental shelf and slope.",
+        "Petroleum is being associated with organic matter deposited in marine sediments on the continental shelf and slope.",
         "This organic matter becomes buried and is subjected to geological heat and pressure over a long period of time."
       ],
 
@@ -7278,7 +5675,7 @@ export const topicsByCourse = {
           title: "Where petroleum forms",
 
           paragraphs: [
-            "The notes relate petroleum formation to organic matter deposited in marine sediments, particularly fine-grained sediments containing organic material."
+            "Petroleum formation to organic matter deposited in marine sediments, particularly fine-grained sediments containing organic material."
           ]
         }
       ]
@@ -7317,7 +5714,7 @@ export const topicsByCourse = {
       title: "4. Organic-Rich Sediments and Petroleum Generation",
 
       paragraphs: [
-        "The lecturer's notes emphasize organic matter contained in marine sediments.",
+        "Emphasize organic matter contained in marine sediments.",
         "Fine-grained sediments such as clay-rich materials can preserve organic matter because of the conditions under which they are deposited and buried.",
         "With continued burial and increasing temperature and pressure, the organic material can be transformed into petroleum."
       ],
@@ -7362,7 +5759,7 @@ export const topicsByCourse = {
 
       paragraphs: [
         "A source rock is an organically rich rock from which hydrocarbons can be generated.",
-        "The lecturer's notes describe source rocks as being mainly associated with clay-rich sediments containing organic matter.",
+        "Source rocks id mainly associated with clay-rich sediments containing organic matter.",
         "After burial, heat and pressure act on the organic material and petroleum can be generated."
       ],
 
@@ -7383,7 +5780,7 @@ export const topicsByCourse = {
       paragraphs: [
         "After hydrocarbons are generated, they must move from the source area toward a suitable reservoir before an accumulation can develop.",
         "This movement is called migration.",
-        "The lecturer's notes state that petroleum must flow into a body of rock that is both porous and permeable, and that movement may occur laterally or vertically."
+        "Petroleum must flow into a body of rock that is both porous and permeable, and that movement may occur laterally or vertically."
       ],
 
       subsections: [
@@ -7739,224 +6136,27 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is a fuel?",
-      options: [
-        "A material used as a source of useful energy",
-        "A type of sedimentary rock",
-        "A mineral that cannot produce energy",
-        "A type of groundwater"
-      ],
-      answer: 0,
-      explanation:
-        "A fuel is a material that can be used as a source of useful energy."
-    },
-
-    {
-      question: "What is petroleum mainly composed of?",
-      options: [
-        "Carbonates only",
-        "Hydrocarbons",
-        "Silicate minerals",
-        "Clay minerals"
-      ],
-      answer: 1,
-      explanation:
-        "Petroleum is a complex mixture made largely of hydrocarbon compounds."
-    },
-
-    {
-      question: "What is the major starting material for petroleum generation?",
-      options: [
-        "Organic matter",
-        "Granite",
-        "Quartz",
-        "Iron ore"
-      ],
-      answer: 0,
-      explanation:
-        "Petroleum is generated from preserved organic matter subjected to suitable geological conditions."
-    },
-
-    {
-      question: "Which of the following is NOT one of the five major conditions for commercial petroleum accumulation?",
-      options: [
-        "Source rock",
-        "Migration",
-        "Reservoir rock",
-        "Rainfall"
-      ],
-      answer: 3,
-      explanation:
-        "The five conditions are source rock, migration, reservoir rock, seal or cap rock and trap."
-    },
-
-    {
-      question: "What is the main function of a source rock?",
-      options: [
-        "To provide organic material from which hydrocarbons can be generated",
-        "To prevent all petroleum movement",
-        "To refine crude oil",
-        "To produce rainfall"
-      ],
-      answer: 0,
-      explanation:
-        "A source rock contains organic material from which hydrocarbons can be generated."
-    },
-
-    {
-      question: "What does petroleum migration mean?",
-      options: [
-        "The movement of generated petroleum through suitable rocks",
-        "The burning of petroleum",
-        "The crushing of petroleum-bearing rocks",
-        "The refining of crude oil"
-      ],
-      answer: 0,
-      explanation:
-        "Migration is the movement of generated petroleum from the source area toward a suitable reservoir."
-    },
-
-    {
-      question: "Which property of a reservoir rock provides space for petroleum storage?",
-      options: [
-        "Porosity",
-        "Colour",
-        "Hardness",
-        "Magnetism"
-      ],
-      answer: 0,
-      explanation:
-        "Porosity provides pore spaces in which petroleum can accumulate."
-    },
-
-    {
-      question: "Which property allows fluids to move through connected pore spaces?",
-      options: [
-        "Porosity",
-        "Permeability",
-        "Density",
-        "Colour"
-      ],
-      answer: 1,
-      explanation:
-        "Permeability describes the ability of a rock to allow fluids to move through connected pore spaces."
-    },
-
-    {
-      question: "What is the main function of a seal or cap rock?",
-      options: [
-        "To generate petroleum",
-        "To restrict petroleum from escaping",
-        "To increase petroleum temperature",
-        "To destroy the reservoir"
-      ],
-      answer: 1,
-      explanation:
-        "A seal or cap rock restricts petroleum from escaping from the reservoir."
-    },
-
-    {
-      question: "Which of the following can form a structural petroleum trap?",
-      options: [
-        "Anticline",
-        "River",
-        "Soil",
-        "Rainfall"
-      ],
-      answer: 0,
-      explanation:
-        "Anticlines are structural features that can form structural petroleum traps."
-    },
-
-    {
-      question: "Why does petroleum tend to move upward through suitable permeable rocks?",
-      options: [
-        "It is less dense than water",
-        "It is heavier than all rocks",
-        "It is always magnetic",
-        "It contains no hydrocarbons"
-      ],
-      answer: 0,
-      explanation:
-        "Petroleum is less dense than water, so under suitable geological conditions it tends to move upward through permeable rocks."
-    },
-
-    {
-      question: "What process is used to separate crude petroleum into useful fractions?",
-      options: [
-        "Fractional distillation",
-        "Weathering",
-        "Erosion",
-        "Compaction"
-      ],
-      answer: 0,
-      explanation:
-        "Fractional distillation separates components of crude petroleum according to differences in their boiling characteristics."
-    }
-  ],
-
+  
   examQuestions: [
     {
       question:
-        "What are the five conditions that must be met before a commercial pool for petroleum is reached?",
-      answer:
-        "The five conditions are: 1. Source rock, 2. Migration, 3. Reservoir rock, 4. Seal or cap rock, and 5. Trap. The source rock contains organic material from which hydrocarbons are generated. Migration moves the generated petroleum toward a suitable reservoir. The reservoir rock provides pore spaces for storage and permeability for fluid movement. The seal or cap rock restricts petroleum from escaping. The trap prevents or restricts further movement of petroleum and allows it to accumulate."
+        "List and briefly explain the five conditions that must be met before a commercial pool for petroleum is reached?",
+      type: "PAST-QUESTION"
     },
 
     {
-      question: "What is petroleum?",
-      answer:
-        "Petroleum is a naturally occurring complex mixture of hydrocarbons. It is associated with organic matter deposited in sediments and transformed under suitable geological conditions of burial, heat and pressure over geological time."
-    },
-
-    {
-      question: "Explain the formation of petroleum.",
-      answer:
-        "Petroleum forms from organic matter that accumulates in suitable sediments and becomes buried by later sediments. With increasing burial, the organic material is subjected to increasing heat and pressure. Under suitable geological conditions, the organic material is transformed and hydrocarbons are generated. The generated hydrocarbons may then migrate through suitable rocks and accumulate in a reservoir where a seal and trap are present."
-    },
-
-    {
-      question: "What is a source rock?",
-      answer:
-        "A source rock is an organically rich rock from which hydrocarbons can be generated. The organic material becomes buried and, under suitable geological conditions of heat and pressure, is transformed into hydrocarbons."
-    },
-
-    {
-      question: "What is migration of petroleum?",
-      answer:
-        "Migration is the movement of generated petroleum from the source area toward a suitable reservoir. Petroleum may migrate vertically or laterally through rocks that permit fluid movement."
-    },
-
-    {
-      question: "What is a reservoir rock?",
-      answer:
-        "A reservoir rock is a rock capable of storing and transmitting petroleum because it has suitable pore spaces and permeability. Sandstone, limestone and dolomite are examples of rocks that can serve as reservoirs when their properties are suitable."
-    },
-
-    {
-      question: "What is a seal or cap rock?",
-      answer:
-        "A seal or cap rock is a very low-permeability or impermeable layer that restricts petroleum from escaping from the reservoir. It helps retain the petroleum within the accumulation."
-    },
-
-    {
-      question: "What is a petroleum trap?",
-      answer:
-        "A petroleum trap is a geological arrangement that prevents or restricts further movement of petroleum and allows it to accumulate. Structural and stratigraphic traps are the two main types discussed."
+      question: "Define petroleum and explain the formation ",
+      type:"PRACTICE"
     },
 
     {
       question: "Mention and explain the types of petroleum traps.",
-      answer:
-        "The two main types are structural traps and stratigraphic traps. Structural traps are associated with geological deformation and include folds, faults and anticlines. Stratigraphic traps result mainly from changes in the nature, arrangement or distribution of rock layers that restrict petroleum movement."
+      type: "PRACTICE"
     },
 
     {
       question: "Explain petroleum refining.",
-      answer:
-        "Petroleum refining involves processing crude petroleum to obtain useful products. Fractional distillation is an important refining process in which hydrocarbon components are separated according to differences in their boiling characteristics. The resulting products include fuels and other useful petroleum materials."
+      type: "PRACTICE"
     }
   ]
 },
@@ -7964,494 +6164,497 @@ export const topicsByCourse = {
 {
   id: "surface-underground-water-geology",
   title: "Surface & Underground Water Geology",
-  summary:
-    "Surface and underground water geology deals with the occurrence, movement, storage and discharge of water at and beneath the Earth's surface. The behaviour of groundwater is strongly controlled by geological materials, their porosity, permeability, fractures, weathering and other structures.",
+    summary:
+    "This topic introduces surface and underground water, the hydrologic cycle and hydrologic equation, precipitation, runoff and evapotranspiration, groundwater occurrence, porosity and permeability, aquifers and their geological and stratigraphical conditions, and springs with their major types. The emphasis is on the lecturer's notes and the areas directly connected to examination questions.",
 
   sections: [
+
     {
       title: "1. Introduction to Surface and Underground Water",
 
       paragraphs: [
-        "Water occurs both on the surface of the Earth and beneath the ground. Surface water includes rivers, streams, lakes, ponds and reservoirs, while underground water occurs within the pores, openings and fractures of geological materials below the ground surface.",
-        "The study of underground water is important in geology because the ability of the ground to store and transmit water depends strongly on the nature of the rocks and sediments present.",
-        "When rain falls on the ground, part of the water may flow over the surface as runoff, while another part may enter the ground through infiltration. Some of the infiltrated water moves downward through the subsurface and may eventually become groundwater.",
-        "Therefore, groundwater should not be thought of simply as water trapped somewhere underground. Its occurrence and movement are controlled by geological conditions as well as climatic and surface conditions."
+        "Water occurs both on the surface of the Earth and beneath the Earth's surface.",
+        "Surface water refers to water occurring on the surface, while underground water refers to water occurring beneath the ground within geological materials.",
+       "The study of surface and underground water is part of hydrology and hydrogeology. Hydrology deals broadly with water, while hydrogeology is concerned with underground water and its relationship with geological materials.",
+        "Surface water and groundwater are connected through the hydrologic cycle. Water may move from the atmosphere to the surface, enter the ground, occur temporarily as groundwater and later return to the surface or atmosphere."
       ],
 
       subsections: [
         {
-          title: "Simple idea",
+          title: "Hydrology and Hydrogeology",
 
           paragraphs: [
-            "Rain falls on the ground.",
-            "Some water flows across the surface.",
-            "Some water enters the ground.",
-            "Some of the water moves downward and becomes part of the groundwater system.",
-            "Groundwater can later move through pores, fractures and other openings and may eventually discharge into rivers, springs, lakes or wells."
-          ]
-        }
-      ]
-    },
+            "Hydrology is the study of water and its occurrence and movement within the hydrologic system.",
 
+            "Hydrogeology is concerned with underground water and the geological conditions controlling its occurrence and movement."
+          ]
+        },
+
+        
     {
       title: "2. The Hydrologic Cycle",
 
       paragraphs: [
-        "The hydrologic cycle is the continuous circulation of water between the atmosphere, the Earth's surface and the subsurface.",
-        "Water does not remain permanently in one place. It changes location and, in some cases, changes from liquid to vapour and back to liquid as it moves through the hydrologic cycle.",
-        "The main processes include evaporation, transpiration, condensation, precipitation, infiltration, percolation, surface runoff, groundwater movement and discharge."
+        "The hydrologic cycle describes the continuous movement of water between the atmosphere, the Earth's surface and the subsurface.",
+
+        "Water evaporates from the oceans and land and becomes part of the atmosphere. It is later returned to the Earth as precipitation.",
+
+        "After precipitation reaches the land, some of the water may flow over the surface as runoff, some may infiltrate into the ground and percolate downward, and some may be intercepted by vegetation.",
+
+        "Some of the infiltrated water may be temporarily stored underground as groundwater. Groundwater can later move through geological materials and discharge through springs, streams or other outlets."
       ],
 
       subsections: [
         {
-          title: "Evaporation",
+          title: "Simple Flow of the Hydrologic Cycle",
 
           paragraphs: [
-            "Evaporation is the process by which liquid water changes into water vapour due to the input of energy, mainly from the Sun.",
-            "Water can evaporate from oceans, rivers, lakes, soil and other wet surfaces."
+            "Evaporation → Atmosphere → Precipitation → Surface runoff / Infiltration → Groundwater → Discharge → Evaporation."
           ]
         },
 
         {
-          title: "Transpiration",
+          title: "Important Idea",
 
           paragraphs: [
-            "Transpiration is the loss of water vapour from plants through their leaves.",
-            "Evaporation and transpiration are often considered together as evapotranspiration."
-          ]
-        },
-
-        {
-          title: "Condensation",
-
-          paragraphs: [
-            "Condensation occurs when water vapour cools and changes into liquid water droplets.",
-            "The droplets can contribute to the formation of clouds."
-          ]
-        },
-
-        {
-          title: "Precipitation",
-
-          paragraphs: [
-            "Precipitation is water that falls from the atmosphere to the Earth's surface.",
-            "It may occur as rain and, under suitable climatic conditions, as other forms of precipitation."
-          ]
-        },
-
-        {
-          title: "Infiltration",
-
-          paragraphs: [
-            "Infiltration is the process by which water enters the ground from the Earth's surface.",
-            "The amount of water that infiltrates depends on factors such as soil properties, vegetation, rainfall intensity, surface condition and the permeability of the underlying material."
-          ]
-        },
-
-        {
-          title: "Percolation",
-
-          paragraphs: [
-            "Percolation refers to the downward movement of water through the pores and openings of soil and geological materials.",
-            "Water that infiltrates the ground may continue downward through the unsaturated zone and eventually contribute to groundwater recharge."
-          ]
-        },
-
-        {
-          title: "Surface runoff",
-
-          paragraphs: [
-            "Surface runoff occurs when water flows over the land surface instead of infiltrating into the ground.",
-            "Runoff is influenced by rainfall intensity, slope, vegetation, soil condition and the permeability of the surface."
-          ]
-        },
-
-        {
-          title: "Groundwater discharge",
-
-          paragraphs: [
-            "Groundwater discharge occurs when groundwater leaves the groundwater system and reaches the surface or another water body.",
-            "Examples include springs, seepage into rivers and discharge through wells."
+            "Surface water and groundwater are not completely separate systems. They are connected through the movement of water within the hydrologic cycle."
           ]
         }
       ]
     },
 
+
     {
-      title: "3. Surface Water and Groundwater",
+      title: "3. The Hydrologic Equation",
 
       paragraphs: [
-        "Surface water is water that occurs at or near the Earth's surface in bodies or channels such as rivers, streams, lakes, ponds and reservoirs.",
-        "Groundwater is water that occupies the saturated spaces within soil, sediments and geological formations below the Earth's surface.",
-        "Although surface water and groundwater are often discussed separately, they are connected parts of the same hydrologic system. Water can move from the surface into the ground and groundwater can later discharge back to the surface."
+        "The hydrologic equation is a water-balance equation which states that total inflow is equal to total outflow plus the total change in storage.",
+
+        "For the form used in the lecturer's notes, the equation can be written as:"
       ],
 
       subsections: [
         {
-          title: "Surface water",
+          title: "Hydrologic Equation",
 
           paragraphs: [
-            "Surface water is directly exposed to the atmosphere and the land surface.",
-            "Its quantity can respond relatively quickly to rainfall and surface runoff.",
-            "Examples include rivers, streams, lakes, ponds and reservoirs."
+            "P = ET + Ro + ΔS",
+
+            "Where P = precipitation, ET = evapotranspiration, Ro = runoff, and ΔS = change in storage."
           ]
         },
 
         {
-          title: "Groundwater",
+          title: "Meaning of the Equation",
 
           paragraphs: [
-            "Groundwater occurs below the water table within the zone of saturation.",
-            "It occupies interconnected pores, fractures, joints, cavities and other openings within geological materials.",
-            "Its movement is generally slower than the movement of water in many surface-water channels."
+            "Precipitation represents the major water input into the system.",
+
+            "Evapotranspiration represents water returned to the atmosphere through evaporation and plant transpiration.",
+
+            "Runoff represents water leaving the area through surface runoff and groundwater flow that reaches a stream or drainage system.",
+
+            "Change in storage represents water retained in the ground or on the surface."
           ]
         },
 
         {
-          title: "Important relationship",
+          title: "Components of the Hydrologic Equation",
+
+          points: [
+            "Precipitation (P)",
+            "Evapotranspiration (ET)",
+            "Runoff (Ro)",
+            "Change in storage (ΔS)"
+          ]
+        },
+
+        {
+          title: "Change in Storage",
 
           paragraphs: [
-            "Surface water can recharge groundwater through infiltration.",
-            "Groundwater can also discharge into rivers, lakes and springs.",
-            "Therefore, surface water and groundwater should be understood as connected components of the hydrologic cycle."
+            "Change in storage refers to the amount of water stored in the ground or on the surface.",
+
+            "The lecturer's notes identify storage forms such as groundwater, soil moisture, water in lakes, rivers and reservoirs, and snow cover."
           ]
         }
       ]
     },
 
+
     {
-      title: "4. Occurrence of Groundwater",
+      title: "4. Precipitation",
 
       paragraphs: [
-        "After water enters the ground, it does not occupy the entire subsurface uniformly. The subsurface can be divided into zones according to the amount of water present and the degree to which the openings are filled with water.",
-        "The most important distinction is between the unsaturated zone and the saturated zone.",
-        "The saturated zone is the region in which the openings in the geological material are essentially filled with water. The upper surface of this zone is called the water table."
+        "Precipitation is a measurable component of the hydrologic cycle and represents an important input of water into the system.",
+
+        "It occurs when water from the atmosphere returns to the Earth's surface."
       ],
 
       subsections: [
         {
-          title: "Unsaturated zone",
+          title: "Factors Influencing Precipitation",
 
-          paragraphs: [
-            "The unsaturated zone lies between the ground surface and the water table.",
-            "The pores in this zone contain both air and water, although the amount of water varies with depth and local conditions.",
-            "Water may move downward through this zone during infiltration and percolation."
-          ]
-        },
-
-        {
-          title: "Capillary fringe",
-
-          paragraphs: [
-            "The capillary fringe is the zone immediately above the water table where water is drawn upward from the saturated zone by capillary forces.",
-            "The amount and height of capillary rise depend on the size of the pores and the properties of the material."
-          ]
-        },
-
-        {
-          title: "Water table",
-
-          paragraphs: [
-            "The water table is the upper surface of the zone of saturation.",
-            "It is not necessarily a flat surface. Its shape may generally follow the broad form of the land surface but is also controlled by recharge, discharge, geological conditions and groundwater flow.",
-            "The position of the water table can rise or fall depending on factors such as rainfall, recharge, pumping and seasonal conditions."
-          ]
-        },
-
-        {
-          title: "Zone of saturation",
-
-          paragraphs: [
-            "The zone of saturation is the region below the water table where the openings in the geological material are filled with water.",
-            "Groundwater occurs mainly within this zone."
+          points: [
+            "Elevation",
+            "Wind direction and intensity",
+            "Vegetation",
+            "Construction",
+            "Topography"
           ]
         }
       ]
     },
 
+
     {
-      title: "5. Factors Controlling Groundwater Occurrence",
+      title: "5. Runoff",
 
       paragraphs: [
-        "The occurrence and availability of groundwater depend on several interacting factors. Geological conditions are especially important because rocks and sediments determine where water can be stored and how easily it can move.",
-        "A region may receive considerable rainfall and still have poor groundwater conditions if the subsurface materials do not provide suitable openings or pathways for water."
+        "Runoff is the sum of the components of water flowing into a stream. In the lecturer's notes, total runoff generally refers to the total discharge of water into the surface stream of a drainage basin.",
+
+        "Runoff includes surface runoff as well as groundwater flow that eventually reaches the stream."
       ],
 
       subsections: [
         {
-          title: "Climate and rainfall",
+          title: "Factors Influencing Runoff",
 
-          paragraphs: [
-            "Rainfall is an important source of groundwater recharge.",
-            "Areas with greater effective rainfall generally have greater opportunities for recharge, although rainfall alone does not guarantee abundant groundwater."
+          points: [
+            "Size and topography of the drainage basin",
+            "Climate",
+            "Vegetation and land use",
+            "Soil and sub-soil conditions"
           ]
         },
 
         {
-          title: "Topography",
+          title: "Simple Understanding",
 
           paragraphs: [
-            "Topography influences runoff, infiltration and groundwater flow.",
-            "Steep slopes may encourage rapid runoff, while suitable low-lying or relatively flat areas may provide greater opportunities for infiltration and groundwater accumulation."
-          ]
-        },
-
-        {
-          title: "Rock type",
-
-          paragraphs: [
-            "Different rocks have different abilities to store and transmit water.",
-            "Porous and permeable sediments may provide good groundwater conditions, while massive rocks with few openings may have poor primary groundwater storage."
-          ]
-        },
-
-        {
-          title: "Porosity",
-
-          paragraphs: [
-            "Porosity determines the amount of empty space available to store water.",
-            "A rock with greater effective pore space may have greater capacity to store groundwater."
-          ]
-        },
-
-        {
-          title: "Permeability",
-
-          paragraphs: [
-            "Permeability controls how easily water can move through the interconnected openings of a material.",
-            "A material may contain many pores but still transmit water poorly if the pores are not well connected."
-          ]
-        },
-
-        {
-          title: "Fractures, joints and faults",
-
-          paragraphs: [
-            "Fractures, joints and faults can create pathways through which groundwater moves.",
-            "This is particularly important in crystalline rocks such as many basement rocks, where primary pore spaces may be limited."
-          ]
-        },
-
-        {
-          title: "Weathering",
-
-          paragraphs: [
-            "Weathering can break down and alter rocks, creating additional openings and increasing the ability of some rocks to store or transmit groundwater.",
-            "In basement terrains, the weathered zone may therefore be important for groundwater occurrence."
-          ]
-        },
-
-        {
-          title: "Vegetation and land surface",
-
-          paragraphs: [
-            "Vegetation can influence infiltration and runoff by protecting the soil surface and affecting the movement of water into the ground.",
-            "Land use and surface conditions can also alter recharge."
+            "When water reaches the ground, some may infiltrate while some may flow across the surface. The amount that eventually reaches a drainage channel contributes to runoff."
           ]
         }
       ]
     },
 
+
     {
-      title: "6. Porosity",
+      title: "6. Evapotranspiration",
 
       paragraphs: [
-        "Porosity is the proportion of the total volume of a rock or sediment that consists of voids or openings.",
-        "These openings may contain air, water or other fluids. In groundwater geology, porosity is important because it provides space in which groundwater can be stored."
+        "Evapotranspiration is the return of water in vapour form from the surface to the atmosphere through the combined action of evaporation, plant transpiration and, as stated in the lecturer's notes, sublimation.",
+
+        "It is an important component of the hydrologic equation because it represents water returned to the atmosphere."
       ],
 
       subsections: [
         {
-          title: "Basic formula",
+          title: "Factors Controlling Evapotranspiration",
 
-          paragraphs: [
-            "Porosity = Volume of voids / Total volume × 100.",
-            "Porosity is commonly expressed as a percentage."
-          ]
-        },
-
-        {
-          title: "Primary porosity",
-
-          paragraphs: [
-            "Primary porosity develops during the formation of a rock or sediment.",
-            "For example, pore spaces between sediment grains in an unconsolidated sand deposit are primary pore spaces."
-          ]
-        },
-
-        {
-          title: "Secondary porosity",
-
-          paragraphs: [
-            "Secondary porosity develops after the original rock has formed.",
-            "It can result from processes such as fracturing, jointing, faulting, dissolution and weathering.",
-            "Secondary porosity is especially important in many crystalline rocks where groundwater may occur mainly in fractures and weathered zones."
-          ]
-        },
-
-        {
-          title: "Factors affecting porosity",
-
-          paragraphs: [
-            "Porosity can be affected by grain size, grain shape, sorting, packing, compaction, cementation and fracturing.",
-            "Well-sorted sediments may have significant pore space, while compaction and cementation can reduce the amount of effective pore space."
+          points: [
+            "Temperature, including solar radiation and cloud cover",
+            "Humidity",
+            "Wind speed",
+            "Soil texture",
+            "Type and density of plant cover"
           ]
         }
       ]
     },
 
+
     {
-      title: "7. Permeability",
+      title: "7. Groundwater Occurrence",
 
       paragraphs: [
-        "Permeability is the ability of a geological material to allow water or another fluid to pass through its interconnected openings.",
-        "Permeability is therefore concerned not simply with the presence of pores but with whether those openings are sufficiently connected to allow fluid movement."
+        "Groundwater occurs underground within geological formations that are capable of containing and transmitting water.",
+
+        "A geological formation that contains and transmits groundwater is referred to as an aquifer.",
+
+        "The ability of a rock or geological material to contain and transmit groundwater depends mainly on its porosity and permeability."
       ],
 
       subsections: [
         {
-          title: "Why permeability matters",
+          title: "Important Conditions for Groundwater Movement",
 
-          paragraphs: [
-            "A groundwater system needs both storage space and pathways for movement.",
-            "If openings are poorly connected, a material may hold water but transmit it very slowly.",
-            "This is why porosity and permeability must not be treated as exactly the same property."
-          ]
-        },
-
-        {
-          title: "Example: clay",
-
-          paragraphs: [
-            "Clay can have relatively high porosity because it contains many small pore spaces.",
-            "However, the pores are very small and water moves through them slowly, so clay generally has low permeability.",
-            "This example shows why high porosity does not automatically mean high permeability."
-          ]
-        },
-
-        {
-          title: "Example: fractured rock",
-
-          paragraphs: [
-            "A massive crystalline rock may have low primary porosity.",
-            "However, fractures and joints can provide interconnected pathways, giving the rock significant secondary permeability and allowing groundwater movement."
+          points: [
+            "The rock must contain spaces or openings in which water can occur.",
+            "The openings should provide suitable pathways through which water can move.",
+            "The nature of the geological material strongly affects groundwater storage and movement."
           ]
         }
       ]
     },
 
+
     {
-      title: "8. Porosity and Permeability: The Difference",
+      title: "8. Porosity",
 
       paragraphs: [
-        "Porosity and permeability are related but different properties.",
-        "Porosity describes the amount of void space available for storage, while permeability describes the ability of fluid to move through interconnected openings."
+        "Porosity is the measure of the water-bearing or storage capacity of a rock formation.",
+
+        "More precisely, porosity refers to the proportion of the total volume of a rock or geological material that is occupied by voids or pore spaces.",
+
+        "The pore spaces may contain water, air or other fluids."
       ],
 
       subsections: [
         {
-          title: "Porosity",
+          title: "Basic Expression",
 
           paragraphs: [
-            "Think: How much empty space is available?",
-            "Porosity is mainly related to the storage capacity of a material."
+            "Porosity = Volume of voids / Total volume × 100"
           ]
         },
 
         {
-          title: "Permeability",
+          title: "Porosity in Sedimentary Materials",
 
           paragraphs: [
-            "Think: How easily can water move through the material?",
-            "Permeability is related to the transmission of groundwater."
+            "The porosity of a sedimentary deposit depends mainly on the shape, arrangement and packing of its constituent grains.",
+
+            "The degree of sorting and compaction also affects the amount of pore space available."
           ]
         },
 
         {
-          title: "Important example",
+          title: "Secondary Porosity",
 
           paragraphs: [
-            "Clay may have high porosity but low permeability.",
-            "A well-connected sand or gravel deposit may have both useful porosity and high permeability.",
-            "A fractured crystalline rock may have low primary porosity but groundwater can move effectively through fractures."
+            "Secondary porosity develops after the formation of the rock.",
+
+            "It may result from joints, fractures, faulting, weathering and chemical dissolution."
           ]
         },
 
         {
-          title: "Memory aid",
+          title: "Examples from the Lecturer's Notes",
 
-          paragraphs: [
-            "POROSITY = SPACE FOR STORAGE.",
-            "PERMEABILITY = PATHWAY FOR MOVEMENT."
+          points: [
+            "Clay",
+            "Sand",
+            "Gravel",
+            "Sand and gravel",
+            "Sandstone",
+            "Shale and limestone"
           ]
         }
       ]
     },
 
+
     {
-      title: "9. Aquifers",
+      title: "9. Permeability",
 
       paragraphs: [
-        "An aquifer is a geological formation or body of material that can store groundwater and transmit sufficient quantities of it to wells, springs or other points of discharge.",
-        "An aquifer therefore requires suitable storage space and connected pathways through which groundwater can move.",
-        "Aquifers may occur in unconsolidated sediments, sedimentary rocks, fractured crystalline rocks and other geological materials where suitable conditions exist."
+        "Permeability refers to the ability of a geological material to allow water or another fluid to pass through its connected pore spaces, fractures or other openings.",
+
+        "Permeability is therefore concerned with the transmission and movement of groundwater through a geological material.",
+
+        "A rock may contain pore spaces but still transmit water poorly if those spaces are not sufficiently connected."
       ],
 
       subsections: [
         {
-          title: "Good aquifer conditions",
+          title: "Porosity versus Permeability",
 
           paragraphs: [
-            "Good aquifer materials generally have useful porosity and sufficient permeability.",
-            "Examples can include well-connected sand and gravel deposits and some fractured or solution-enlarged rocks."
+            "Porosity is mainly concerned with the amount of space available for storing water.",
+
+            "Permeability is concerned with the ability of water to pass through the connected spaces."
           ]
         },
 
         {
-          title: "Aquifer importance",
+          title: "Simple Difference",
+
+          points: [
+            "Porosity = space available for storage.",
+            "Permeability = ability to transmit water."
+          ]
+        },
+
+        {
+          title: "Why the Difference Matters",
 
           paragraphs: [
-            "Aquifers provide groundwater that can be accessed through wells and may also naturally discharge through springs and rivers.",
-            "They are therefore important sources of water for domestic, agricultural and other uses."
+            "A geological material can have considerable pore space but poor permeability if the pores are very small or poorly connected.",
+
+            "Therefore, porosity and permeability should not be treated as the same property."
           ]
         }
       ]
     },
 
+
     {
-      title: "10. Types of Aquifers",
+      title: "10. Aquifers",
 
       paragraphs: [
-        "Aquifers can be classified according to their geological and hydraulic conditions. The most important distinction is between unconfined and confined aquifers."
+        "An aquifer is a geological subsurface formation containing and transmitting groundwater.",
+
+        "An aquifer may consist of consolidated or unconsolidated material as long as it can contain and transmit groundwater under the prevailing conditions.",
+
+        "Aquifers are important because they provide the geological storage and pathways through which groundwater occurs and moves."
       ],
 
       subsections: [
         {
-          title: "Unconfined aquifer",
+          title: "Main Requirement of an Aquifer",
 
           paragraphs: [
-            "An unconfined aquifer is an aquifer whose upper boundary is the water table.",
-            "It is generally open to recharge from above through infiltration.",
-            "Water in an unconfined aquifer is not confined beneath a continuous low-permeability layer in the same way as water in a confined aquifer."
+            "An aquifer must have suitable pore spaces, fractures or other openings for storing groundwater and sufficient permeability for transmitting the water."
           ]
         },
 
         {
-          title: "Confined aquifer",
+          title: "Aquifers from a Geological Point of View",
 
           paragraphs: [
-            "A confined aquifer is an aquifer overlain and/or underlain by relatively low-permeability layers that restrict the free movement of water.",
-            "The groundwater within it is commonly under pressure.",
-            "When a well penetrates a confined aquifer, water may rise above the top of the aquifer because of this pressure."
+            "From the geological point of view, aquifers may occur in different types of geological materials depending on their porosity and permeability."
+          ],
+
+          points: [
+            "Unconsolidated soft sedimentary materials",
+            "Consolidated hard rocks",
+            "Rocks affected by chemical dissolution"
+          ]
+        }
+      ]
+    },
+
+
+    {
+      title: "11. Types of Aquifers Based on Geological Material",
+
+      paragraphs: [
+        "The geological nature of the material strongly influences how groundwater is stored and transmitted."
+      ],
+
+      subsections: [
+        {
+          title: "1. Unconsolidated Soft Sedimentary Aquifers",
+
+          paragraphs: [
+            "These are aquifers in which groundwater is contained within the pores of unconsolidated sedimentary materials.",
+
+            "They generally have primary porosity, meaning the pore spaces developed during the formation or deposition of the material.",
+
+            "Examples include sand, gravel, boulder, clay, silty clay and alluvial deposits."
           ]
         },
 
         {
-          title: "Perched aquifer",
+          title: "2. Consolidated Hard-Rock Aquifers",
 
           paragraphs: [
-            "A perched aquifer is a localized zone of saturation that occurs above the main regional water table.",
-            "It commonly develops where a local low-permeability layer prevents downward movement of water and causes water to accumulate above it."
+            "These are mainly hard rocks in which groundwater occurs within cracks, joints and fractures.",
+
+            "They commonly have secondary porosity because the openings developed after the original formation of the rock.",
+
+            "The fractures may be related to tectonic processes, cooling conditions or other geological processes.",
+
+            "Examples include gneiss, granite and migmatite."
+          ]
+        },
+
+        {
+          title: "3. Rocks Affected by Chemical Dissolution",
+
+          paragraphs: [
+            "Some rocks develop secondary porosity through chemical dissolution.",
+
+            "Dissolution can enlarge existing openings and create pathways through which groundwater can move.",
+
+            "Limestone is an important example because groundwater can enlarge openings within it through dissolution."
+          ]
+        }
+      ]
+    },
+
+
+    {
+      title: "12. Aquifers from Geological Structure and Stratigraphy",
+
+      paragraphs: [
+        "Aquifers can also be understood from their geological structure and stratigraphical relationships.",
+
+        "The lecturer's notes identify three important conditions represented in the aquifer diagram: the unconfined aquifer, the perched aquifer and the confined aquifer."
+      ],
+
+      subsections: [
+        {
+          title: "A. Unconfined Aquifer",
+
+          paragraphs: [
+            "An unconfined aquifer is an aquifer in which the upper limit of the groundwater is the water table.",
+
+            "The water table is influenced by atmospheric pressure because the aquifer has no impermeable layer separating it from the atmosphere."
+          ]
+        },
+
+        {
+          title: "B. Perched Aquifer",
+
+          paragraphs: [
+            "A perched aquifer is an isolated body of groundwater suspended above the main water table.",
+
+            "It is separated from the main groundwater system by a zone of aeration or a relatively impermeable layer."
+          ]
+        },
+
+        {
+          title: "C. Confined Aquifer",
+
+          paragraphs: [
+            "A confined aquifer is an aquifer in which groundwater is confined by relatively impermeable or low-permeability material.",
+
+            "The groundwater is prevented from having direct contact with the atmosphere by the confining geological layer.",
+
+            "A well penetrating a confined aquifer may have water rise above the top of the aquifer because the water is under pressure."
+          ]
+        },
+
+        {
+          title: "Piezometric Surface",
+
+          paragraphs: [
+            "The piezometric surface is the elevation to which groundwater rises in a well penetrating a confined aquifer.",
+
+            "It is associated particularly with groundwater under pressure in a confined aquifer."
+          ]
+        },
+
+        {
+          title: "Artesian Well",
+
+          paragraphs: [
+            "A well that penetrates a confined aquifer is called an artesian well in the lecturer's notes.",
+
+            "Because the groundwater in a confined aquifer is under pressure, water may rise in the well above the top of the aquifer and, under suitable conditions, may rise to or above the ground surface."
+          ]
+        }
+      ]
+    },
+
+
+    {
+      title: "13. Other Geological Formations Associated with Groundwater",
+
+      paragraphs: [
+        "The lecturer's notes distinguish other geological formations according to their ability to contain and transmit groundwater."
+      ],
+
+      subsections: [
+        {
+          title: "Aquiclude",
+
+          paragraphs: [
+            "An aquiclude is a geological formation that can contain water but limits the flow of groundwater.",
+
+            "It therefore acts as a barrier or confining material to groundwater movement."
           ]
         },
 
@@ -8459,17 +6662,11 @@ export const topicsByCourse = {
           title: "Aquitard",
 
           paragraphs: [
-            "An aquitard is a geological layer that can store some water but transmits it relatively slowly.",
-            "It may restrict groundwater movement between more permeable units."
-          ]
-        },
+            "An aquitard is a geological formation that is relatively permeable and semi-confining in nature.",
 
-        {
-          title: "Aquiclude",
+            "It transmits groundwater, but usually at a very slow rate.",
 
-          paragraphs: [
-            "An aquiclude is a formation that may contain water within its pores but transmits very little water under ordinary conditions.",
-            "It therefore acts as a significant barrier to groundwater movement."
+            "Examples given in the lecturer's notes include sandy clay and clay."
           ]
         },
 
@@ -8477,862 +6674,252 @@ export const topicsByCourse = {
           title: "Aquifuge",
 
           paragraphs: [
-            "An aquifuge is a geological material that neither stores nor transmits significant quantities of groundwater under the conditions being considered."
+            "An aquifuge is a geological formation that is neither capable of containing significant groundwater nor transmitting it.",
+
+            "Hard crystalline rocks are given in the lecturer's notes as an example."
           ]
         }
       ]
     },
 
+
     {
-      title: "11. Confined and Unconfined Aquifers",
+      title: "14. Aquifer Performance",
 
       paragraphs: [
-        "The distinction between confined and unconfined aquifers is important because groundwater behaves differently under the two conditions."
+        "The performance of an aquifer depends mainly on its porosity and permeability.",
+
+        "The lecturer's notes relate aquifer performance to the ability of the geological material to store and transmit water."
       ],
 
       subsections: [
         {
-          title: "Unconfined aquifer",
+          title: "Specific Yield",
 
           paragraphs: [
-            "The upper surface is the water table.",
-            "Recharge can occur directly from infiltration through the overlying ground.",
-            "The water table can rise or fall in response to changes in recharge and discharge."
+            "Specific yield refers to the amount of water that can drain from a geological material under gravity."
           ]
         },
 
         {
-          title: "Confined aquifer",
+          title: "Specific Retention",
 
           paragraphs: [
-            "The aquifer is bounded by relatively low-permeability material.",
-            "Groundwater is under pressure.",
-            "The level to which water rises in a well tapping the aquifer represents the hydraulic or potentiometric head of the confined system."
+            "Specific retention refers to the amount of water retained in the material against gravitational forces."
           ]
         },
 
         {
-          title: "Simple comparison",
+          title: "Effective Porosity",
 
           paragraphs: [
-            "UNCONFINED = WATER TABLE IS THE UPPER BOUNDARY.",
-            "CONFINED = GROUNDWATER IS RESTRICTED BY LOW-PERMEABILITY LAYERS AND IS UNDER PRESSURE."
+            "Effective porosity refers to the interconnected pore space through which water can move under the prevailing conditions."
           ]
         }
       ]
     },
 
-    {
-      title: "12. Geological Types of Aquifers",
-
-      paragraphs: [
-        "The type of geological material strongly affects groundwater storage and movement. The same amount of rainfall can produce very different groundwater conditions in different rock types."
-      ],
-
-      subsections: [
-        {
-          title: "Sand and gravel",
-
-          paragraphs: [
-            "Sand and gravel can form productive aquifers where the deposits are sufficiently thick, saturated and laterally connected.",
-            "Their interconnected pore spaces can provide both storage and pathways for groundwater movement."
-          ]
-        },
-
-        {
-          title: "Sandstone",
-
-          paragraphs: [
-            "Sandstone can store groundwater in pore spaces between grains.",
-            "Its groundwater potential depends on factors such as grain size, sorting, cementation, compaction and fracturing.",
-            "Strong cementation and compaction can reduce effective porosity and permeability."
-          ]
-        },
-
-        {
-          title: "Limestone",
-
-          paragraphs: [
-            "Limestone may contain groundwater in pores, fractures, joints and solution-enlarged openings.",
-            "Dissolution can enlarge openings and create significant pathways for groundwater movement in suitable limestone terrains."
-          ]
-        },
-
-        {
-          title: "Igneous rocks",
-
-          paragraphs: [
-            "Fresh massive crystalline igneous rocks generally have low primary porosity because their mineral grains are tightly interlocked.",
-            "Groundwater can nevertheless occur where the rocks are fractured, jointed or weathered.",
-            "Therefore, groundwater exploration in crystalline rocks often pays particular attention to fractures and weathered zones."
-          ]
-        },
-
-        {
-          title: "Metamorphic rocks",
-
-          paragraphs: [
-            "Many metamorphic rocks also have limited primary pore space.",
-            "Groundwater may occur mainly in fractures, joints, faults and weathered zones."
-          ]
-        },
-
-        {
-          title: "Basement rocks",
-
-          paragraphs: [
-            "Basement rocks are especially important in groundwater studies in many parts of Nigeria.",
-            "Fresh basement rock may have very little primary pore space, but weathering can create a more porous zone near the surface and fractures can provide deeper pathways for groundwater.",
-            "The combination of a weathered zone and fractured basement can therefore be important for groundwater occurrence."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "13. Groundwater Movement",
-
-      paragraphs: [
-        "Groundwater is not completely stationary. It moves through the interconnected pores, fractures and other openings of geological materials.",
-        "The direction and rate of movement depend on hydraulic conditions and the properties of the geological material."
-      ],
-
-      subsections: [
-        {
-          title: "Direction of movement",
-
-          paragraphs: [
-            "Groundwater generally moves from areas of higher hydraulic head toward areas of lower hydraulic head.",
-            "This movement may occur slowly through porous materials or more rapidly through well-developed fractures and other permeable pathways."
-          ]
-        },
-
-        {
-          title: "Hydraulic gradient",
-
-          paragraphs: [
-            "The hydraulic gradient represents the change in hydraulic head over a given distance.",
-            "A greater hydraulic gradient generally provides a greater driving force for groundwater movement when other conditions are similar."
-          ]
-        },
-
-        {
-          title: "Groundwater flow paths",
-
-          paragraphs: [
-            "Groundwater may follow relatively short pathways near recharge and discharge areas or travel longer distances through extensive aquifer systems.",
-            "The actual flow path is controlled by geology, topography and hydraulic conditions."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "14. Groundwater Recharge and Discharge",
-
-      paragraphs: [
-        "Recharge and discharge are two major processes controlling groundwater storage and movement."
-      ],
-
-      subsections: [
-        {
-          title: "Groundwater recharge",
-
-          paragraphs: [
-            "Recharge is the process by which water enters the groundwater system.",
-            "Rainfall infiltration and downward percolation are important natural sources of recharge.",
-            "Recharge may be greater where the ground surface and underlying materials allow water to enter and move downward effectively."
-          ]
-        },
-
-        {
-          title: "Groundwater discharge",
-
-          paragraphs: [
-            "Discharge occurs when groundwater leaves the groundwater system.",
-            "Groundwater can discharge naturally through springs, seepage into rivers and lakes, or artificially through wells and boreholes."
-          ]
-        },
-
-        {
-          title: "The relationship",
-
-          paragraphs: [
-            "Recharge adds water to groundwater storage, while discharge removes water from the system.",
-            "Changes in the balance between recharge and discharge can cause groundwater levels to rise or fall."
-          ]
-        }
-      ]
-    },
 
     {
       title: "15. Springs",
 
       paragraphs: [
-        "A spring is a natural point or zone where groundwater emerges at the Earth's surface.",
-        "Springs occur where geological and topographic conditions allow groundwater to reach the land surface."
+        "A spring is a location where groundwater reaches or emerges at the Earth's surface.",
+
+        "A spring may occur where the ground surface intersects the water table or where geological structures cause groundwater to discharge at the surface.",
+
+        "Springs are therefore closely related to groundwater movement, geological structures, topography and the position of the water table."
       ],
 
       subsections: [
         {
-          title: "Contact springs",
+          title: "Important Relationship",
 
           paragraphs: [
-            "A contact spring may occur where a permeable geological layer overlies or comes into contact with a relatively impermeable layer.",
-            "Groundwater moving through the permeable layer may be forced to emerge where the contact reaches the land surface."
-          ]
-        },
-
-        {
-          title: "Fault and fracture springs",
-
-          paragraphs: [
-            "Faults and fractures can provide pathways for groundwater movement.",
-            "Where such pathways intersect the land surface or create suitable hydraulic conditions, groundwater may emerge as a spring."
-          ]
-        },
-
-        {
-          title: "Topographic control",
-
-          paragraphs: [
-            "A spring can occur where the land surface intersects the water table or groundwater flow path.",
-            "Topography can therefore strongly influence where groundwater discharges."
+            "A spring may develop when groundwater moving through an aquifer is forced to the surface by topography, geological structure, an impermeable layer, a fault, a fold or other conditions."
           ]
         }
       ]
     },
 
+
     {
-      title: "16. Groundwater in Different Rock Types",
+      title: "16. Types of Springs",
 
       paragraphs: [
-        "One of the most important geological skills in groundwater studies is learning to predict where groundwater is likely to occur from the type and condition of the rock.",
-        "The key question is not simply 'Is there water in this rock?' but rather 'What openings or structures allow this rock to store and transmit groundwater?'"
+        "Types of springs based on the geological and topographical conditions responsible for groundwater emergence."
       ],
 
       subsections: [
         {
-          title: "Unconsolidated sediments",
+          title: "1. Valley Spring",
 
           paragraphs: [
-            "Sand and gravel commonly contain interconnected pore spaces and may therefore provide favourable groundwater conditions when they are sufficiently thick and saturated."
+            "A valley spring occurs in valleys where the topography intersects the water table."
           ]
         },
 
         {
-          title: "Sedimentary rocks",
+          title: "2. Stratum Spring",
 
           paragraphs: [
-            "Groundwater may occur in primary pore spaces, fractures, bedding planes and other openings.",
-            "Sandstone may depend strongly on intergranular porosity, while limestone can also develop important secondary openings through dissolution."
+            "A stratum spring forms where the downward flow of groundwater is hindered by an underlying impermeable layer."
           ]
         },
 
         {
-          title: "Crystalline rocks",
+          title: "3. Solution Channel Spring",
 
           paragraphs: [
-            "Fresh crystalline rocks such as many igneous and metamorphic rocks generally have low primary porosity.",
-            "Groundwater commonly depends on secondary openings such as fractures, joints and weathered zones."
+            "Solution channel springs are common in limestone deposits where groundwater has created underground caves and channels through dissolution."
           ]
         },
 
         {
-          title: "Basement terrain",
+          title: "4. Fold Spring",
 
           paragraphs: [
-            "In basement terrain, productive groundwater zones may occur within the weathered mantle and fractured portions of the underlying basement.",
-            "Therefore, identifying weathering and structural features is important during groundwater investigation."
+            "A fold spring occurs where permeable beds are folded against or over relatively impermeable beds, creating conditions that cause groundwater to emerge."
+          ]
+        },
+
+        {
+          title: "5. Artesian Spring",
+
+          paragraphs: [
+            "An artesian spring occurs when the upper confining surface of a confined aquifer is broken or breached, allowing pressurized groundwater to discharge at the surface.",
+
+            "The lecturer's notes give an oasis in a desert region as an example of an artesian spring."
+          ]
+        },
+
+        {
+          title: "6. Thermal Spring",
+
+          paragraphs: [
+            "Thermal springs are springs associated with geothermal or volcanic activity.",
+
+            "They occur where groundwater is heated at depth and later reaches the surface."
           ]
         }
       ]
     },
 
+
     {
-      title: "17. Groundwater Exploration",
+      title: "17. The Central Ideas to Remember",
 
       paragraphs: [
-        "Groundwater exploration is the process of investigating an area to determine where groundwater is likely to occur and where wells or boreholes may be successfully developed.",
-        "Because groundwater is hidden beneath the surface, geological and geophysical evidence is often combined to identify favourable locations."
+        "The main purpose of this topic is to understand how water moves through the hydrologic system and how geological conditions control underground water.",
+
+        "The hydrologic equation provides the water balance: P = ET + Ro + ΔS.",
+
+        "Groundwater occurrence depends strongly on porosity and permeability.",
+
+        "Aquifers are geological formations capable of containing and transmitting groundwater.",
+
+        "Aquifers may occur in unconsolidated sediments, consolidated fractured rocks and rocks affected by chemical dissolution.",
+
+        "From the geological structure and stratigraphical point of view, the important aquifer conditions include unconfined, perched and confined aquifers.",
+
+        "Springs occur where groundwater emerges at the Earth's surface, and their types are controlled by topography and geological conditions."
       ],
 
       subsections: [
         {
-          title: "Geological investigation",
+          title: "Exam Mental Picture",
 
           paragraphs: [
-            "Geological mapping helps identify rock types, geological contacts, fractures, faults, weathered zones and other features that may control groundwater occurrence."
+            "Precipitation → Runoff / Infiltration → Groundwater storage → Groundwater movement → Aquifer → Spring / Stream / Other discharge."
           ]
         },
 
         {
-          title: "Geophysical investigation",
+          title: "Hydrologic Equation Memory",
 
           paragraphs: [
-            "Geophysical methods can be used to investigate subsurface conditions without directly exposing the entire subsurface.",
-            "Electrical resistivity methods are particularly useful in many groundwater investigations because changes in electrical properties can help identify different subsurface materials and possible water-bearing zones."
+            "P = ET + Ro + ΔS",
+
+            "P = Precipitation",
+
+            "ET = Evapotranspiration",
+
+            "Ro = Runoff",
+
+            "ΔS = Change in storage"
           ]
         },
 
         {
-          title: "Drilling and boreholes",
+          title: "Aquifer Memory",
 
           paragraphs: [
-            "Drilling provides direct information about subsurface materials and can be used to access groundwater.",
-            "Information from drilling can be combined with geological and geophysical observations to evaluate the groundwater system."
+            "Porosity = space available for storing water.",
+
+            "Permeability = ability to transmit water.",
+
+            "Aquifer = geological formation that contains and transmits groundwater."
           ]
         }
-      ]
-    },
-
-    {
-      title: "18. The Big Picture: How Groundwater Occurs",
-
-      paragraphs: [
-        "Groundwater occurrence can be understood as a connected process rather than as a collection of unrelated definitions.",
-        "Rainfall provides an important source of water. Some of this water infiltrates the ground and percolates downward. Where geological materials provide suitable storage space and connected pathways, water accumulates and moves through the groundwater system.",
-        "The water table marks the upper surface of the saturated zone. Groundwater then moves according to hydraulic conditions and may eventually discharge through springs, rivers, lakes or wells.",
-        "Throughout this process, geology controls groundwater behaviour. Porosity provides storage space, permeability controls movement, while fractures, joints, faults and weathering can create important secondary pathways."
-      ],
-
-      subsections: [
-        {
-          title: "The complete mental picture",
-
-          paragraphs: [
-            "Rainfall → Infiltration → Percolation → Unsaturated zone → Water table → Saturated zone → Aquifer → Groundwater flow → Spring / River / Well discharge."
-          ]
-        },
-
-        {
-          title: "The geological control",
-
-          paragraphs: [
-            "Rock type → Porosity → Permeability → Fractures / Weathering → Groundwater storage and movement."
-          ]
-        }
-      ]
-    },
-
-    {
-      title: "19. Central Ideas to Remember",
-
-      paragraphs: [
-        "Groundwater occurs mainly within the saturated zone below the water table.",
-        "Porosity is concerned with the amount of void space available for storage.",
-        "Permeability is concerned with the ability of water to move through interconnected openings.",
-        "An aquifer must be able to store and transmit groundwater in useful quantities.",
-        "Groundwater occurrence depends strongly on geology, especially rock type, porosity, permeability, fractures, joints, faults and weathering.",
-        "In crystalline basement rocks, fractures and weathered zones can be especially important because fresh massive rock commonly has limited primary pore space."
       ]
     }
+
   ],
 
-  keyPoints: [
-    "The hydrologic cycle describes the continuous movement of water between the atmosphere, Earth's surface and the subsurface.",
-    "Surface water includes rivers, streams, lakes, ponds and reservoirs.",
-    "Groundwater occurs mainly in the zone of saturation below the water table.",
-    "The water table is the upper surface of the saturated zone.",
-    "The unsaturated zone contains both air and water in its openings.",
-    "Infiltration is the entry of water into the ground.",
-    "Percolation is the downward movement of water through soil and geological materials.",
-    "Groundwater recharge adds water to the groundwater system.",
-    "Groundwater discharge removes water from the groundwater system.",
-    "Porosity is the proportion of a material's total volume occupied by voids.",
-    "Primary porosity develops during formation of the material.",
-    "Secondary porosity develops after formation through processes such as fracturing, jointing, faulting, dissolution and weathering.",
-    "Permeability describes the ability of a material to transmit water through interconnected openings.",
-    "High porosity does not automatically mean high permeability.",
-    "Clay can have high porosity but low permeability.",
-    "An aquifer is a geological formation capable of storing and transmitting useful quantities of groundwater.",
-    "An unconfined aquifer has the water table as its upper boundary.",
-    "A confined aquifer is restricted by relatively low-permeability layers and commonly contains water under pressure.",
-    "A perched aquifer is a localized saturated zone above the main water table.",
-    "An aquitard transmits groundwater slowly.",
-    "An aquiclude transmits very little groundwater even though it may contain water.",
-    "An aquifuge neither stores nor transmits significant groundwater under the conditions considered.",
-    "Sand and gravel can form productive aquifers because of their interconnected pore spaces.",
-    "Limestone can develop important groundwater pathways through fractures and dissolution.",
-    "Fresh crystalline rocks commonly have low primary porosity, so fractures and weathered zones can be important groundwater pathways.",
-    "Basement groundwater commonly depends on the weathered zone and fractured basement.",
-    "Groundwater generally moves from areas of higher hydraulic head toward areas of lower hydraulic head.",
-    "Springs are natural points or zones where groundwater reaches the Earth's surface.",
-    "Groundwater exploration can combine geological investigation, geophysical methods and drilling.",
-    "The central groundwater sequence is: rainfall → infiltration → percolation → saturation → groundwater flow → discharge."
-  ],
-
-  examFocus: [
-    {
-      topic: "Explain the hydrologic cycle.",
-      focus:
-        "Know evaporation, transpiration, condensation, precipitation, infiltration, percolation, runoff, groundwater movement and discharge, and explain how they are connected."
-    },
-    {
-      topic: "Define groundwater and describe its occurrence.",
-      focus:
-        "Explain the saturated and unsaturated zones, water table, capillary fringe and the occurrence of groundwater within pores and fractures."
-    },
-    {
-      topic: "What is the water table?",
-      focus:
-        "State that it is the upper surface of the zone of saturation and explain factors that can cause it to rise or fall."
-    },
-    {
-      topic: "Define porosity.",
-      focus:
-        "State that porosity is the proportion of total volume occupied by voids and know the basic formula."
-    },
-    {
-      topic: "Define permeability.",
-      focus:
-        "Explain the ability of a geological material to transmit water through interconnected openings."
-    },
-    {
-      topic: "Differentiate porosity and permeability.",
-      focus:
-        "Porosity concerns storage space; permeability concerns the ability to transmit water."
-    },
-    {
-      topic: "Explain primary and secondary porosity.",
-      focus:
-        "Primary porosity develops during formation, while secondary porosity develops later through processes such as fracturing, jointing, faulting, dissolution and weathering."
-    },
-    {
-      topic: "Define an aquifer.",
-      focus:
-        "Explain that an aquifer is capable of storing and transmitting useful quantities of groundwater."
-    },
-    {
-      topic: "Mention and explain types of aquifers.",
-      focus:
-        "Know unconfined, confined and perched aquifers, and understand aquitard, aquiclude and aquifuge."
-    },
-    {
-      topic: "Differentiate confined and unconfined aquifers.",
-      focus:
-        "Focus on the water table, confining layers, pressure and the level to which water rises in wells."
-    },
-    {
-      topic: "Explain groundwater occurrence in basement rocks.",
-      focus:
-        "Focus on the limited primary porosity of fresh basement and the importance of weathered zones, fractures and joints."
-    },
-    {
-      topic: "Mention factors controlling groundwater occurrence.",
-      focus:
-        "Know rainfall, climate, topography, rock type, porosity, permeability, fractures, joints, faults, weathering and recharge conditions."
-    },
-    {
-      topic: "Explain groundwater recharge and discharge.",
-      focus:
-        "Recharge adds water to the groundwater system, while discharge removes water through springs, rivers, lakes, wells and other pathways."
-    },
-    {
-      topic: "What is a spring?",
-      focus:
-        "Define a spring as a natural emergence of groundwater at the Earth's surface and explain geological and topographic controls."
-    },
-    {
-      topic: "Explain groundwater movement.",
-      focus:
-        "Know that groundwater generally moves from higher hydraulic head toward lower hydraulic head and that geology controls the pathways."
-    },
-    {
-      topic: "Mention methods of groundwater exploration.",
-      focus:
-        "Know geological investigation, geophysical investigation such as electrical resistivity, and drilling/borehole investigation."
-    }
-  ],
-
-  quiz: [
-    {
-      question: "What is the main surface process by which water enters the ground?",
-      options: [
-        "Condensation",
-        "Infiltration",
-        "Evaporation",
-        "Transpiration"
-      ],
-      answer: 1,
-      explanation:
-        "Infiltration is the process by which water enters the ground from the Earth's surface."
-    },
-
-    {
-      question: "What is the water table?",
-      options: [
-        "The bottom of the Earth's crust",
-        "The upper surface of the zone of saturation",
-        "The boundary between two rocks",
-        "The surface of a river"
-      ],
-      answer: 1,
-      explanation:
-        "The water table is the upper surface of the zone of saturation."
-    },
-
-    {
-      question: "Which zone contains both air and water in its openings?",
-      options: [
-        "Zone of saturation",
-        "Unsaturated zone",
-        "Aquifer only",
-        "Confined zone only"
-      ],
-      answer: 1,
-      explanation:
-        "The unsaturated zone contains both air and water within its openings."
-    },
-
-    {
-      question: "What does porosity mainly describe?",
-      options: [
-        "The colour of a rock",
-        "The amount of void space in a material",
-        "The hardness of a mineral",
-        "The temperature of groundwater"
-      ],
-      answer: 1,
-      explanation:
-        "Porosity describes the proportion of void space within a rock or sediment."
-    },
-
-    {
-      question: "What does permeability describe?",
-      options: [
-        "The ability of water to move through interconnected openings",
-        "The amount of rainfall in an area",
-        "The colour of groundwater",
-        "The age of a rock"
-      ],
-      answer: 0,
-      explanation:
-        "Permeability describes how easily water can move through interconnected openings."
-    },
-
-    {
-      question: "Which statement is correct?",
-      options: [
-        "High porosity always means high permeability",
-        "Low porosity always means high permeability",
-        "A material can have high porosity but low permeability",
-        "Porosity and permeability are exactly the same"
-      ],
-      answer: 2,
-      explanation:
-        "Clay is a common example of a material that can have high porosity but low permeability."
-    },
-
-    {
-      question: "Which type of porosity develops after the original rock has formed?",
-      options: [
-        "Primary porosity",
-        "Secondary porosity",
-        "Surface porosity",
-        "Atmospheric porosity"
-      ],
-      answer: 1,
-      explanation:
-        "Secondary porosity develops after formation through processes such as fracturing, jointing, faulting, dissolution and weathering."
-    },
-
-    {
-      question: "Which of the following can create secondary porosity?",
-      options: [
-        "Fracturing",
-        "Jointing",
-        "Weathering",
-        "All of the above"
-      ],
-      answer: 3,
-      explanation:
-        "Fracturing, jointing and weathering can all create secondary openings in rocks."
-    },
-
-    {
-      question: "What is an aquifer?",
-      options: [
-        "A rock that cannot contain water",
-        "A geological formation capable of storing and transmitting useful groundwater",
-        "A type of rainfall",
-        "A surface drainage channel"
-      ],
-      answer: 1,
-      explanation:
-        "An aquifer can store groundwater and transmit it in useful quantities."
-    },
-
-    {
-      question: "What forms the upper boundary of an unconfined aquifer?",
-      options: [
-        "A fault",
-        "The water table",
-        "An aquiclude",
-        "The Earth's crust"
-      ],
-      answer: 1,
-      explanation:
-        "The water table forms the upper boundary of an unconfined aquifer."
-    },
-
-    {
-      question: "Which aquifer contains groundwater under confining pressure?",
-      options: [
-        "Unconfined aquifer",
-        "Confined aquifer",
-        "Perched aquifer",
-        "Surface aquifer"
-      ],
-      answer: 1,
-      explanation:
-        "Groundwater in a confined aquifer is restricted by relatively low-permeability layers and is commonly under pressure."
-    },
-
-    {
-      question: "What is a perched aquifer?",
-      options: [
-        "A surface river",
-        "A localized saturated zone above the main water table",
-        "An aquifer below the Earth's mantle",
-        "A completely dry formation"
-      ],
-      answer: 1,
-      explanation:
-        "A perched aquifer is a localized saturated zone above the main regional water table."
-    },
-
-    {
-      question: "Which material can have high porosity but low permeability?",
-      options: [
-        "Clay",
-        "Clean gravel",
-        "Open fracture",
-        "Large river channel"
-      ],
-      answer: 0,
-      explanation:
-        "Clay contains many small pore spaces but transmits water slowly because the pores are very small and poorly connected for rapid flow."
-    },
-
-    {
-      question: "Where is groundwater especially likely to occur in fresh crystalline basement rock?",
-      options: [
-        "Only in completely solid mineral grains",
-        "Fractures and weathered zones",
-        "Only in the atmosphere",
-        "Only on the surface"
-      ],
-      answer: 1,
-      explanation:
-        "Fresh crystalline rocks commonly have limited primary porosity, so fractures and weathered zones can provide important groundwater pathways."
-    },
-
-    {
-      question: "What is groundwater recharge?",
-      options: [
-        "Removal of groundwater from a well",
-        "Addition of water to the groundwater system",
-        "Evaporation from a lake",
-        "Movement of clouds"
-      ],
-      answer: 1,
-      explanation:
-        "Recharge is the process by which water enters and replenishes the groundwater system."
-    },
-
-    {
-      question: "Which is an example of groundwater discharge?",
-      options: [
-        "A spring",
-        "Condensation",
-        "Cloud formation",
-        "Evaporation only"
-      ],
-      answer: 0,
-      explanation:
-        "A spring is a natural point where groundwater discharges at the Earth's surface."
-    },
-
-    {
-      question: "In general, groundwater moves from:",
-      options: [
-        "Lower hydraulic head to higher hydraulic head",
-        "Higher hydraulic head to lower hydraulic head",
-        "The atmosphere directly into the mantle",
-        "Rivers into clouds only"
-      ],
-      answer: 1,
-      explanation:
-        "Groundwater generally moves from areas of higher hydraulic head toward areas of lower hydraulic head."
-    },
-
-    {
-      question: "Which of the following can be used in groundwater exploration?",
-      options: [
-        "Geological investigation",
-        "Electrical resistivity",
-        "Drilling",
-        "All of the above"
-      ],
-      answer: 3,
-      explanation:
-        "Groundwater exploration can combine geological investigation, geophysical methods such as electrical resistivity and drilling."
-    },
-
-    {
-      question: "A spring is best described as:",
-      options: [
-        "An artificial underground reservoir",
-        "A natural emergence of groundwater at the surface",
-        "A type of aquitard",
-        "A type of rainfall"
-      ],
-      answer: 1,
-      explanation:
-        "A spring is a natural point or zone where groundwater emerges at the Earth's surface."
-    },
-
-    {
-      question: "Which statement best describes the relationship between geology and groundwater?",
-      options: [
-        "Geology has little influence on groundwater",
-        "Only rainfall controls groundwater",
-        "Rock type and geological structures strongly control groundwater storage and movement",
-        "Groundwater occurs only in rivers"
-      ],
-      answer: 2,
-      explanation:
-        "Rock type, porosity, permeability, fractures, faults and weathering strongly influence groundwater occurrence and movement."
-    }
-  ],
 
   examQuestions: [
+   
+    {
+      question: "What is Hydrologic cycle? State the Hydrologic cycle defining the individual components.",
+      type: "PAST-QUESTION"
+    },
+
+    {
+      question: "List two factors controlling Runoff, Precipitation and Evapotranspiration.",
+      type: "PAST-QUESTION"
+    },
+
+    {
+      question: "What is an Aquifer",
+      type: "PAST-QUESTION"
+    },
+    {
+      question: "Discuss aquifer from geological structures and stratigraphical piot of view",
+      type: "PAST-QUESTION"
+    },
+
+    {
+      question: "What is the difference between porosity and permeability",
+        type: "PAST-QUESTION"
+    },
+    
+{
+      question: "What is a spring? Highlight five(5) types of spring with appropraite diagram ",
+        type: "PAST-QUESTION"
+    },
     {
       question: "Define groundwater and describe its occurrence beneath the Earth's surface.",
-      answer:
-        "Groundwater is water occurring below the Earth's surface within the saturated zone, where the openings in soil, sediments and rocks are filled with water. Its occurrence is controlled by factors such as porosity, permeability, fractures, joints, faults, weathering and recharge conditions. The upper surface of the saturated zone is called the water table.",
-      type: "Definition + Explanation"
+      type: "PRACTICE"
     },
-
-    {
-      question: "Explain the hydrologic cycle.",
-      answer:
-        "The hydrologic cycle is the continuous circulation of water between the atmosphere, Earth's surface and the subsurface. Water evaporates from water bodies and surfaces, while plants contribute water vapour through transpiration. The vapour condenses to form clouds and returns to the Earth's surface as precipitation. Some precipitation becomes surface runoff, while some infiltrates the ground and percolates downward. Water entering the saturated zone becomes groundwater, which moves through geological materials and may eventually discharge through springs, rivers, lakes and wells.",
-      type: "Long Answer"
-    },
-
-    {
-      question: "What is the water table?",
-      answer:
-        "The water table is the upper surface of the zone of saturation. Below the water table, the openings in the geological material are essentially filled with water. Its position may rise or fall depending on recharge, rainfall, groundwater discharge, pumping and seasonal conditions.",
-      type: "Definition + Explanation"
-    },
-
-    {
-      question: "Define porosity and state its formula.",
-      answer:
-        "Porosity is the proportion of the total volume of a rock or sediment that is occupied by voids or openings. It can be expressed as: Porosity = Volume of voids / Total volume × 100.",
-      type: "Definition + Formula"
-    },
-
-    {
-      question: "Differentiate between porosity and permeability.",
-      answer:
-        "Porosity refers to the amount or proportion of void space within a geological material and is mainly related to its capacity to store water. Permeability refers to the ability of the material to allow water to move through interconnected openings. Therefore, porosity is mainly concerned with storage space, while permeability is concerned with fluid transmission.",
-      type: "Comparison"
-    },
-
-    {
-      question: "Explain primary and secondary porosity.",
-      answer:
-        "Primary porosity develops during the formation of a rock or sediment, such as pore spaces between sediment grains. Secondary porosity develops after the rock has formed through processes such as fracturing, jointing, faulting, dissolution and weathering.",
-      type: "Explanation"
-    },
-
-    {
-      question: "Explain why a material can have high porosity but low permeability.",
-      answer:
-        "A material can contain many pore spaces but still transmit water poorly if the pores are very small or poorly interconnected. Clay is a common example. It may have high porosity because it contains many pore spaces, but its very small pores restrict the movement of groundwater, resulting in low permeability.",
-      type: "Application"
-    },
-
-    {
-      question: "Define an aquifer and explain its importance.",
-      answer:
-        "An aquifer is a geological formation or body of material capable of storing groundwater and transmitting sufficient quantities of it to wells, springs or other discharge points. Aquifers are important because they provide accessible groundwater for domestic, agricultural and other uses.",
-      type: "Definition + Importance"
-    },
-
-    {
-      question: "Mention and explain the major types of aquifers.",
-      answer:
-        "The major types include unconfined, confined and perched aquifers. An unconfined aquifer has the water table as its upper boundary and can receive recharge directly from above. A confined aquifer is restricted by relatively low-permeability layers and contains groundwater under pressure. A perched aquifer is a localized saturated zone that occurs above the main water table, usually because a local impermeable layer prevents downward movement.",
-      type: "Classification + Explanation"
-    },
-
+   
     {
       question: "Differentiate between confined and unconfined aquifers.",
-      answer:
-        "An unconfined aquifer has the water table as its upper boundary and generally receives recharge directly from infiltration through the overlying ground. A confined aquifer is restricted by relatively low-permeability layers and its groundwater is commonly under pressure. Water in a well tapping a confined aquifer may rise above the top of the aquifer because of this pressure.",
-      type: "Comparison"
+      type: "PRACTICE"
     },
 
     {
       question: "Mention the factors controlling groundwater occurrence.",
-      answer:
-        "Factors controlling groundwater occurrence include climate and rainfall, topography, rock type, porosity, permeability, geological structures such as fractures, joints and faults, degree of weathering, vegetation and land-surface conditions, and groundwater recharge conditions.",
-      type: "Listing + Explanation"
+      type: "PRACTICE"
     },
 
-    {
-      question: "Explain the occurrence of groundwater in basement rocks.",
-      answer:
-        "Fresh basement rocks, which are commonly crystalline, generally have low primary porosity because their mineral grains are tightly interlocked. Groundwater can nevertheless occur in weathered zones, fractures, joints and faults. The weathered mantle may provide storage space, while fractures in the underlying basement can provide pathways for groundwater movement. Therefore, weathering and structural features are important in basement groundwater exploration.",
-      type: "Geological Application"
-    },
-
+  
     {
       question: "Explain groundwater recharge and discharge.",
-      answer:
-        "Groundwater recharge is the process by which water enters and replenishes the groundwater system, commonly through infiltration and downward percolation of rainfall. Groundwater discharge is the process by which groundwater leaves the system, for example through springs, seepage into rivers and lakes, wells and boreholes. The balance between recharge and discharge affects groundwater storage and water levels.",
-      type: "Explanation"
+      type: "PRACTICE"
     },
 
-    {
-      question: "What is a spring? Mention factors that can control spring occurrence.",
-      answer:
-        "A spring is a natural point or zone where groundwater emerges at the Earth's surface. Spring occurrence can be controlled by geological contacts between permeable and impermeable materials, faults, fractures, topography and the intersection of the water table or groundwater flow path with the land surface.",
-      type: "Definition + Factors"
-    },
-
-    {
-      question: "Explain how groundwater moves through geological materials.",
-      answer:
-        "Groundwater moves through interconnected pores, fractures, joints and other openings in geological materials. In general, groundwater moves from areas of higher hydraulic head toward areas of lower hydraulic head. The rate and pathway of movement depend on hydraulic conditions and the permeability and structural characteristics of the geological material.",
-      type: "Explanation"
-    },
-
-    {
-      question: "Mention methods used in groundwater exploration.",
-      answer:
-        "Methods of groundwater exploration include geological investigation, geological mapping, geophysical investigation such as electrical resistivity methods, and drilling or borehole investigation. These methods can be combined to identify favourable groundwater-bearing zones.",
-      type: "Listing + Explanation"
-    },
-
-    {
-      question: "Explain the relationship between geology and groundwater occurrence.",
-      answer:
-        "Geology strongly controls groundwater occurrence because different rocks have different porosity, permeability and structural characteristics. Sand and gravel may provide interconnected pore spaces, while limestone may develop fractures and solution openings. Fresh crystalline basement rocks may have low primary porosity but can contain groundwater in weathered and fractured zones. Therefore, rock type, weathering and geological structures influence where groundwater is stored and how it moves.",
-      type: "Long Answer"
-    },
-
-    {
-      question: "Differentiate between an aquifer, aquitard, aquiclude and aquifuge.",
-      answer:
-        "An aquifer can store and transmit useful quantities of groundwater. An aquitard can store water but transmits it relatively slowly. An aquiclude may contain water but transmits very little water under ordinary conditions. An aquifuge neither stores nor transmits significant quantities of groundwater under the conditions being considered.",
-      type: "Comparison"
-    }
+    
+  
   ]
 },
 {
@@ -9406,15 +6993,6 @@ export const topicsByCourse = {
             "Light pollution"
           ]
         },
-
-        {
-          title: "Research extension",
-
-          paragraphs: [
-            "Environmental pollution can also be discussed more broadly in terms of freshwater, marine, chemical and waste pollution.",
-            "These classifications are useful for understanding modern environmental problems, but for GEY 216 the lecturer's seven major forms above should remain the first set to remember."
-          ]
-        }
       ]
     },
 
@@ -9469,15 +7047,7 @@ export const topicsByCourse = {
           ]
         },
 
-        {
-          title: "Research connection",
-
-          paragraphs: [
-            "Research from the World Health Organization identifies particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide among pollutants of major public-health concern.",
-            "Fine particulate matter is especially important because very small particles can penetrate deep into the lungs and may enter the bloodstream.",
-            "This helps explain why air pollution is not simply a problem of dirty-looking air; it can produce serious health consequences."
-          ]
-        }
+        
       ]
     },
 
@@ -9531,15 +7101,7 @@ export const topicsByCourse = {
           ]
         },
 
-        {
-          title: "Geological connection",
-
-          paragraphs: [
-            "Water pollution is directly connected to groundwater geology.",
-            "A pollutant released at the surface may infiltrate into the ground, move through pores, fractures or permeable geological materials, and eventually reach groundwater.",
-            "Therefore, understanding pollution is important when studying aquifers, groundwater flow and the protection of water resources."
-          ]
-        }
+       
       ]
     },
 
@@ -9580,14 +7142,7 @@ export const topicsByCourse = {
           ]
         },
 
-        {
-          title: "Why mining matters",
-
-          paragraphs: [
-            "Mining is important to geology because excavation, mineral processing, waste-rock disposal and tailings management can disturb land and introduce contaminants into the environment if poorly managed.",
-            "Mining therefore has to be carried out with appropriate environmental controls."
-          ]
-        }
+       
       ]
     },
 
@@ -9898,15 +7453,7 @@ export const topicsByCourse = {
           ]
         },
 
-        {
-          title: "Why this matters in geology",
-
-          paragraphs: [
-            "Geologists study rocks, fractures, permeability, groundwater movement and surface processes.",
-            "These factors can influence where pollutants move and where they accumulate.",
-            "Therefore, pollution is not only an environmental topic; it is also connected to hydrogeology, engineering geology, mining geology and environmental geology."
-          ]
-        }
+        
       ]
     },
 
@@ -9985,46 +7532,7 @@ export const topicsByCourse = {
       ]
     },
 
-    {
-      title: "15. Research Notes You Should Know",
-
-      paragraphs: [
-        "The lecturer specifically instructed the class to carry out their own research on pollution. This means students should understand the topic beyond the short lecture note.",
-        "Current authoritative environmental sources confirm that pollution includes multiple forms affecting air, freshwater, land and other environmental systems.",
-        "Research also shows that pollution is not simply an environmental appearance problem; it can affect human health, ecosystems, climate and the quality of natural resources."
-      ],
-
-      subsections: [
-        {
-          title: "Research point: air pollution",
-
-          paragraphs: [
-            "The World Health Organization identifies particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide among major pollutants of public-health concern.",
-            "Fine particulate matter is particularly important because very small particles can penetrate deeply into the respiratory system and may enter the bloodstream."
-          ]
-        },
-
-        {
-          title: "Research point: pollution sources",
-
-          paragraphs: [
-            "Environmental contamination can come from landfills, industrial and municipal wastewater, mining operations, agriculture, septic systems, stormwater runoff, chemical storage and other human activities.",
-            "This reinforces the lecturer's emphasis on industrial activities, agriculture, mining and waste disposal as important pollution sources."
-          ]
-        },
-
-        {
-          title: "Research point: pollution is interconnected",
-
-          paragraphs: [
-            "Air, water and soil pollution should not always be treated as completely separate problems.",
-            "A pollutant released into one environmental compartment can sometimes be transported into another.",
-            "For example, a chemical released onto land may be washed into surface water or leach downward into groundwater."
-          ]
-        }
-      ]
-    },
-
+   
     {
       title: "16. The Central Idea to Remember",
 
@@ -10151,322 +7659,36 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is pollution?",
-      options: [
-        "Any natural rock formation",
-        "An undesirable change in environmental characteristics",
-        "The normal movement of groundwater",
-        "The formation of minerals"
-      ],
-      answer: 1,
-      explanation:
-        "Pollution involves an undesirable change in the physical, chemical or biological characteristics of the environment."
-    },
-
-    {
-      question: "What is a pollutant?",
-      options: [
-        "A substance or agent that causes pollution",
-        "A type of rock",
-        "A groundwater aquifer",
-        "A harmless environmental process"
-      ],
-      answer: 0,
-      explanation:
-        "A pollutant is a substance, material or agent that causes pollution."
-    },
-
-    {
-      question: "Which of the following is a major type of pollution?",
-      options: [
-        "Air pollution",
-        "Mineral crystallization",
-        "Rock deformation",
-        "Weathering only"
-      ],
-      answer: 0,
-      explanation:
-        "Air pollution is one of the major forms of environmental pollution."
-    },
-
-    {
-      question: "Which activity is an important cause of air pollution?",
-      options: [
-        "Fuel combustion",
-        "Mineral identification",
-        "Groundwater recharge only",
-        "Crystal growth"
-      ],
-      answer: 0,
-      explanation:
-        "Burning fuels releases gases and particulate matter that can pollute the atmosphere."
-    },
-
-    {
-      question: "Which of the following can cause water pollution?",
-      options: [
-        "Industrial waste",
-        "Oil spills",
-        "Pesticides",
-        "All of the above"
-      ],
-      answer: 3,
-      explanation:
-        "Industrial waste, oil spills and pesticides can all contaminate water."
-    },
-
-    {
-      question: "What is eutrophication?",
-      options: [
-        "Excessive nutrient enrichment of a water body",
-        "Formation of a new mineral",
-        "Movement of groundwater through rock",
-        "Cooling of industrial machinery"
-      ],
-      answer: 0,
-      explanation:
-        "Eutrophication involves excessive nutrient enrichment, which can stimulate algal growth and reduce dissolved oxygen."
-    },
-
-    {
-      question: "Which activity can contribute to soil pollution?",
-      options: [
-        "Mining",
-        "Pesticide use",
-        "Industrial waste disposal",
-        "All of the above"
-      ],
-      answer: 3,
-      explanation:
-        "Mining, pesticide use and industrial waste disposal can all contribute to land or soil pollution."
-    },
-
-    {
-      question: "Which of the following is a source of noise pollution?",
-      options: [
-        "Industrial machinery",
-        "Groundwater recharge",
-        "Mineral crystallization",
-        "Rock weathering only"
-      ],
-      answer: 0,
-      explanation:
-        "Industrial machinery can produce excessive sound and contribute to noise pollution."
-    },
-
-    {
-      question: "Radioactive pollution may result from:",
-      options: [
-        "Nuclear accidents",
-        "Normal rainfall",
-        "Mineral cleavage",
-        "Groundwater recharge"
-      ],
-      answer: 0,
-      explanation:
-        "Nuclear accidents and improper radioactive-waste management can release radioactive materials into the environment."
-    },
-
-    {
-      question: "Thermal pollution mainly involves:",
-      options: [
-        "An undesirable change in temperature",
-        "An increase in mineral hardness",
-        "Formation of soil",
-        "Increase in rock porosity only"
-      ],
-      answer: 0,
-      explanation:
-        "Thermal pollution is associated with undesirable temperature changes, especially in water bodies."
-    },
-
-    {
-      question: "Excessive artificial illumination is associated with:",
-      options: [
-        "Light pollution",
-        "Water pollution",
-        "Radioactive pollution",
-        "Soil pollution"
-      ],
-      answer: 0,
-      explanation:
-        "Excessive or unwanted artificial light causes light pollution."
-    },
-
-    {
-      question: "Which geological property can influence contaminant movement?",
-      options: [
-        "Permeability",
-        "Fracturing",
-        "Porosity",
-        "All of the above"
-      ],
-      answer: 3,
-      explanation:
-        "Porosity, permeability and fractures can all influence how contaminants move through geological materials."
-    },
-
-    {
-      question: "Why is pollution important in groundwater geology?",
-      options: [
-        "Pollutants can infiltrate and contaminate aquifers",
-        "Pollution creates all aquifers",
-        "Pollution stops groundwater movement completely",
-        "Groundwater cannot be polluted"
-      ],
-      answer: 0,
-      explanation:
-        "Pollutants released at the surface can infiltrate and move through soil and geological materials into groundwater."
-    },
-
-    {
-      question: "Which is the best general approach to pollution control?",
-      options: [
-        "Ignore the source",
-        "Control pollution at its source",
-        "Wait until contamination spreads",
-        "Increase waste production"
-      ],
-      answer: 1,
-      explanation:
-        "Preventing or reducing pollution at its source is generally more effective than waiting until contamination spreads."
-    },
-
-    {
-      question: "Which statement best describes the relationship between a pollutant and pollution?",
-      options: [
-        "They mean exactly the same thing",
-        "A pollutant causes pollution",
-        "Pollution always causes pollutants",
-        "Neither affects the environment"
-      ],
-      answer: 1,
-      explanation:
-        "A pollutant is the substance or agent that causes the undesirable environmental change called pollution."
-    }
-  ],
-
+  
   examQuestions: [
     {
-      question: "Define pollution.",
-      answer:
-        "Pollution is an undesirable change in the physical, chemical or biological characteristics of the environment, particularly air, water and soil, which may adversely affect living organisms and environmental quality."
-    },
+      question: "What is pollution.",
+      type: "PAST-QUESTION" 
+      },
+      {
+      question: "Highlight five(5) types of pollution.",
+      type: "PAST-QUESTION" 
+      },
+      {
+      question: "Highlight five(5) effects of pollution.",
+      type: "PAST-QUESTION" 
+      },
 
-    {
-      question: "What is a pollutant? Give examples.",
-      answer:
-        "A pollutant is a substance, material or agent that causes pollution. Examples include dust, sediment, metals, smoke, noise, harmful chemicals, petroleum products and radioactive materials."
-    },
-
-    {
-      question: "Mention seven types of pollution.",
-      answer:
-        "Seven important types are air pollution, water pollution, land or soil pollution, noise pollution, radioactive pollution, thermal pollution and light pollution."
-    },
-
-    {
-      question: "Discuss air pollution, including its causes and effects.",
-      answer:
-        "Air pollution is the contamination or undesirable alteration of the atmosphere by harmful chemical, physical or biological agents. Major causes include fuel combustion, industrial activities, vehicle emissions, power generation, waste burning and household combustion. Effects include respiratory disease, asthma, cardiovascular disease, stroke, lung damage, lung cancer and deterioration of environmental quality."
-    },
-
-    {
-      question: "Discuss water pollution, its causes and effects.",
-      answer:
-        "Water pollution occurs when harmful substances enter water bodies and alter their physical, chemical or biological condition. Causes include industrial waste, oil spills, pesticides, insecticides, detergents, domestic sewage, agricultural runoff, mining and eutrophication. Effects include reduced water quality, damage to aquatic organisms, contamination of drinking water, loss of biodiversity and possible groundwater contamination."
-    },
-
-    {
-      question: "Explain soil or land pollution and mention its major causes.",
-      answer:
-        "Soil or land pollution is the contamination or undesirable alteration of soil by harmful substances or waste materials. Major causes include pesticides, insecticides, industrial waste, mining activities, chemical spills, poor waste disposal and land disturbance. It can reduce soil quality and fertility and may contribute to contamination of surface water and groundwater."
-    },
-
-    {
-      question: "Explain noise pollution and state four effects.",
-      answer:
-        "Noise pollution occurs when unwanted or excessive sound produces harmful or disturbing effects. Sources include industrial machinery, traffic, construction, generators and loud music. Effects include hearing impairment, hearing loss, sleep disturbance, psychological stress and reduced concentration."
-    },
-
-    {
-      question: "What is radioactive pollution? State its causes and effects.",
-      answer:
-        "Radioactive pollution occurs when radioactive materials are released into the environment at harmful levels. Causes include nuclear accidents, plant malfunctions and improper disposal or handling of radioactive waste. Effects may include cellular damage, cancer, infertility, birth defects, blindness and long-term environmental contamination."
-    },
-
-    {
-      question: "Explain thermal pollution.",
-      answer:
-        "Thermal pollution is an undesirable change in environmental temperature, especially in a water body, caused by human activities. Industrial and power-generating processes may discharge heated water into natural systems. The resulting temperature change can stress aquatic organisms, alter dissolved oxygen conditions and disturb aquatic ecosystems."
-    },
-
-    {
-      question: "Explain light pollution and mention its effects.",
-      answer:
-        "Light pollution is excessive, poorly directed or unwanted artificial illumination. Sources include excessive city lighting, advertising boards, billboards, sports events and entertainment activities. Effects include disturbance of residential areas and sleep, interference with natural night-time conditions and difficulty observing stars."
-    },
-
-    {
-      question: "Mention the major causes of pollution.",
-      answer:
-        "Major causes include industrial activities, fuel combustion, agricultural activities, mining, poor waste disposal, oil spills, excessive use of chemicals and land disturbance such as deforestation."
-    },
-
-    {
-      question: "Discuss the effects of pollution on humans and the environment.",
-      answer:
-        "Pollution can cause respiratory and cardiovascular diseases, cancer, hearing problems and other health effects in humans. Environmentally, it can contaminate air, water and soil, damage aquatic and terrestrial ecosystems, reduce soil fertility, cause biodiversity loss, contribute to climate change and degrade natural resources."
-    },
-
-    {
-      question: "Explain the relationship between pollution and groundwater.",
-      answer:
-        "Pollution can affect groundwater when contaminants released at the surface infiltrate through soil and weathered materials and move downward through pores, fractures or permeable geological formations. If the contaminants reach an aquifer, the groundwater can become polluted. Therefore, groundwater protection requires understanding contaminant sources, geological conditions and groundwater flow."
-    },
-
-    {
-      question: "Explain the relationship between geology and pollution.",
-      answer:
-        "Geology influences pollution because rock type, porosity, permeability, fractures, faults, weathering and groundwater flow affect the movement and storage of contaminants. Geologists therefore help identify contamination pathways, assess environmental risks and support pollution control and remediation."
-    },
-
-    {
-      question: "Discuss the relationship between mining activities and pollution.",
-      answer:
-        "Mining can disturb land and generate dust, waste rock, tailings and wastewater. If these materials are poorly managed, contaminants may enter soil, surface water or groundwater. Proper waste management, monitoring, environmental controls and land restoration are therefore important in reducing mining-related pollution."
-    },
-
-    {
-      question: "Explain how a pollutant can move from its source to affect humans or the environment.",
-      answer:
-        "A typical pollution pathway can be represented as: source or human activity → pollutant release → environmental medium → transport → exposure → environmental or health effect. For example, a chemical released on land may be transported by runoff into surface water or infiltrate downward and contaminate groundwater."
-    },
-
+         
     {
       question: "Suggest measures for controlling pollution.",
-      answer:
-        "Pollution can be controlled through source reduction, proper waste disposal, wastewater treatment, industrial emission control, cleaner technologies and fuels, environmental monitoring, proper mining-waste management, oil-spill prevention and response, responsible chemical use, land restoration, effective regulation and environmental education."
+      type: "PRACTICE"
     },
 
     {
-      question: "Write short notes on any five types of pollution.",
-      answer:
-        "Possible types include air pollution, water pollution, soil pollution, noise pollution, radioactive pollution, thermal pollution and light pollution. For each type, give its definition, major causes, important effects and at least one relevant example."
+      question: "Write short notes on any five types of pollution statin their causes and effects.",
+      type: "PRACTICE"
     },
 
-    {
-      question: "Differentiate between pollution and pollutant.",
-      answer:
-        "Pollution is the undesirable change or harmful environmental condition, while a pollutant is the substance, material or agent that causes that change."
-    },
-
+   
     {
       question: "Why is pollution an important topic in geology?",
-      answer:
-        "Pollution is important in geology because geological materials influence the movement and storage of contaminants. Geologists study rocks, soils, groundwater, fractures, permeability and surface processes that control contaminant pathways. Pollution is therefore directly relevant to environmental geology, hydrogeology, mining and engineering geology."
+      type: "PRACTICE"
     }
   ]
 },
@@ -10917,17 +8139,7 @@ export const topicsByCourse = {
         "Hazard management in Nigeria therefore requires geological investigation, appropriate land-use planning, engineering control, environmental management, monitoring and public awareness."
       ],
 
-      subsections: [
-        {
-          title: "Important Nigerian Context",
-          paragraphs: [
-            "Gully erosion can remove large quantities of soil and threaten roads, buildings, farms and other infrastructure.",
-            "Slope instability can occur where geological conditions, steep terrain, intense rainfall or human disturbance combine.",
-            "Coastal erosion can threaten settlements and infrastructure along vulnerable coastlines.",
-            "Mining and quarrying can modify slopes and create ground-instability hazards if not properly designed and managed."
-          ]
-        }
-      ]
+     
     },
 
     {
@@ -11083,244 +8295,34 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is a geologic hazard?",
-      options: [
-        "Any geological process capable of causing harm",
-        "Only an earthquake",
-        "Only a volcanic eruption",
-        "A harmless geological process"
-      ],
-      answer: 0,
-      explanation:
-        "A geologic hazard is a geological process or condition that has the potential to cause harm to people, property, infrastructure or the environment."
-    },
-    {
-      question: "Which of the following is a major cause of most tectonic earthquakes?",
-      options: [
-        "Rainfall",
-        "Sudden movement along faults",
-        "Weathering",
-        "River erosion"
-      ],
-      answer: 1,
-      explanation:
-        "Most tectonic earthquakes result from sudden movement along faults and the release of stored elastic energy."
-    },
-    {
-      question: "Which process can cause liquefaction during an earthquake?",
-      options: [
-        "Strong shaking of loose, water-saturated sediments",
-        "Slow weathering of granite",
-        "Volcanic gas emission",
-        "Coastal erosion"
-      ],
-      answer: 0,
-      explanation:
-        "Strong earthquake shaking can cause loose, water-saturated sediments to temporarily lose much of their strength."
-    },
-    {
-      question: "Which of the following is a volcanic hazard?",
-      options: [
-        "Pyroclastic flow",
-        "Soil creep only",
-        "Groundwater recharge",
-        "Normal sedimentation"
-      ],
-      answer: 0,
-      explanation:
-        "Pyroclastic flows are extremely hot, fast-moving mixtures of volcanic gases, ash and rock fragments."
-    },
-    {
-      question: "Which factor can increase the likelihood of landslides?",
-      options: [
-        "Stable gentle slopes",
-        "Heavy rainfall",
-        "Strong vegetation in every situation",
-        "Reduced pore-water pressure"
-      ],
-      answer: 1,
-      explanation:
-        "Heavy or prolonged rainfall can increase pore-water pressure and reduce slope stability."
-    },
-    {
-      question: "What does subsidence mean?",
-      options: [
-        "Rising of the ground surface",
-        "Lowering or sinking of the ground surface",
-        "Formation of a volcano",
-        "Movement of ocean waves"
-      ],
-      answer: 1,
-      explanation:
-        "Subsidence is the lowering or sinking of the ground surface."
-    },
-    {
-      question: "Which technique is particularly useful for recording earthquake ground motion?",
-      options: [
-        "Seismometer",
-        "Rain gauge only",
-        "Compass only",
-        "Thermometer only"
-      ],
-      answer: 0,
-      explanation:
-        "Seismometers record ground vibrations and are fundamental to earthquake monitoring."
-    },
-    {
-      question: "Which statement about exact earthquake prediction is most correct?",
-      options: [
-        "Every earthquake can be predicted exactly",
-        "Earthquakes can always be predicted one week in advance",
-        "Exact short-term prediction remains extremely difficult",
-        "Earthquakes cannot be studied at all"
-      ],
-      answer: 2,
-      explanation:
-        "Scientists can assess earthquake hazards and probabilities, but exact short-term prediction of individual earthquakes remains extremely difficult."
-    },
-    {
-      question: "What is the main purpose of mitigation?",
-      options: [
-        "Increase exposure",
-        "Reduce the consequences of a hazard",
-        "Create a geological hazard",
-        "Stop all geological processes"
-      ],
-      answer: 1,
-      explanation:
-        "Mitigation aims to reduce the severity of damage and losses caused by hazards."
-    },
-    {
-      question: "Which is an example of non-structural mitigation?",
-      options: [
-        "Hazard zoning",
-        "Retaining wall",
-        "Rockfall barrier",
-        "Reinforced foundation"
-      ],
-      answer: 0,
-      explanation:
-        "Hazard zoning is a non-structural measure because it uses planning and regulation rather than a physical structure."
-    },
-    {
-      question: "What is the purpose of hazard mapping?",
-      options: [
-        "To identify areas susceptible to hazards",
-        "To increase construction in dangerous areas",
-        "To prevent geological research",
-        "To measure only temperature"
-      ],
-      answer: 0,
-      explanation:
-        "Hazard maps identify areas susceptible to particular geological hazards and support planning and mitigation."
-    },
-    {
-      question: "Which of the following can help forecast rainfall-triggered landslides?",
-      options: [
-        "Rainfall and soil-moisture monitoring",
-        "Only population size",
-        "Only building colour",
-        "Only road width"
-      ],
-      answer: 0,
-      explanation:
-        "Rainfall, soil moisture, groundwater and slope deformation can provide important information for landslide forecasting."
-    },
-    {
-      question: "Which sequence is most appropriate for geologic hazard management?",
-      options: [
-        "Ignore → Build → Disaster → Study",
-        "Identify → Assess → Map → Monitor → Mitigate",
-        "Construct → Ignore → Predict",
-        "Respond → Ignore → Assess"
-      ],
-      answer: 1,
-      explanation:
-        "Hazard management begins with understanding and assessment, followed by mapping, monitoring and appropriate control and mitigation."
-    },
-    {
-      question: "What is an early warning system designed to do?",
-      options: [
-        "Prevent all earthquakes",
-        "Provide useful warning information so people can take protective action",
-        "Create hazards",
-        "Replace geological investigations"
-      ],
-      answer: 1,
-      explanation:
-        "Early warning systems provide information that may give people time to take protective action."
-    },
-    {
-      question: "Which statement best describes control compared with mitigation?",
-      options: [
-        "Control focuses more directly on managing the hazardous process, while mitigation reduces consequences",
-        "Control and mitigation always mean exactly the same thing",
-        "Mitigation creates hazards",
-        "Control only means prediction"
-      ],
-      answer: 0,
-      explanation:
-        "Control focuses more directly on stabilizing or managing the hazardous geological process, while mitigation focuses on reducing its consequences."
-    }
-  ],
-
+  
   examQuestions: [
     {
-      question: "Define geologic hazards and discuss the major types of geologic hazards.",
-      type: "Essay",
-      marks: 10
+      question: "Differetiate between geologic hazards and natural hazard stating two(2) examples each.",
+      type: "PAST-QUESTION",
     },
     {
-      question: "Discuss earthquakes under the following headings: causes, effects, prediction and mitigation.",
-      type: "Essay",
-      marks: 15
+      question: "Define the terms: Earthquake, Volcanoes and Landslides stating 2 effects each .",
+      type: "PAST-QUESTION",
     },
-    {
-      question: "What is a landslide? Discuss the factors responsible for landslide occurrence and the methods used in its control and mitigation.",
-      type: "Essay",
-      marks: 15
-    },
-    {
-      question: "Discuss volcanic hazards and explain how volcanic activity can be monitored and forecast.",
-      type: "Essay",
-      marks: 10
-    },
-    {
-      question: "Differentiate between prediction, prevention, control, mitigation and preparedness in geologic hazard management.",
-      type: "Theory",
-      marks: 10
-    },
-    {
-      question: "Explain the role of remote sensing, GPS, seismic monitoring and other techniques in the study and prediction of geologic hazards.",
-      type: "Essay",
-      marks: 15
-    },
-    {
+   
+      {
       question: "Discuss the importance of hazard assessment, hazard mapping and land-use planning in reducing geologic disaster risk.",
-      type: "Essay",
-      marks: 15
+      type: "PRACTICE",
     },
-    {
-      question: "Explain the causes, effects and control measures of ground subsidence and sinkholes.",
-      type: "Essay",
-      marks: 10
-    },
+   
     {
       question: "Discuss the role of a geologist in geologic hazard identification, assessment, prediction, control and mitigation.",
-      type: "Essay",
-      marks: 10
+      type: "PRACTICE",
     },
     {
       question: "Mention the major geologic hazards that may occur in Nigeria and discuss appropriate methods of managing them.",
-      type: "Essay",
-      marks: 15
+      type: "PRACTICE",
     }
   ]
 },
   ],
-
+  
    
   
   "IBBUL-GEY214": [
@@ -11544,283 +8546,9 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question:
-        "A geologist is studying the optical behaviour of minerals in order to distinguish one mineral from another under a microscope. Which branch of mineralogy is most directly involved?",
-
-      options: [
-        "Optical Mineralogy",
-        "Economic Geology",
-        "Structural Geology",
-        "Geomorphology"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Optical Mineralogy deals specifically with the optical properties and behaviour of minerals and their use in mineral identification."
-    },
-
-    {
-      question:
-        "Which statement BEST describes the main purpose of Optical Mineralogy?",
-
-      options: [
-        "To study the optical properties of minerals for geological interpretation and identification",
-        "To determine only the economic value of mineral deposits",
-        "To study only the external shape of mountains",
-        "To determine the age of every rock without microscopic examination"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The central concern of Optical Mineralogy is the study of mineral optical properties and their geological use."
-    },
-
-    {
-      question:
-        "A student correctly defines Optical Mineralogy but cannot explain how it is applied in the laboratory. Which important part of the subject is the student failing to connect?",
-
-      options: [
-        "The relationship between optical properties and microscopic mineral identification",
-        "The relationship between petroleum and weather forecasting",
-        "The relationship between fossils and atmospheric pressure",
-        "The relationship between gravity and ocean tides"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Optical Mineralogy becomes practically useful when optical properties are observed and interpreted for mineral identification, particularly using the polarizing microscope."
-    },
-
-    {
-      question:
-        "Why can Optical Mineralogy contribute to rock classification?",
-
-      options: [
-        "Because identifying the minerals making up a rock provides information about its composition",
-        "Because every rock contains only one mineral",
-        "Because rocks can be classified solely by their colour",
-        "Because the polarizing microscope changes one rock into another"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Knowing the mineral constituents of a rock provides important information for understanding and classifying the rock."
-    },
-
-    {
-      question:
-        "Which instrument provides the major practical link between the study of optical properties and microscopic mineral identification?",
-
-      options: [
-        "Polarizing microscope",
-        "Ordinary thermometer",
-        "Magnetic compass",
-        "Rain gauge"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The polarizing microscope is used to examine minerals under polarized light and observe their optical characteristics."
-    },
-
-    {
-      question:
-        "A student is asked to identify a mineral using its optical behaviour. Which approach is MOST appropriate?",
-
-      options: [
-        "Examine and interpret its optical characteristics under the appropriate microscope conditions",
-        "Identify it solely from the colour of the laboratory table",
-        "Ignore the mineral's optical behaviour and classify it by sample size",
-        "Determine its identity only from the name of the rock containing it"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Optical Mineralogy uses the optical characteristics of minerals, observed under appropriate microscope conditions, as evidence for identification."
-    },
-
-    {
-      question:
-        "Which of the following is NOT presented as an application of Optical Mineralogy in the lecturer's material?",
-
-      options: [
-        "Mineral identification",
-        "Rock classification",
-        "Petroleum exploration",
-        "Weather forecasting"
-      ],
-
-      answer: 3,
-
-      explanation:
-        "The lecturer's material identifies geological applications such as mineral identification, rock classification and petroleum exploration; weather forecasting is not listed as an application."
-    },
-
-    {
-      question:
-        "Two minerals occur together in a rock and cannot be confidently distinguished from their general appearance alone. What is the most logical reason for using Optical Mineralogy?",
-
-      options: [
-        "Their optical characteristics may provide additional evidence for distinguishing them",
-        "Optical Mineralogy changes both minerals into different minerals",
-        "The microscope automatically gives the mineral's name without interpretation",
-        "Minerals can only be identified from their weight"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Microscopic optical characteristics provide additional information that can help distinguish minerals."
-    },
-
-    {
-      question:
-        "Which statement BEST connects Optical Mineralogy with practical laboratory work?",
-
-      options: [
-        "The optical principles are applied when minerals are observed and interpreted using a polarizing microscope",
-        "The practical work is completely unrelated to the optical properties studied in class",
-        "The microscope is used only to measure room temperature",
-        "Laboratory observation eliminates the need to understand optical properties"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The practical value of Optical Mineralogy lies in applying its principles during microscopic examination and interpretation of minerals."
-    },
-
-    {
-      question:
-        "A lecturer asks why Optical Mineralogy is important beyond simple mineral identification. Which answer shows the BROADEST correct understanding?",
-
-      options: [
-        "It supports mineral identification, rock classification and several geological applications",
-        "It is useful only for drawing microscope diagrams",
-        "It is concerned only with naming laboratory equipment",
-        "It has no application outside the classroom"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Optical Mineralogy has applications extending from mineral identification to rock classification, petroleum exploration, engineering geology, environmental geology, mineral analysis and research."
-    },
-
-    {
-      question:
-        "Which sequence BEST represents the practical relationship established in Topic 1?",
-
-      options: [
-        "Optical properties → microscopic observation → interpretation → mineral identification",
-        "Rock classification → rainfall → weather prediction → mineral formation",
-        "Mineral identification → microscope destruction → optical property removal",
-        "Petroleum exploration → weather forecasting → microscope construction"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The core practical relationship is that optical properties are observed microscopically and interpreted to assist mineral identification."
-    },
-
-    {
-      question:
-        "A student says: 'Optical Mineralogy is only about using a microscope.' What is the BEST correction?",
-
-      options: [
-        "It is the study of optical properties of minerals; the microscope is an important instrument used to observe those properties",
-        "It is only the study of microscope construction",
-        "It is the study of petroleum wells alone",
-        "It is the study of rocks without considering minerals"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The microscope is an important tool, but Optical Mineralogy itself concerns the optical properties of minerals."
-    },
-
-    {
-      question:
-        "Which option contains ONLY applications associated with Optical Mineralogy in the lecturer's material?",
-
-      options: [
-        "Mineral identification, rock classification and petroleum exploration",
-        "Weather forecasting, ocean navigation and meteorology",
-        "Computer programming, accounting and banking",
-        "Animal classification, medicine and astronomy"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Mineral identification, rock classification and petroleum exploration are specifically associated with the subject in the lecturer's material."
-    },
-
-    {
-      question:
-        "If a student knows that Optical Mineralogy involves optical properties but cannot state what those properties are used for, what major understanding is missing?",
-
-      options: [
-        "The application of optical observations to mineral identification and geological interpretation",
-        "The chemical formula of every mineral on Earth",
-        "The complete history of petroleum exploration",
-        "The location of every geological laboratory"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Knowing the definition is only the foundation. The student must understand why optical properties are studied and how they are applied."
-    }
-  ],
-
-  examQuestions: [
-    {
-      question:
-        "Define Optical Mineralogy and explain its importance in geological studies.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Discuss the importance and applications of Optical Mineralogy.",
-      type: "Essay",
-      marks: 15
-    },
-
-    {
-      question:
-        "Explain how Optical Mineralogy contributes to mineral identification and rock classification.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "What is the role of the polarizing microscope in Optical Mineralogy?",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Mention and explain the major applications of Optical Mineralogy.",
-      type: "Theory",
-      marks: 10
-    }
-  ]
 },
+
+  
 {
   id: "nature-of-light",
   title: "Nature of Light",
@@ -12065,323 +8793,6 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question:
-        "A student is asked to explain why Optical Mineralogy studies light from more than one perspective. Which answer BEST reflects the lecturer's treatment of the subject?",
-
-      options: [
-        "Light can be understood using both wave and particle perspectives, which help explain its interaction with minerals",
-        "Light has only a particle nature and therefore wave theory is unnecessary",
-        "Light has only a wave nature and therefore photons have no relevance",
-        "Light is studied only according to its colour"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer introduces both wave and particle/quantum perspectives as useful for understanding light and its interaction with minerals."
-    },
-
-    {
-      question:
-        "Which option correctly matches the particle theory of light with its description?",
-
-      options: [
-        "Light is composed of photons whose energy is related to wavelength",
-        "Light consists only of stationary waves with no energy transfer",
-        "Light can exist only as visible colour",
-        "Light is made up of mineral grains"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's note describes particle theory in terms of photons and relates their energy to wavelength."
-    },
-
-    {
-      question:
-        "A student records a wavelength of approximately 450 nm for visible light. Based on the wavelength ranges given in the lecturer's material, which colour is the BEST match?",
-
-      options: [
-        "Indigo",
-        "Yellow",
-        "Orange",
-        "Red"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's range for indigo is approximately 446–500 nm, placing 450 nm within the indigo range."
-    },
-
-    {
-      question:
-        "A wavelength is measured as approximately 580 nm. Which visible-light colour does this value fall within according to the lecturer's wavelength ranges?",
-
-      options: [
-        "Yellow",
-        "Violet",
-        "Indigo",
-        "Red"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer gives yellow as approximately 578–592 nm, so 580 nm falls within that range."
-    },
-
-    {
-      question:
-        "Which of the following wavelength–colour matches is CORRECT according to the lecturer's material?",
-
-      options: [
-        "Green — approximately 500–578 nm",
-        "Violet — approximately 578–592 nm",
-        "Yellow — approximately 390–446 nm",
-        "Orange — approximately 446–500 nm"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's note gives green as approximately 500–578 nm."
-    },
-
-    {
-      question:
-        "A student says, 'Any light that reaches the microscope must already be plane polarized.' Which response is MOST appropriate?",
-
-      options: [
-        "The statement is incorrect because the lecturer distinguishes different forms of light and identifies plane polarization as one particular form",
-        "The statement is correct because all light is naturally plane polarized",
-        "The statement is correct because circular and elliptical polarization do not exist",
-        "The statement is incorrect because light cannot be polarized"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer identifies different forms including random, plane, circular and elliptical. Plane polarization is a particular condition, not a description of all light."
-    },
-
-    {
-      question:
-        "Why is plane polarized light especially important in introductory Optical Mineralogy?",
-
-      options: [
-        "It provides an important controlled form of light for studying mineral optical properties",
-        "It eliminates the need for a microscope",
-        "It changes every mineral into an isotropic mineral",
-        "It is used only to determine the weight of a mineral"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Plane polarized light is emphasized by the lecturer as the most important form for the study of minerals."
-    },
-
-    {
-      question:
-        "A diagram shows a light ray travelling in one direction while the vibration direction is at right angles to the ray path. What concept from Topic 2 does this BEST represent?",
-
-      options: [
-        "Plane polarized light",
-        "Mineral cleavage",
-        "Crystal habit",
-        "Rock classification"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's diagram of plane polarized light shows the vibration direction as perpendicular to the ray path."
-    },
-
-    {
-      question:
-        "Which statement BEST distinguishes wave theory from particle theory as presented in the lecturer's material?",
-
-      options: [
-        "Wave theory treats light in terms of wave behaviour, while particle theory describes light in terms of photons",
-        "Wave theory describes minerals while particle theory describes rocks",
-        "Wave theory concerns only colour while particle theory concerns only microscope parts",
-        "There is no difference between the two descriptions"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer presents wave and particle theories as two perspectives for understanding light."
-    },
-
-    {
-      question:
-        "A student is given the following wavelength values: 400 nm, 480 nm, 550 nm and 610 nm. Which option places them in the correct colour categories using the lecturer's ranges?",
-
-      options: [
-        "Violet, indigo, green, orange",
-        "Red, green, violet, yellow",
-        "Yellow, orange, red, indigo",
-        "Indigo, violet, orange, green"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "400 nm falls in the lecturer's violet range, 480 nm in indigo, 550 nm in green, and 610 nm in orange."
-    },
-
-    {
-      question:
-        "Which statement about the wavelength of visible light is MOST consistent with the lecturer's note?",
-
-      options: [
-        "Visible light is approximately 400–700 nm, with different colours occupying different wavelength ranges",
-        "All visible colours have exactly the same wavelength",
-        "Visible light has wavelengths only below 100 nm",
-        "Wavelength has no relationship to the colour of visible light"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer relates visible colours to wavelength and gives visible light as approximately 400–700 nm."
-    },
-
-    {
-      question:
-        "A student correctly remembers that plane polarized light is important but cannot explain why. What understanding is missing?",
-
-      options: [
-        "The connection between controlled light vibration and the observation of mineral optical properties",
-        "The chemical composition of every mineral",
-        "The history of microscope manufacturing",
-        "The classification of all sedimentary rocks"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The importance of plane polarized light lies in its role in the controlled observation and interpretation of mineral optical behaviour."
-    },
-
-    {
-      question:
-        "Which of the following is NOT one of the forms identified in the lecturer's discussion of polarized light?",
-
-      options: [
-        "Plane",
-        "Circular",
-        "Elliptical",
-        "Triangular"
-      ],
-
-      answer: 3,
-
-      explanation:
-        "The lecturer identifies random, plane, circular and elliptical forms. Triangular is not listed."
-    },
-
-    {
-      question:
-        "A question asks which colour has the LONGEST wavelength among the following choices, using the lecturer's visible-light ranges. Which answer is correct?",
-
-      options: [
-        "Red",
-        "Violet",
-        "Indigo",
-        "Green"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Among the listed colours, red occupies the highest wavelength range in the lecturer's classification."
-    },
-
-    {
-      question:
-        "Which conclusion BEST explains why understanding the nature of light is necessary before studying light–mineral interaction?",
-
-      options: [
-        "The way light is described, its wavelength and its polarization provide the foundation for understanding how it behaves when interacting with minerals",
-        "Minerals cannot exist without visible light",
-        "The microscope can identify minerals without any optical principles",
-        "Light and minerals are completely unrelated subjects"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The nature of light provides the foundation needed to understand its later interaction with minerals and the optical properties observed under the microscope."
-    },
-
-    {
-      question:
-        "A mineralogy student encounters the terms wave theory, particle theory, wavelength and polarization in the same course. What is the BEST reason these concepts are grouped together in Optical Mineralogy?",
-
-      options: [
-        "They provide different but connected ways of understanding light before interpreting its behaviour in minerals",
-        "They are all names of microscope components",
-        "They are all methods of preparing thin sections",
-        "They describe only the chemical composition of minerals"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "These concepts establish the physical basis for understanding light and its subsequent interaction with minerals."
-    }
-  ],
-
-  examQuestions: [
-    {
-      question:
-        "Discuss the wave and particle theories of light.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Explain the nature of light and its importance in Optical Mineralogy.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "What is polarized light? Discuss the different forms of polarized light identified in the lecturer's material.",
-      type: "Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "Explain plane polarized light and state the relationship between its vibration direction and ray path.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "State the approximate wavelength ranges of visible light colours as given in the lecturer's material.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Explain why understanding the nature of light is important in the study of minerals.",
-      type: "Theory",
-      marks: 10
-    }
-  ]
 },
 {
   id: "isotropic-and-anisotropic-materials",
@@ -12604,357 +9015,7 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question:
-        "A mineral is observed to have the same refractive index regardless of the direction in which it is examined. Which description BEST fits the mineral?",
-
-      options: [
-        "Isotropic",
-        "Anisotropic",
-        "Highly fractured",
-        "Strongly pleochroic"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer describes isotropic minerals as having the same refractive index at any point and in any direction."
-    },
-
-    {
-      question:
-        "Which characteristic MOST directly distinguishes an isotropic material from an anisotropic material?",
-
-      options: [
-        "Whether its properties depend on direction or orientation",
-        "Whether the sample is large or small",
-        "Whether the mineral occurs in a rock",
-        "Whether the mineral has a visible colour"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The central distinction is directional independence in isotropic materials versus directional dependence in anisotropic materials."
-    },
-
-    {
-      question:
-        "A mineral's optical properties change when its orientation is changed. What does this observation MOST strongly suggest?",
-
-      options: [
-        "Anisotropic behaviour",
-        "Isotropic behaviour",
-        "Absence of optical properties",
-        "Cubic symmetry must be present"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer defines anisotropic behaviour in terms of properties varying with changing direction or orientation."
-    },
-
-    {
-      question:
-        "Which statement about an isotropic mineral is CORRECT according to the lecturer's material?",
-
-      options: [
-        "Its optical properties are the same and independent of orientation",
-        "Its optical properties must change continuously as it is rotated",
-        "Its refractive index is different in every direction",
-        "Its absorption of light must vary with orientation"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "An isotropic mineral has optical properties that remain the same regardless of orientation."
-    },
-
-    {
-      question:
-        "A student observes that a mineral has different refractive-index behaviour in different directions. Which conclusion is MOST appropriate?",
-
-      options: [
-        "The mineral is showing anisotropic behaviour",
-        "The mineral must be isotropic",
-        "The observation proves that the mineral is not a mineral",
-        "The observation proves that the sample is glass"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Variation in refractive index with direction is an example of anisotropic behaviour."
-    },
-
-    {
-      question:
-        "Which of the following combinations contains ONLY examples identified by the lecturer as isotropic minerals/materials?",
-
-      options: [
-        "Garnet, fluorite and glass",
-        "Quartz, calcite and tourmaline",
-        "Quartz, feldspar and pyroxene",
-        "Mica, calcite and tourmaline"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's material gives garnet and fluorite as examples of isotropic minerals and glass as an isotropic material."
-    },
-
-    {
-      question:
-        "According to the lecturer's material, isotropic minerals are associated with which crystal symmetry?",
-
-      options: [
-        "Cubic symmetry",
-        "No crystal symmetry",
-        "Only triclinic symmetry",
-        "Only monoclinic symmetry"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer explicitly states that isotropic minerals are minerals with cubic symmetry."
-    },
-
-    {
-      question:
-        "Which situation would provide the STRONGEST evidence for anisotropy?",
-
-      options: [
-        "A mineral shows different optical behaviour as its orientation changes",
-        "A mineral shows exactly the same optical behaviour in every direction",
-        "A mineral has a fixed sample size",
-        "A mineral occurs in a hand specimen"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "A change in optical behaviour with orientation is the defining directional characteristic of anisotropy."
-    },
-
-    {
-      question:
-        "A mineral has the same absorption of light at any point and in every direction. Based on the lecturer's definition, which interpretation is BEST?",
-
-      options: [
-        "The mineral exhibits isotropic behaviour with respect to that property",
-        "The mineral must be anisotropic",
-        "The mineral cannot interact with light",
-        "The mineral must be a sedimentary rock"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer uses the same absorption of light in every direction as a characteristic of isotropic minerals."
-    },
-
-    {
-      question:
-        "Which statement about anisotropic materials is INCORRECT?",
-
-      options: [
-        "Their properties are necessarily identical in every direction",
-        "Their properties may vary with direction",
-        "Their optical behaviour may depend on orientation",
-        "Refractive index may differ with direction"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Anisotropic materials are defined by directional variation, so saying their properties are identical in every direction is incorrect."
-    },
-
-    {
-      question:
-        "A student is told that a mineral's refractive index remains unchanged when the specimen is rotated. Which concept should the student immediately consider?",
-
-      options: [
-        "Isotropy",
-        "Anisotropy",
-        "Rock deformation",
-        "Mineral cleavage"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "A refractive index that remains unchanged with orientation is consistent with isotropic behaviour."
-    },
-
-    {
-      question:
-        "A student says, 'Anisotropic means that a mineral has different properties at different points, but direction does not matter.' Which correction is MOST appropriate?",
-
-      options: [
-        "Anisotropy specifically involves properties varying with direction or orientation",
-        "Anisotropy means the mineral has no measurable properties",
-        "Anisotropy means all properties are identical",
-        "Anisotropy refers only to the colour of a mineral"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer emphasizes variation with changing direction or orientation as the defining feature of anisotropic material."
-    },
-
-    {
-      question:
-        "Which pair is correctly matched?",
-
-      options: [
-        "Isotropic — optical properties independent of orientation",
-        "Isotropic — refractive index must change with direction",
-        "Anisotropic — properties identical in every direction",
-        "Anisotropic — direction has no effect on optical behaviour"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Isotropic optical behaviour is direction-independent, whereas anisotropic behaviour is direction-dependent."
-    },
-
-    {
-      question:
-        "A mineral belongs to a system other than the isotropic system. What classification does the lecturer's material indicate?",
-
-      options: [
-        "Anisotropic",
-        "Isotropic",
-        "Non-mineral",
-        "Artificial material"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer states that minerals other than those belonging to the isotropy system are anisotropic."
-    },
-
-    {
-      question:
-        "Why is orientation important when studying anisotropic minerals?",
-
-      options: [
-        "Because their optical properties can change with direction or orientation",
-        "Because orientation changes the chemical composition of the mineral",
-        "Because orientation determines whether a mineral exists",
-        "Because anisotropic minerals have no optical properties"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Orientation matters because anisotropic optical properties depend on direction."
-    },
-
-    {
-      question:
-        "A mineral behaves identically in all directions, while another mineral changes its optical response as its orientation changes. Which comparison is CORRECT?",
-
-      options: [
-        "The first is isotropic and the second is anisotropic",
-        "The first is anisotropic and the second is isotropic",
-        "Both are necessarily isotropic",
-        "Both are necessarily anisotropic"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The first description represents directional independence, while the second represents directional dependence."
-    },
-
-    {
-      question:
-        "Which observation would make a student QUESTION an isotropic classification?",
-
-      options: [
-        "The mineral's refractive index changes as its orientation changes",
-        "The mineral has the same refractive index in every direction",
-        "The mineral has the same absorption in every direction",
-        "The mineral shows no directional change in optical behaviour"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "A change in refractive index with orientation conflicts with the direction-independent behaviour expected for an isotropic mineral."
-    },
-
-    {
-      question:
-        "Why is the distinction between isotropic and anisotropic materials important in Optical Mineralogy?",
-
-      options: [
-        "It helps the geologist interpret directional optical behaviour during mineral observation",
-        "It determines only the economic value of a mineral deposit",
-        "It eliminates the need to observe minerals under a microscope",
-        "It is used only to measure the mass of minerals"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Understanding directional optical behaviour is important when interpreting microscopic observations and identifying minerals."
-    }
-  ],
-
-  examQuestions: [
-    {
-      question:
-        "Define isotropic and anisotropic materials and clearly distinguish between them.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Explain the optical meaning of isotropy in minerals.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Explain the optical meaning of anisotropy in minerals.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Compare isotropic and anisotropic minerals with reference to refractive index, absorption of light and orientation.",
-      type: "Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "What is the relationship between isotropic minerals and cubic symmetry?",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Give examples of isotropic minerals/materials mentioned in the lecturer's material.",
-      type: "Short Answer",
-      marks: 5
-    }
-  ]
+  
 },
 {
   id: "polarizing-light-microscope",
@@ -13237,391 +9298,7 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question:
-        "A student is asked to select the instrument specifically designed for studying the optical behaviour of minerals under polarized light. Which is the BEST answer?",
-
-      options: [
-        "Polarizing Light Microscope",
-        "Ordinary hand lens",
-        "Geological hammer",
-        "Magnetic compass"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The Polarizing Light Microscope is the major instrument used in Optical Mineralogy for examining minerals under polarized light."
-    },
-
-    {
-      question:
-        "A student says, 'The polarizing microscope is simply an ordinary microscope with stronger magnification.' What is the BEST correction?",
-
-      options: [
-        "Its importance also comes from its ability to study mineral optical behaviour using polarized light",
-        "It is used only for measuring mineral weight",
-        "It does not use light at all",
-        "It is designed only for cutting rock samples"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The PLM is specially adapted for optical mineral studies, not merely for stronger magnification."
-    },
-
-    {
-      question:
-        "Which of the following is NOT one of the three sample types identified in the lecturer's material as commonly used with the PLM?",
-
-      options: [
-        "Powdered minerals",
-        "Single crystals",
-        "Rock thin sections",
-        "Whole mountain ranges"
-      ],
-
-      answer: 3,
-
-      explanation:
-        "The lecturer identifies powdered minerals, single crystals and rock thin sections."
-    },
-
-    {
-      question:
-        "A powdered mineral sample is approximately 0.10 mm in size. Which method/sample category from the lecturer's material does this BEST fit?",
-
-      options: [
-        "Powdered mineral used in the immersion method",
-        "Single crystal for the spindle stage",
-        "Rock thin section",
-        "Unprepared hand specimen"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer gives approximately 0.03–0.15 mm for powdered minerals used in the immersion method."
-    },
-
-    {
-      question:
-        "A single mineral crystal measures approximately 2 mm. Which sample category does this value BEST fit according to the lecturer's material?",
-
-      options: [
-        "Single crystal used on the spindle stage",
-        "Powdered mineral for immersion",
-        "Rock thin section",
-        "Cover slip"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer gives approximately 0.03–3 mm for single crystals used on the spindle stage."
-    },
-
-    {
-      question:
-        "Which sample thickness is MOST consistent with the rock thin section described in the lecturer's material?",
-
-      options: [
-        "Approximately 0.03 mm",
-        "Approximately 3 cm",
-        "Approximately 15 cm",
-        "Approximately 10 mm"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's material gives approximately 0.03 mm as the thickness of a prepared rock thin section."
-    },
-
-    {
-      question:
-        "Why are rock thin sections particularly useful in Optical Mineralogy?",
-
-      options: [
-        "They allow the minerals making up a rock to be studied microscopically",
-        "They make the rock completely invisible",
-        "They eliminate the need for any microscope",
-        "They are used only to determine the rock's mass"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Thin sections allow mineral constituents and their relationships to be observed microscopically."
-    },
-
-    {
-      question:
-        "A geologist wants to obtain a suitable thin slab of rock before grinding and polishing it. Which equipment from the lecturer's list is MOST appropriate at that stage?",
-
-      options: [
-        "Thin-section cutting machine",
-        "Cover slip",
-        "Polarizer",
-        "Spindle stage"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The thin-section cutting machine is used to obtain the appropriate rock slice before later preparation stages."
-    },
-
-    {
-      question:
-        "After a rock sample has been cut, which listed equipment would MOST directly assist in reducing and smoothing its thickness?",
-
-      options: [
-        "Grinding wheel",
-        "Glass slide",
-        "Cover slip",
-        "Polarizing filter only"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The grinding wheel is used during the process of reducing and smoothing the sample."
-    },
-
-    {
-      question:
-        "A student has a prepared rock sample but needs to mount it for microscopic study. Which item from the lecturer's list provides the mounting base?",
-
-      options: [
-        "Glass slide",
-        "Grinding wheel",
-        "Cutting machine",
-        "Spindle stage"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Glass slides provide the base on which prepared material can be mounted."
-    },
-
-    {
-      question:
-        "Which sequence BEST represents the general relationship between preparing a rock sample and studying it using the PLM?",
-
-      options: [
-        "Prepare the sample → mount it appropriately → examine it under the polarizing microscope → interpret optical behaviour",
-        "Examine the unprepared mountain → polish the microscope → identify the mineral",
-        "Mount the cover slip → destroy the sample → determine its optical properties",
-        "Identify the mineral first → then prepare the sample"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "A suitable sample is prepared and mounted before microscopic examination and interpretation."
-    },
-
-    {
-      question:
-        "Why would a student studying Optical Mineralogy need to understand both the PLM and thin-section preparation?",
-
-      options: [
-        "Because sample preparation produces material suitable for the microscopic optical observations used in mineral identification",
-        "Because the microscope itself prepares every thin section",
-        "Because thin sections are unrelated to mineral identification",
-        "Because the PLM is used only to cut rocks"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The preparation process and microscope observation form connected parts of practical optical-mineralogy work."
-    },
-
-    {
-      question:
-        "Which pair is correctly matched?",
-
-      options: [
-        "Single crystals — spindle stage",
-        "Powdered minerals — rock cutting machine only",
-        "Thin sections — geological hammer",
-        "Cover slips — grinding wheel"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's material associates single crystals with examination on the spindle stage."
-    },
-
-    {
-      question:
-        "Which statement about plane polarized light is consistent with the lecturer's material?",
-
-      options: [
-        "Its vibration direction is perpendicular to the ray path",
-        "Its vibration direction is always parallel to the ray path",
-        "It has no vibration direction",
-        "It cannot be used in mineral studies"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's description of plane polarized light gives the vibration direction as perpendicular to the ray path."
-    },
-
-    {
-      question:
-        "A student is given a 0.05 mm mineral grain and is asked which of the lecturer's sample categories it most closely represents. What is the BEST answer?",
-
-      options: [
-        "Powdered mineral for the immersion method",
-        "Single crystal for the spindle stage",
-        "Rock thin section",
-        "Glass slide"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "0.05 mm falls within the approximate 0.03–0.15 mm range given for powdered minerals used in the immersion method."
-    },
-
-    {
-      question:
-        "A mineral crystal is approximately 0.02 mm in size. Which conclusion is MOST appropriate based strictly on the size ranges given in the lecturer's material?",
-
-      options: [
-        "It falls below the stated 0.03–3 mm range for the single crystals listed for the spindle stage",
-        "It definitely represents a rock thin section",
-        "It must be a cover slip",
-        "It definitely falls within the powdered-mineral range"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer gives 0.03–3 mm for the single crystals used on the spindle stage, so 0.02 mm is below that stated range."
-    },
-
-    {
-      question:
-        "Which of the following BEST explains why the PLM is central to Optical Mineralogy?",
-
-      options: [
-        "It allows mineral optical properties to be observed under polarized-light conditions",
-        "It replaces every stage of geological fieldwork",
-        "It determines mineral composition without observation",
-        "It is mainly a machine for cutting rocks"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The PLM is central because it enables the controlled microscopic observation of mineral optical behaviour."
-    },
-
-    {
-      question:
-        "A student lists the following equipment: cutting machine, grinding wheel, polishing machine, glass slides and cover slips. What are these items MOST directly associated with?",
-
-      options: [
-        "Optical-mineralogy sample preparation and microscopic study",
-        "Weather monitoring",
-        "Mining blasting",
-        "Seismic surveying"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "These are among the equipment and materials identified by the lecturer for optical-mineralogy work, particularly sample preparation."
-    },
-
-    {
-      question:
-        "Which statement BEST demonstrates understanding rather than memorization of the PLM topic?",
-
-      options: [
-        "A suitable sample must be prepared in a form that allows its optical behaviour to be observed and interpreted under the polarizing microscope",
-        "The PLM is simply a large microscope",
-        "Every mineral must be examined as a powder",
-        "Thin sections are prepared after mineral identification"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The statement connects sample preparation, microscopic observation and optical interpretation—the central practical relationship in this topic."
-    },
-
-    {
-      question:
-        "A lecturer asks a student why thin sections and the PLM are taught together in practical Optical Mineralogy. Which answer is MOST defensible?",
-
-      options: [
-        "The thin section provides a suitable prepared rock sample, while the PLM provides the means of observing and interpreting its mineral optical properties",
-        "Both are simply different names for the same equipment",
-        "The thin section replaces the microscope",
-        "The PLM is used only before the thin section is prepared"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The two are complementary parts of practical mineralogical investigation: preparation provides the sample and the PLM provides the optical observation."
-    }
-  ],
-
-  examQuestions: [
-    {
-      question:
-        "What is a Polarizing Light Microscope? Explain its importance in Optical Mineralogy.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Discuss the different types of samples commonly examined using the Polarizing Light Microscope.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Write short notes on powdered minerals, single crystals and rock thin sections as samples for optical-mineralogy study.",
-      type: "Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "List the major instruments and materials used in Optical Mineralogy.",
-      type: "Short Answer",
-      marks: 10
-    },
-
-    {
-      question:
-        "Explain the importance of thin sections in the microscopic study of rocks.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Describe the relationship between sample preparation and microscopic mineral identification using the Polarizing Light Microscope.",
-      type: "Theory",
-      marks: 15
-    }
-  ]
+  
 },
 {
   id: "refractive-index",
@@ -13860,405 +9537,7 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question:
-        "A mineral has a refractive index of 1.60. Which statement is MOST appropriate based on the lecturer's treatment?",
-
-      options: [
-        "The mineral has a refractive index greater than that of vacuum",
-        "The mineral has a refractive index lower than vacuum",
-        "The mineral has no refractive index",
-        "The value must have units of metres per second"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer gives the refractive index of vacuum as 1.0. A value of 1.60 is therefore greater than the vacuum reference."
-    },
-
-    {
-      question:
-        "Which expression correctly represents the refractive index according to the lecturer's material?",
-
-      options: [
-        "n = Vv / Vm",
-        "n = Vm / Vv",
-        "n = Vv + Vm",
-        "n = Vv - Vm"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer gives n = Vv/Vm, where Vv is velocity in vacuum and Vm is velocity in the mineral."
-    },
-
-    {
-      question:
-        "If the velocity of light in a mineral decreases while the velocity of light in vacuum remains constant, what happens to the refractive index according to n = Vv/Vm?",
-
-      options: [
-        "It increases",
-        "It decreases",
-        "It becomes exactly zero",
-        "It becomes negative"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "With a constant numerator, decreasing the denominator increases the value of the ratio."
-    },
-
-    {
-      question:
-        "A student writes '1.50 m/s' as the refractive index of a mineral. What is the BEST correction?",
-
-      options: [
-        "Refractive index is dimensionless and should not be expressed in m/s",
-        "The unit should be kilometres",
-        "The unit should be kilograms",
-        "The unit should be degrees Celsius"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Refractive index is a ratio of velocities, so the velocity units cancel."
-    },
-
-    {
-      question:
-        "The refractive index of vacuum is given as 1.0. If light travels more slowly in a mineral than in vacuum, which value would be physically consistent with the lecturer's explanation?",
-
-      options: [
-        "1.50",
-        "0.50",
-        "0.00",
-        "-1.50"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Since light is slower in the mineral, Vv/Vm is greater than 1."
-    },
-
-    {
-      question:
-        "Material A allows light to travel at a higher velocity than Material B, while both are compared with the same velocity of light in vacuum. Which material would have the higher refractive index?",
-
-      options: [
-        "Material B",
-        "Material A",
-        "Both must have exactly the same refractive index",
-        "Neither can have a refractive index"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Since n = Vv/Vm, the material with the lower velocity of light has the higher refractive index."
-    },
-
-    {
-      question:
-        "A mineral has Vv = 300,000 km/s and Vm = 200,000 km/s. What is its refractive index?",
-
-      options: [
-        "1.5",
-        "0.67",
-        "100,000",
-        "500,000"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Using n = Vv/Vm: 300,000 / 200,000 = 1.5."
-    },
-
-    {
-      question:
-        "Another mineral has Vv = 300,000 km/s and Vm = 150,000 km/s. Compared with the mineral in the previous question, which mineral has the higher refractive index?",
-
-      options: [
-        "The second mineral",
-        "The first mineral",
-        "They have identical refractive indices",
-        "Neither has a measurable refractive index"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The second mineral has n = 300,000/150,000 = 2.0, which is higher than 1.5."
-    },
-
-    {
-      question:
-        "Why does the refractive index have no unit?",
-
-      options: [
-        "It is obtained from a ratio of two quantities with the same unit",
-        "Because refractive index is measured in metres",
-        "Because it is always exactly 1",
-        "Because minerals have no physical properties"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The velocity units in Vv/Vm cancel, leaving a dimensionless ratio."
-    },
-
-    {
-      question:
-        "According to the lecturer's general statement, which sequence represents the usual trend in refractive index as matter changes state?",
-
-      options: [
-        "Gas → liquid → solid, with refractive index generally increasing",
-        "Solid → liquid → gas, with refractive index always increasing",
-        "Gas → solid → liquid, with refractive index always becoming zero",
-        "Liquid → gas → solid, with refractive index always remaining exactly 1"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer states that refractive index usually increases from gas to liquid to solid."
-    },
-
-    {
-      question:
-        "A mineral is isotropic. Which statement about its refractive index is MOST consistent with the lecturer's earlier treatment of isotropy?",
-
-      options: [
-        "Its refractive index is the same in all directions",
-        "Its refractive index must change continuously with direction",
-        "It has no refractive index",
-        "Its refractive index can only be measured in air"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Isotropic optical properties are independent of orientation, including refractive index."
-    },
-
-    {
-      question:
-        "A mineral shows different refractive-index behaviour in different crystallographic directions. What does this observation suggest?",
-
-      options: [
-        "Anisotropic behaviour",
-        "Isotropic behaviour",
-        "Absence of optical behaviour",
-        "That the sample must be vacuum"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Variation of refractive index with direction is consistent with anisotropic behaviour."
-    },
-
-    {
-      question:
-        "Which situation BEST illustrates why refractive index is more than a number to memorize?",
-
-      options: [
-        "Using the velocity relationship to predict which material has the greater refractive index",
-        "Reciting the symbol n without knowing its meaning",
-        "Memorizing the word 'vacuum' without using the formula",
-        "Knowing that minerals exist"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Understanding n = Vv/Vm allows the student to reason from velocity differences to refractive-index differences."
-    },
-
-    {
-      question:
-        "Two materials have the same velocity of light in vacuum for comparison. Material X has a lower velocity of light inside it than Material Y. Which conclusion follows?",
-
-      options: [
-        "Material X has the higher refractive index",
-        "Material Y must have the higher refractive index",
-        "Both must have a refractive index of exactly 1",
-        "Neither material can refract light"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "A lower Vm produces a larger Vv/Vm ratio."
-    },
-
-    {
-      question:
-        "Which statement about refractive index and refraction is MOST reasonable?",
-
-      options: [
-        "Differences in the velocity of light between materials can lead to a change in the direction of light",
-        "Refraction occurs because light has no velocity",
-        "Refraction means that light stops permanently inside a mineral",
-        "Refractive index has no relationship to light behaviour"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "A change in light velocity when moving between materials can be associated with a change in direction."
-    },
-
-    {
-      question:
-        "A student claims that a material with a refractive index of 0.5 must slow light more strongly than a material with a refractive index of 1.5. Based on the lecturer's formula, what is the BEST response?",
-
-      options: [
-        "The claim is incorrect; with the same vacuum reference, the lower material velocity corresponds to the higher refractive index",
-        "The claim is correct because smaller numbers always mean stronger optical effects",
-        "Both values mean exactly the same thing",
-        "Refractive index cannot be compared between materials"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "From n = Vv/Vm, a higher n corresponds to a lower velocity of light in the material."
-    },
-
-    {
-      question:
-        "Which of the following is the BEST reason refractive index is useful in Optical Mineralogy?",
-
-      options: [
-        "It helps describe and interpret how light behaves in minerals",
-        "It measures the mass of a mineral grain",
-        "It determines the geological age of every rock",
-        "It replaces the polarizing microscope"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Refractive index is an optical property that contributes to understanding and identifying minerals."
-    },
-
-    {
-      question:
-        "If Vm becomes equal to Vv in the formula n = Vv/Vm, what value would n have?",
-
-      options: [
-        "1",
-        "0",
-        "2",
-        "It would be undefined"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "If the two velocities are equal, their ratio is 1."
-    },
-
-    {
-      question:
-        "A student obtains a calculated refractive index of 1.75 but writes '1.75 km/s'. What part of the answer is wrong?",
-
-      options: [
-        "The numerical value may be valid, but the unit is incorrect because refractive index is dimensionless",
-        "The number must always be expressed in km/s",
-        "Refractive index must always be expressed in kilograms",
-        "The value cannot ever be greater than 1"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Refractive index is a dimensionless ratio, not a velocity."
-    },
-
-    {
-      question:
-        "Which student demonstrates the BEST understanding of refractive index?",
-
-      options: [
-        "A student who can explain the formula, identify its variables, calculate a value and relate the value to the speed of light in the material",
-        "A student who can only memorize the symbol n",
-        "A student who remembers 1.0 but cannot explain what it represents",
-        "A student who knows the word 'refraction' but cannot relate it to light"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "True understanding requires connecting the formula, variables, calculation and physical meaning."
-    }
-  ],
-
-  examQuestions: [
-    {
-      question:
-        "Define refractive index and state the formula used to calculate it.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Explain the meaning of each term in the expression n = Vv/Vm.",
-      type: "Short Answer",
-      marks: 10
-    },
-
-    {
-      question:
-        "State and explain four important properties of refractive index.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Calculate the refractive index of a mineral if the velocity of light in vacuum is 300,000 km/s and its velocity in the mineral is 200,000 km/s.",
-      type: "Calculation",
-      marks: 5
-    },
-
-    {
-      question:
-        "Explain the relationship between refractive index and the velocity of light in a mineral.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Distinguish the behaviour of refractive index in isotropic and anisotropic minerals.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Explain why refractive index is considered a dimensionless quantity.",
-      type: "Short Answer",
-      marks: 5
-    },
-
-    {
-      question:
-        "Discuss the importance of refractive index in Optical Mineralogy and mineral identification.",
-      type: "Theory",
-      marks: 10
-    }
-  ]
+ 
 },
 {
   id: "optical-properties-of-minerals",
@@ -14579,599 +9858,7 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question:
-        "A student is examining a mineral under Plane-Polarized Light and records its colour, relief and cleavage. Which statement BEST describes what the student is doing?",
-
-      options: [
-        "Observing optical properties under PPL",
-        "Observing only properties that occur under XPL",
-        "Performing chemical analysis",
-        "Determining the mineral's geological age"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Colour, relief and cleavage are among the optical properties listed by the lecturer under PPL."
-    },
-
-    {
-      question:
-        "Which of the following is NOT listed by the lecturer as a PPL optical property?",
-
-      options: [
-        "Pleochroism",
-        "Relief",
-        "Cleavage",
-        "Interference colours"
-      ],
-
-      answer: 3,
-
-      explanation:
-        "Interference colours are introduced under XPL, whereas pleochroism, relief and cleavage are listed under PPL."
-    },
-
-    {
-      question:
-        "A mineral grain changes from pale green to darker green as the microscope stage is rotated under PPL. Which property should the student suspect FIRST?",
-
-      options: [
-        "Pleochroism",
-        "Twinning",
-        "Extinction",
-        "Interference colour"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "A change in colour or colour intensity with stage rotation under PPL is characteristic of pleochroism."
-    },
-
-    {
-      question:
-        "A mineral grain stands out very strongly from the surrounding mounting medium under PPL. Which property is being described?",
-
-      options: [
-        "High relief",
-        "Low relief",
-        "Twinning",
-        "Extinction"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Strong contrast between a mineral grain and its surrounding medium is described as high relief."
-    },
-
-    {
-      question:
-        "Two mineral grains are observed under PPL. Grain A blends smoothly into its surroundings, while Grain B stands out sharply. Which conclusion is MOST appropriate?",
-
-      options: [
-        "Grain B has higher relief than Grain A",
-        "Grain A has higher relief than Grain B",
-        "Both must have identical relief",
-        "Neither grain has an optical property"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "A grain that stands out more strongly has higher relief."
-    },
-
-    {
-      question:
-        "Which factor does the lecturer directly relate to mineral relief?",
-
-      options: [
-        "Difference in refractive index between the mineral and surrounding medium",
-        "The mineral's geological age",
-        "The weight of the microscope",
-        "The length of the microscope tube"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer relates relief to the difference in refractive index between the mineral and its surrounding medium."
-    },
-
-    {
-      question:
-        "A student sees one or more sets of parallel dark lines within a mineral grain in thin section. Which optical property should be considered?",
-
-      options: [
-        "Cleavage",
-        "Colour",
-        "Pleochroism",
-        "Twinning only"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer describes cleavage as parallel or sub-parallel dark lines or traces within a grain."
-    },
-
-    {
-      question:
-        "Which statement BEST describes mineral habit?",
-
-      options: [
-        "The characteristic external shape or form of a mineral grain",
-        "The speed of light in vacuum",
-        "The amount of light absorbed by the microscope",
-        "The number of microscope objectives"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Habit refers to the characteristic external form or shape of mineral grains."
-    },
-
-    {
-      question:
-        "Which pair contains forms of mineral habit mentioned in the lecturer's material?",
-
-      options: [
-        "Subhedral and anhedral",
-        "Isotropic and pleochroic",
-        "Birefringent and extinct",
-        "Polarizer and analyzer"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer identifies subhedral and anhedral forms when discussing mineral habit."
-    },
-
-    {
-      question:
-        "A mineral selectively removes certain wavelengths of transmitted light as light passes through it. Which optical property is being described?",
-
-      options: [
-        "Absorption",
-        "Habit",
-        "Cleavage",
-        "Extinction"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Absorption involves selective removal of particular wavelengths of light."
-    },
-
-    {
-      question:
-        "Which of the following is the BEST distinction between colour and absorption?",
-
-      options: [
-        "Colour is the visible result associated with selective absorption of wavelengths, while absorption describes the selective removal of wavelengths",
-        "They are completely unrelated to light",
-        "Colour is only observed under XPL while absorption is only observed without a microscope",
-        "Absorption refers only to mineral shape"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer connects colour with selective absorption of particular wavelengths of transmitted light."
-    },
-
-    {
-      question:
-        "Which observation is MOST strongly associated with XPL rather than PPL?",
-
-      options: [
-        "Interference colours",
-        "Colour",
-        "Relief",
-        "Cleavage"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Interference colours are among the properties introduced by the lecturer under XPL."
-    },
-
-    {
-      question:
-        "A mineral shows optical properties that remain the same regardless of orientation. What behaviour does this suggest?",
-
-      options: [
-        "Isotropic",
-        "Anisotropic",
-        "Pleochroic only",
-        "Twinning"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Isotropic optical properties are the same in all directions and independent of orientation."
-    },
-
-    {
-      question:
-        "A mineral's optical behaviour changes as its orientation changes. Which classification is MOST appropriate?",
-
-      options: [
-        "Anisotropic",
-        "Isotropic",
-        "Vacuum",
-        "Colourless only"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Anisotropic properties vary with direction or orientation."
-    },
-
-    {
-      question:
-        "Which mineral symmetry is associated with isotropic minerals in the lecturer's material?",
-
-      options: [
-        "Cubic symmetry",
-        "Only monoclinic symmetry",
-        "Only triclinic symmetry",
-        "No crystal symmetry"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer associates isotropic minerals with cubic symmetry."
-    },
-
-    {
-      question:
-        "Which phenomenon is associated with the splitting of light into two differently behaving rays in an anisotropic mineral?",
-
-      options: [
-        "Double refraction",
-        "Cleavage",
-        "Relief",
-        "Habit"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Double refraction is associated with the two differently behaving rays in anisotropic minerals."
-    },
-
-    {
-      question:
-        "Birefringence is most closely connected with which of the following?",
-
-      options: [
-        "The difference in refractive behaviour associated with the two rays in an anisotropic mineral",
-        "The colour of the microscope body",
-        "The physical size of the glass slide",
-        "The number of cover slips used"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Birefringence is related to the difference in refractive indices/refractive behaviour of the two rays in anisotropic minerals."
-    },
-
-    {
-      question:
-        "A student observes a mineral under XPL while rotating the microscope stage and records a change from light to dark. Which property should be considered?",
-
-      options: [
-        "Extinction",
-        "Cleavage",
-        "Habit",
-        "Colour under PPL"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Extinction is an XPL observation associated with the position of the mineral as the stage is rotated."
-    },
-
-    {
-      question:
-        "A mineral grain displays recognizable internal patterns consisting of related crystal parts under XPL. Which property should the student investigate?",
-
-      options: [
-        "Twinning",
-        "Relief",
-        "Absorption only",
-        "Colour"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Twinning can produce recognizable patterns within mineral grains under XPL."
-    },
-
-    {
-      question:
-        "Which of the following combinations contains ONLY properties listed under PPL by the lecturer?",
-
-      options: [
-        "Colour, relief, cleavage, habit",
-        "Extinction, twinning, interference colours, birefringence",
-        "Twinning, relief, extinction, cleavage",
-        "Birefringence, habit, extinction, colour"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Colour, relief, cleavage and habit are all listed under PPL."
-    },
-
-    {
-      question:
-        "Which combination contains ONLY properties introduced under XPL?",
-
-      options: [
-        "Isotropic/anisotropic behaviour, birefringence, interference colours, extinction",
-        "Colour, relief, cleavage, habit",
-        "Pleochroism, colour, relief, absorption",
-        "Refractive index, colour, habit, cleavage"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "These properties are among those introduced by the lecturer under XPL."
-    },
-
-    {
-      question:
-        "A student attempts to identify an unknown mineral using only its colour. Why is this approach WEAKER than combining several observations?",
-
-      options: [
-        "Mineral identification is strengthened by combining several optical properties rather than relying on one observation",
-        "Colour is never an optical property",
-        "Colour can only be measured chemically",
-        "Minerals cannot be observed under PPL"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's material presents several optical properties that can be used together in describing and identifying minerals."
-    },
-
-    {
-      question:
-        "A student first observes colour and relief under PPL, then investigates anisotropy, interference colours and extinction under XPL. What is the student doing?",
-
-      options: [
-        "Systematically combining optical observations for mineral identification",
-        "Performing only chemical analysis",
-        "Ignoring the microscope",
-        "Determining the mineral's density directly"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The student is using the two major observation conditions to gather multiple optical characteristics."
-    },
-
-    {
-      question:
-        "Which observation would MOST strongly indicate that the student should investigate pleochroism rather than extinction?",
-
-      options: [
-        "A change in mineral colour as the stage is rotated under PPL",
-        "A dark position observed under XPL",
-        "Parallel dark cleavage traces",
-        "Strong relief against the mounting medium"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Colour change during stage rotation under PPL is characteristic of pleochroism."
-    },
-
-    {
-      question:
-        "A student records 'high relief, no obvious cleavage, prismatic habit and pleochroism' under PPL. What is the BEST interpretation?",
-
-      options: [
-        "The student has recorded several PPL optical characteristics that can contribute to mineral identification",
-        "The student has recorded only XPL properties",
-        "The observations cannot be useful for identification",
-        "The student has performed a chemical assay"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Relief, cleavage, habit and pleochroism are all relevant PPL observations."
-    },
-
-    {
-      question:
-        "Which statement BEST connects refractive index and relief?",
-
-      options: [
-        "The difference between the refractive index of the mineral and its surrounding medium influences the observed relief",
-        "Relief is completely unrelated to refractive index",
-        "Refractive index measures the number of cleavage planes",
-        "Relief measures crystal symmetry directly"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer directly relates relief to the difference in refractive index between the mineral and its surrounding medium."
-    },
-
-    {
-      question:
-        "A mineral is isotropic. Which observation would be LEAST consistent with isotropic behaviour?",
-
-      options: [
-        "A continuous change in optical properties with changing orientation",
-        "The same optical behaviour in all directions",
-        "Orientation-independent optical properties",
-        "The same refractive index in all directions"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Continuous directional variation is characteristic of anisotropic rather than isotropic behaviour."
-    },
-
-    {
-      question:
-        "A student says, 'If a mineral has different optical properties in different directions, it must be isotropic.' What is the correct evaluation?",
-
-      options: [
-        "Incorrect; variation with direction is characteristic of anisotropic behaviour",
-        "Correct; isotropic means direction-dependent",
-        "Correct only under PPL",
-        "There is no relationship between direction and optical behaviour"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Anisotropic materials vary in optical properties with direction or orientation."
-    },
-
-    {
-      question:
-        "Which scenario requires the student to distinguish between PPL and XPL rather than simply memorize definitions?",
-
-      options: [
-        "A question describes an observation and asks which microscope-light condition should be used to investigate it",
-        "A question asks only for the spelling of microscope",
-        "A question gives the course code",
-        "A question asks for the student's name"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Real understanding requires recognizing which observations belong to PPL or XPL."
-    },
-
-    {
-      question:
-        "A mineral shows pleochroism under PPL and later shows anisotropic behaviour under XPL. What does this combination tell the student?",
-
-      options: [
-        "The observations are compatible because pleochroism is associated with suitable coloured anisotropic minerals",
-        "The two observations cannot occur in the same mineral",
-        "Pleochroism proves the mineral is isotropic",
-        "Anisotropy can only be observed without a microscope"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Pleochroism is associated with coloured anisotropic minerals, so the observations are compatible."
-    },
-
-    {
-      question:
-        "Which approach would give the STRONGEST practical basis for identifying an unknown mineral in thin section?",
-
-      options: [
-        "Combine multiple PPL and XPL observations and compare the resulting optical characteristics",
-        "Use only the mineral's colour",
-        "Use only the grain's size",
-        "Ignore orientation and microscope conditions"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Combining several optical properties provides a stronger identification basis."
-    }
-  ],
-
-  examQuestions: [
-    {
-      question:
-        "What are optical properties of minerals? Explain the classification of optical properties under PPL and XPL.",
-      type: "Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "List and explain the optical properties of minerals observed under Plane-Polarized Light.",
-      type: "Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "Explain colour, relief, cleavage and habit as optical properties observed under PPL.",
-      type: "Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "Define pleochroism and explain how it is observed under PPL.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Distinguish between isotropic and anisotropic minerals.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Explain double refraction and birefringence in anisotropic minerals.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Discuss interference colours, extinction and twinning as observations under XPL.",
-      type: "Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "Explain how PPL and XPL observations can be combined to identify an unknown mineral in thin section.",
-      type: "Practical/Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "A mineral grain shows a change in colour when the stage is rotated under PPL. Identify and explain the optical property involved.",
-      type: "Application",
-      marks: 10
-    }
-  ]
+ 
 },
 {
   id: "petrological-microscope-parts",
@@ -15450,566 +10137,9 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question:
-        "A student is asked to identify the microscope component that provides a stable source of transmitted light. Which component should the student select?",
-
-      options: [
-        "Light source / illuminator",
-        "Analyzer",
-        "Rotating stage",
-        "Bertrand lens"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer identifies the light source or illuminator as the component that provides a stable source of transmitted light."
-    },
-
-    {
-      question:
-        "Which component is also known as the lower Nicol?",
-
-      options: [
-        "Polarizer",
-        "Analyzer",
-        "Bertrand lens",
-        "Eyepiece"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The polarizer is identified in the lecturer's material as the lower Nicol."
-    },
-
-    {
-      question:
-        "A student wants to make sure the light reaching the specimen has the required polarization before entering the mineral. Which component is MOST directly responsible?",
-
-      options: [
-        "Polarizer",
-        "Rotating stage",
-        "Objective lens",
-        "Eyepiece"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The polarizer polarizes the light before it reaches the specimen."
-    },
-
-    {
-      question:
-        "Which microscope component focuses light onto the specimen?",
-
-      options: [
-        "Substage condenser",
-        "Analyzer",
-        "Eyepiece",
-        "Rotating stage"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The substage condenser focuses light onto the specimen."
-    },
-
-    {
-      question:
-        "A lecturer asks why the condenser may be raised during an interference-figure observation. What is the BEST answer?",
-
-      options: [
-        "To produce the convergent light needed for interference figures",
-        "To rotate the specimen",
-        "To increase the objective magnification",
-        "To replace the analyzer"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer notes that the condenser is raised to produce the convergent light needed for interference figures."
-    },
-
-    {
-      question:
-        "Which component controls the aperture or cone angle of light reaching the specimen?",
-
-      options: [
-        "Iris diaphragm",
-        "Objective lens",
-        "Analyzer",
-        "Eyepiece"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The iris diaphragm controls the aperture or cone angle of light reaching the specimen."
-    },
-
-    {
-      question:
-        "A student rotates the specimen through different orientations while observing its optical properties. Which microscope part is being used?",
-
-      options: [
-        "Rotating stage",
-        "Condenser",
-        "Bertrand lens",
-        "Light source"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The rotating stage allows the specimen to be rotated so its optical properties can be observed in different orientations."
-    },
-
-    {
-      question:
-        "The rotating stage described by the lecturer is graduated through which range?",
-
-      options: [
-        "0–360 degrees",
-        "0–90 degrees only",
-        "10–40 degrees",
-        "100–200 degrees"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer describes the rotating stage as circular and graduated from 0 to 360 degrees."
-    },
-
-    {
-      question:
-        "Which component provides the primary magnification of the specimen?",
-
-      options: [
-        "Objective lens",
-        "Analyzer",
-        "Iris diaphragm",
-        "Polarizer"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The objective lenses provide the primary magnification of the specimen."
-    },
-
-    {
-      question:
-        "Which set contains objective powers specifically mentioned by the lecturer?",
-
-      options: [
-        "4X, 10X and 40X",
-        "2X, 5X and 20X",
-        "50X, 100X and 200X",
-        "1X, 3X and 6X"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's material gives 4X, 10X and 40X as examples of objective powers."
-    },
-
-    {
-      question:
-        "Which component is also called the upper Nicol?",
-
-      options: [
-        "Analyzer",
-        "Polarizer",
-        "Condenser",
-        "Objective"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The analyzer is also called the upper Nicol."
-    },
-
-    {
-      question:
-        "Why is the analyzer important when producing crossed-polarized light?",
-
-      options: [
-        "It provides the second polarizing filter and can be positioned at 90 degrees to the polarizer",
-        "It provides the primary magnification",
-        "It rotates the microscope stage",
-        "It focuses the light onto the specimen"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer notes that the analyzer can be inserted with its vibration direction at 90 degrees to the polarizer."
-    },
-
-    {
-      question:
-        "A student wants to observe an interference figure. Which component becomes particularly important in the lecturer's procedure?",
-
-      options: [
-        "Bertrand lens",
-        "Eyepiece only",
-        "Rotating stage only",
-        "Light source only"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer identifies the Bertrand lens as being inserted for viewing interference figures."
-    },
-
-    {
-      question:
-        "Which component accepts accessory plates such as the gypsum plate?",
-
-      options: [
-        "Accessory plate slot",
-        "Analyzer",
-        "Substage condenser",
-        "Objective lens"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The accessory plate slot is designed to accept accessory plates."
-    },
-
-    {
-      question:
-        "According to the lecturer, accessory plates can assist with which interpretation?",
-
-      options: [
-        "Optic sign and interference colours",
-        "Rock age and density",
-        "Mineral hardness and streak",
-        "Grain size and specific gravity"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer notes that accessory plates such as gypsum can assist in determining optic sign and interpreting interference colours."
-    },
-
-    {
-      question:
-        "Through which component does the observer view the magnified image?",
-
-      options: [
-        "Eyepiece / ocular",
-        "Iris diaphragm",
-        "Polarizer",
-        "Analyzer"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The eyepiece or ocular is the viewing component of the microscope."
-    },
-
-    {
-      question:
-        "A student confuses the objective lens with the eyepiece. Which statement BEST distinguishes them?",
-
-      options: [
-        "The objective provides primary magnification, while the eyepiece is used to view the magnified image",
-        "The objective polarizes the light and the eyepiece rotates the stage",
-        "The objective produces crossed light and the eyepiece produces interference figures",
-        "They have exactly the same function"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer identifies the objective as providing primary magnification, while the eyepiece/ocular forms part of the viewing system."
-    },
-
-    {
-      question:
-        "A student is asked which microscope component controls the cone angle of the light reaching the specimen. The student answers 'condenser'. What is the BEST correction?",
-
-      options: [
-        "The iris diaphragm controls the aperture or cone angle, while the condenser focuses the light",
-        "The analyzer controls the cone angle",
-        "The objective lens controls the cone angle",
-        "The rotating stage controls the cone angle"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "This distinction is important: the condenser focuses the light, while the iris diaphragm controls the aperture or cone angle."
-    },
-
-    {
-      question:
-        "A student needs to observe the same mineral in several orientations to investigate its directional optical behaviour. Which microscope feature is MOST important?",
-
-      options: [
-        "Rotating stage",
-        "Light source",
-        "Eyepiece",
-        "Accessory plate slot"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The rotating stage allows the specimen to be rotated through different orientations."
-    },
-
-    {
-      question:
-        "Which pair is correctly matched?",
-
-      options: [
-        "Analyzer — second polarizing filter",
-        "Rotating stage — primary magnification",
-        "Objective — controls cone angle",
-        "Iris diaphragm — rotates specimen"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The analyzer functions as the second polarizing filter. The other pairings incorrectly assign functions."
-    },
-
-    {
-      question:
-        "Which sequence BEST represents the relationship between the polarizer and analyzer during crossed-polarized observation?",
-
-      options: [
-        "Light is polarized by the polarizer and the analyzer is introduced at 90 degrees to the polarizer",
-        "The analyzer polarizes the light before the polarizer",
-        "The rotating stage replaces both polarizers",
-        "The objective lens becomes the analyzer"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer describes the analyzer as a second polarizing filter that can be inserted at 90 degrees to the polarizer."
-    },
-
-    {
-      question:
-        "A student is given a labelled microscope diagram and the label points to the circular platform graduated 0–360°. Which part should the student name?",
-
-      options: [
-        "Rotating stage",
-        "Iris diaphragm",
-        "Analyzer",
-        "Bertrand lens"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The rotating stage is the circular graduated platform described by the lecturer."
-    },
-
-    {
-      question:
-        "A student is asked to identify the component used with a high-power objective and raised condenser when viewing interference figures. Which answer is BEST?",
-
-      options: [
-        "Bertrand lens",
-        "Polarizer",
-        "Rotating stage",
-        "Iris diaphragm"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer specifically connects the Bertrand lens with viewing interference figures."
-    },
-
-    {
-      question:
-        "Which statement demonstrates the STRONGEST understanding of the petrological microscope?",
-
-      options: [
-        "Each component performs a specific function, but the components work together to control polarized light and observe mineral optical behaviour",
-        "All microscope components perform the same function",
-        "Only the eyepiece is important in mineral identification",
-        "The microscope is used only to magnify rocks"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Understanding the interaction of the microscope components is more useful than memorizing isolated component names."
-    },
-
-    {
-      question:
-        "A student changes from PPL observation to XPL observation. Which microscope component becomes especially important in this change?",
-
-      options: [
-        "Analyzer",
-        "Light source",
-        "Objective lens",
-        "Eyepiece"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The analyzer provides the second polarizing filter required for crossed-polarized observations."
-    },
-
-    {
-      question:
-        "If a question asks for the microscope component responsible for primary magnification, which answer should the student choose?",
-
-      options: [
-        "Objective lens",
-        "Eyepiece",
-        "Analyzer",
-        "Iris diaphragm"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer identifies the objective lens as providing primary magnification."
-    },
-
-    {
-      question:
-        "Which component-function pairing is INCORRECT?",
-
-      options: [
-        "Iris diaphragm — rotates the specimen",
-        "Condenser — focuses light",
-        "Analyzer — second polarizing filter",
-        "Objective — primary magnification"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The rotating stage, not the iris diaphragm, rotates the specimen. The other pairings are correctly matched."
-    },
-
-    {
-      question:
-        "A practical examiner points at a microscope component and asks, 'What is this used for?' What kind of knowledge is the examiner primarily testing?",
-
-      options: [
-        "Ability to connect microscope identification with function",
-        "Ability to memorize the course code",
-        "Ability to calculate mineral density",
-        "Ability to classify sedimentary rocks"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "The lecturer's practical treatment requires students to identify microscope components and understand their functions."
-    },
-
-    {
-      question:
-        "Which statement about the microscope is MOST useful for practical mineral identification?",
-
-      options: [
-        "The student should be able to identify the components, explain their functions and understand how they work together during PPL and XPL observations",
-        "The student only needs to memorize the names of the components",
-        "The student only needs to know the objective magnification",
-        "The student does not need to understand the microscope before identifying minerals"
-      ],
-
-      answer: 0,
-
-      explanation:
-        "Practical microscopy requires functional understanding rather than isolated memorization."
-    }
-  ],
-
-  examQuestions: [
-    {
-      question:
-        "Draw and label a well-identified petrological microscope and state the function of each labelled part.",
-      type: "Practical/Theory",
-      marks: 20
-    },
-
-    {
-      question:
-        "Identify and explain the functions of the major parts of a petrological microscope.",
-      type: "Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "Explain the functions of the polarizer, analyzer, condenser and iris diaphragm in a petrological microscope.",
-      type: "Theory",
-      marks: 15
-    },
-
-    {
-      question:
-        "Describe the function of the rotating stage and explain its importance in optical mineralogy.",
-      type: "Theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Differentiate between the polarizer and analyzer in a petrological microscope.",
-      type: "Comparison",
-      marks: 10
-    },
-
-    {
-      question:
-        "What is the function of the Bertrand lens and under what condition is it used?",
-      type: "Short Answer",
-      marks: 10
-    },
-
-    {
-      question:
-        "State the objective lens magnifications mentioned in the lecturer's material.",
-      type: "Short Answer",
-      marks: 5
-    },
-
-    {
-      question:
-        "Explain how the different components of the petrological microscope work together during PPL and XPL observations.",
-      type: "Application",
-      marks: 15
-    },
-
-    {
-      question:
-        "A labelled microscope diagram is provided. Identify the indicated parts and state the function of each.",
-      type: "Practical Identification",
-      marks: 20
-    }
-  ]
 },
+
+
 {
   id: "thin-section-mineral-preparation",
   title: "Thin-Section / Mineral Preparation Practical",
@@ -16339,182 +10469,7 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "What is a thin section?",
-      options: [
-        "A large piece of unbroken rock",
-        "A very thin slice of rock prepared for microscopic examination",
-        "A chemical solution used in mineral testing",
-        "A type of geological map"
-      ],
-      answer: 1,
-      explanation:
-        "A thin section is a very thin slice of rock or mineral prepared and mounted for microscopic examination."
-    },
-
-    {
-      question: "Approximately how thick is a typical rock thin section?",
-      options: [
-        "3 metres",
-        "3 millimetres",
-        "30 micrometres",
-        "30 centimetres"
-      ],
-      answer: 2,
-      explanation:
-        "The material gives a typical thin-section thickness of about 30 micrometres."
-    },
-
-    {
-      question: "What instrument is primarily used for optical study of minerals in thin section?",
-      options: [
-        "Seismograph",
-        "Polarizing microscope",
-        "Compass",
-        "Gravimeter"
-      ],
-      answer: 1,
-      explanation:
-        "The polarizing microscope is the major instrument used in optical mineralogy."
-    },
-
-    {
-      question: "Which component produces plane-polarized light?",
-      options: [
-        "Analyzer",
-        "Stage",
-        "Polarizer",
-        "Objective"
-      ],
-      answer: 2,
-      explanation:
-        "The polarizer produces the polarized light used for optical mineral examination."
-    },
-
-    {
-      question: "Which minerals have the same optical properties in all directions?",
-      options: [
-        "Anisotropic minerals",
-        "Isotropic minerals",
-        "Pleochroic minerals only",
-        "Cleaved minerals"
-      ],
-      answer: 1,
-      explanation:
-        "Isotropic minerals have the same optical properties in every direction."
-    },
-
-    {
-      question: "Which crystal system is characteristically isotropic?",
-      options: [
-        "Cubic",
-        "Triclinic",
-        "Monoclinic",
-        "Orthorhombic"
-      ],
-      answer: 0,
-      explanation:
-        "Minerals of the cubic crystal system are characteristically isotropic."
-    },
-
-    {
-      question: "Anisotropic minerals are characterized by:",
-      options: [
-        "Optical properties that vary with direction",
-        "No interaction with light",
-        "Exactly the same optical properties in every direction",
-        "Always being colourless"
-      ],
-      answer: 0,
-      explanation:
-        "Anisotropic minerals have optical properties that vary according to direction."
-    },
-
-    {
-      question: "What property is strongly related to mineral relief?",
-      options: [
-        "Magnetism only",
-        "Difference in refractive index",
-        "Rock age only",
-        "Grain weight only"
-      ],
-      answer: 1,
-      explanation:
-        "Relief is related to the difference between the refractive index of the mineral and its surrounding medium."
-    },
-
-    {
-      question: "Pleochroism is mainly observed as:",
-      options: [
-        "Directional variation in colour or absorption",
-        "Increase in grain size",
-        "Loss of cleavage",
-        "Formation of a new rock"
-      ],
-      answer: 0,
-      explanation:
-        "Pleochroism is directional variation in colour or absorption in suitable minerals under plane-polarized light."
-    },
-
-    {
-      question: "Interference colours are particularly observed under:",
-      options: [
-        "Ordinary daylight only",
-        "Crossed-polarized light",
-        "Complete darkness",
-        "Reflected sunlight only"
-      ],
-      answer: 1,
-      explanation:
-        "Anisotropic minerals can show interference colours when examined under crossed polars."
-    },
-
-    {
-      question: "Which of the following is useful in identifying minerals in thin section?",
-      options: [
-        "Colour and cleavage",
-        "Relief",
-        "Pleochroism",
-        "All of the above"
-      ],
-      answer: 3,
-      explanation:
-        "Mineral identification uses a combination of optical properties including colour, cleavage, relief and pleochroism."
-    },
-
-    {
-      question: "Which of the following is NOT one of the major crystal systems?",
-      options: [
-        "Cubic",
-        "Triclinic",
-        "Monoclinic",
-        "Circular"
-      ],
-      answer: 3,
-      explanation:
-        "Circular is not one of the seven major crystal systems."
-    }
-  ],
-
-  examQuestions: [
-    "Define a thin section and state its purpose in optical mineralogy.",
-    "Describe the preparation and mounting idea of a rock thin section.",
-    "What is the approximate thickness of a standard rock thin section?",
-    "What is a polarizing microscope? Mention its important components.",
-    "Differentiate plane-polarized light from crossed-polarized light.",
-    "Differentiate isotropic and anisotropic minerals.",
-    "Explain why cubic minerals are characteristically isotropic.",
-    "Define refractive index and state its importance in mineral identification.",
-    "What is relief and how is it related to refractive index?",
-    "Define cleavage and fracture and explain their usefulness in mineral identification.",
-    "What is pleochroism?",
-    "Explain the relationship between absorption and pleochroism.",
-    "What are interference colours and under what condition are they observed?",
-    "List the optical properties that should be observed when identifying a mineral in thin section.",
-    "Mention and explain the seven major crystal systems.",
-    "Describe a systematic procedure for examining and identifying a mineral in thin section."
-  ]
+  
 },
 {
   id: "double-refraction",
@@ -16776,154 +10731,7 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "Double refraction is also known as:",
-      options: [
-        "Pleochroism",
-        "Birefringence",
-        "Extinction",
-        "Relief"
-      ],
-      answer: 1,
-      explanation:
-        "Double refraction is also called birefringence."
-    },
-
-    {
-      question: "Double refraction is primarily associated with:",
-      options: [
-        "Isotropic minerals",
-        "Anisotropic minerals",
-        "All gases",
-        "Only metallic minerals"
-      ],
-      answer: 1,
-      explanation:
-        "Double refraction is associated with anisotropic minerals because their optical properties vary with direction."
-    },
-
-    {
-      question: "What happens to an incident light ray during double refraction?",
-      options: [
-        "It disappears completely",
-        "It is split into two rays",
-        "It becomes a sound wave",
-        "It is converted into heat only"
-      ],
-      answer: 1,
-      explanation:
-        "Double refraction involves the splitting of an incident light ray into two rays."
-    },
-
-    {
-      question: "Why can an anisotropic mineral produce double refraction?",
-      options: [
-        "Its optical properties vary with direction",
-        "It has no crystal structure",
-        "It cannot transmit light",
-        "Its colour is always black"
-      ],
-      answer: 0,
-      explanation:
-        "The directional variation of optical properties in anisotropic minerals allows the two rays to behave differently."
-    },
-
-    {
-      question: "Which statement correctly describes an isotropic mineral?",
-      options: [
-        "Its optical properties vary continuously with direction",
-        "Its optical properties are the same in all directions",
-        "It always shows pleochroism",
-        "It always produces double refraction"
-      ],
-      answer: 1,
-      explanation:
-        "An isotropic mineral has the same optical properties in all directions."
-    },
-
-    {
-      question: "What happens to isotropic minerals under crossed-polarized light?",
-      options: [
-        "They remain dark or extinct",
-        "They always become red",
-        "They always show strong pleochroism",
-        "They split into two minerals"
-      ],
-      answer: 0,
-      explanation:
-        "The lecturer's notes state that isotropic minerals remain dark under crossed polars."
-    },
-
-    {
-      question: "The different behaviour of the two rays in an anisotropic mineral is related mainly to:",
-      options: [
-        "Directional optical properties",
-        "The mineral's age",
-        "Its geological location only",
-        "Its physical size only"
-      ],
-      answer: 0,
-      explanation:
-        "Anisotropic optical properties vary with direction, causing the two rays to behave differently."
-    },
-
-    {
-      question: "Which topic follows double refraction in the lecturer's XPL sequence?",
-      options: [
-        "Rock sampling",
-        "Interference colour",
-        "Mineral preparation",
-        "Crystal morphology"
-      ],
-      answer: 1,
-      explanation:
-        "The lecturer's XPL sequence lists double refraction followed by interference colour."
-    },
-
-    {
-      question: "Which of the following is NOT sufficient by itself for reliable mineral identification?",
-      options: [
-        "A single optical property",
-        "A combination of optical properties",
-        "Several microscopic observations",
-        "Comparison of multiple diagnostic properties"
-      ],
-      answer: 0,
-      explanation:
-        "Mineral identification should be based on a combination of optical properties rather than one property alone."
-    },
-
-    {
-      question: "The correct basic sequence for double refraction is:",
-      options: [
-        "Isotropic mineral → no light → colour",
-        "Anisotropic mineral → incident light → two rays → different optical behaviour",
-        "Mineral → heating → melting → crystallization",
-        "Light → sound → heat → mineral"
-      ],
-      answer: 1,
-      explanation:
-        "Double refraction involves an anisotropic mineral, an incident light ray, splitting into two rays and different optical behaviour."
-    }
-  ],
-
-  examQuestions: [
-    "Define double refraction.",
-    "What is birefringence?",
-    "Explain the phenomenon of double refraction in anisotropic minerals.",
-    "Why does double refraction occur in anisotropic minerals?",
-    "What happens to an incident light ray when it enters an anisotropic mineral under conditions that produce double refraction?",
-    "Differentiate isotropic and anisotropic minerals.",
-    "Explain the relationship between refractive index and double refraction.",
-    "What happens to isotropic minerals under crossed-polarized light?",
-    "Explain why anisotropic minerals show different optical behaviour in different directions.",
-    "Discuss the importance of double refraction in optical mineralogy.",
-    "Explain the relationship between double refraction and mineral identification.",
-    "State the sequence of optical properties studied under crossed-polarized light according to the lecturer's notes.",
-    "Explain why double refraction is important before studying interference colours.",
-    "Describe how double refraction can be recognized as part of practical thin-section examination."
-  ]
+ 
 },
 {
   id: "uniaxial-minerals-interference-figures",
@@ -17314,184 +11122,7 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "A uniaxial mineral has:",
-      options: [
-        "No optic axis",
-        "One optic axis",
-        "Two optic axes",
-        "Three optic axes"
-      ],
-      answer: 1,
-      explanation:
-        "A uniaxial mineral is an anisotropic mineral with one optic axis."
-    },
-
-    {
-      question: "Uniaxial minerals are:",
-      options: [
-        "Isotropic",
-        "Anisotropic",
-        "Always amorphous",
-        "Always metallic"
-      ],
-      answer: 1,
-      explanation:
-        "Uniaxial minerals belong to the anisotropic group."
-    },
-
-    {
-      question: "Which symbol represents the ordinary refractive index?",
-      options: [
-        "ω",
-        "ε",
-        "β",
-        "γ"
-      ],
-      answer: 0,
-      explanation:
-        "The ordinary refractive index of a uniaxial mineral is represented by ω."
-    },
-
-    {
-      question: "Which symbol represents the extraordinary refractive index?",
-      options: [
-        "ω",
-        "ε",
-        "δ",
-        "μ"
-      ],
-      answer: 1,
-      explanation:
-        "The extraordinary refractive index is represented by ε."
-    },
-
-    {
-      question: "A uniaxial mineral is optically positive when:",
-      options: [
-        "ε > ω",
-        "ε < ω",
-        "ε = 0",
-        "ω = 0"
-      ],
-      answer: 0,
-      explanation:
-        "A positive uniaxial mineral has an extraordinary refractive index greater than its ordinary refractive index."
-    },
-
-    {
-      question: "A uniaxial mineral is optically negative when:",
-      options: [
-        "ε > ω",
-        "ε < ω",
-        "ε = ω only",
-        "Both indices are zero"
-      ],
-      answer: 1,
-      explanation:
-        "A negative uniaxial mineral has ε less than ω."
-    },
-
-    {
-      question: "What is used to observe an interference figure in a petrographic microscope?",
-      options: [
-        "Only the coarse focus",
-        "Bertrand lens",
-        "Rock hammer",
-        "Hand lens"
-      ],
-      answer: 1,
-      explanation:
-        "The lecturer's microscope notes identify the Bertrand lens as being used to view interference figures."
-    },
-
-    {
-      question: "A centred uniaxial interference figure commonly shows:",
-      options: [
-        "A centred dark cross",
-        "Only a single straight line",
-        "No optical pattern",
-        "A metallic reflection"
-      ],
-      answer: 0,
-      explanation:
-        "A centred uniaxial interference figure characteristically contains a centred dark cross."
-    },
-
-    {
-      question: "What happens to an interference figure when the optic axis is inclined?",
-      options: [
-        "It may become displaced from the centre",
-        "It always disappears permanently",
-        "The mineral becomes isotropic",
-        "The thin section becomes thicker"
-      ],
-      answer: 0,
-      explanation:
-        "An inclined optic axis can cause the interference figure to move away from the centre."
-    },
-
-    {
-      question: "Which of the following is commonly associated with uniaxial optical behaviour?",
-      options: [
-        "Cubic system",
-        "Tetragonal system",
-        "Only triclinic system",
-        "Only monoclinic system"
-      ],
-      answer: 1,
-      explanation:
-        "Tetragonal, trigonal and hexagonal systems are commonly associated with uniaxial optical behaviour."
-    },
-
-    {
-      question: "How many optic axes does a biaxial mineral have?",
-      options: [
-        "None",
-        "One",
-        "Two",
-        "Four"
-      ],
-      answer: 2,
-      explanation:
-        "Biaxial minerals have two optic axes."
-    },
-
-    {
-      question: "Which sequence is most appropriate?",
-      options: [
-        "Uniaxial → one optic axis → interference figure",
-        "Uniaxial → isotropic → no optic axis",
-        "Uniaxial → metallic → reflection",
-        "Uniaxial → amorphous → no optical behaviour"
-      ],
-      answer: 0,
-      explanation:
-        "A uniaxial mineral is anisotropic, has one optic axis and can be studied using its interference figure."
-    }
-  ],
-
-  examQuestions: [
-    "Define a uniaxial mineral.",
-    "What is an optic axis?",
-    "How many optic axes does a uniaxial mineral possess?",
-    "Explain the relationship between anisotropy and uniaxial minerals.",
-    "Explain the ordinary and extraordinary rays in a uniaxial mineral.",
-    "What are the two principal refractive indices of a uniaxial mineral?",
-    "Differentiate the ordinary refractive index from the extraordinary refractive index.",
-    "Define birefringence in relation to a uniaxial mineral.",
-    "Differentiate optically positive and optically negative uniaxial minerals.",
-    "What is an interference figure?",
-    "Explain how an interference figure is observed using a petrographic microscope.",
-    "What is the function of the Bertrand lens in interference-figure observation?",
-    "Describe the appearance of a centred uniaxial interference figure.",
-    "What happens to the interference figure when the optic axis is inclined?",
-    "Explain the relationship between interference colour and birefringence.",
-    "Differentiate uniaxial and biaxial minerals.",
-    "Mention the crystal systems commonly associated with uniaxial optical behaviour.",
-    "Explain the practical importance of interference figures in mineral identification."
-  ]
+  
 },
 {
   id: "biaxial-minerals-interference-figures",
@@ -17957,190 +11588,7 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "An optically biaxial mineral possesses:",
-      options: [
-        "No optic axis",
-        "One optic axis",
-        "Two optic axes",
-        "Three optic axes"
-      ],
-      answer: 2,
-      explanation:
-        "Biaxial minerals have two optic axes."
-    },
 
-    {
-      question: "Biaxial minerals are:",
-      options: [
-        "Isotropic",
-        "Anisotropic",
-        "Always amorphous",
-        "Always opaque"
-      ],
-      answer: 1,
-      explanation:
-        "Biaxial minerals are anisotropic minerals."
-    },
-
-    {
-      question: "How many principal refractive indices does a biaxial mineral have?",
-      options: [
-        "One",
-        "Two",
-        "Three",
-        "Four"
-      ],
-      answer: 2,
-      explanation:
-        "Biaxial minerals are described using three principal refractive indices: α, β and γ."
-    },
-
-    {
-      question: "Which sequence correctly represents the principal refractive indices?",
-      options: [
-        "γ < β < α",
-        "α < β < γ",
-        "β < α < γ",
-        "α = β = γ"
-      ],
-      answer: 1,
-      explanation:
-        "Normally α is the lowest, β intermediate and γ highest."
-    },
-
-    {
-      question: "The intermediate principal refractive index is represented by:",
-      options: [
-        "α",
-        "β",
-        "γ",
-        "δ"
-      ],
-      answer: 1,
-      explanation:
-        "β represents the intermediate principal refractive index."
-    },
-
-    {
-      question: "The optic axial angle of a biaxial mineral is represented by:",
-      options: [
-        "V",
-        "2V",
-        "3V",
-        "4V"
-      ],
-      answer: 1,
-      explanation:
-        "The angle between the two optic axes is represented by 2V."
-    },
-
-    {
-      question: "Which microscope component is used to observe an interference figure?",
-      options: [
-        "Bertrand lens",
-        "Rock hammer",
-        "Hand lens",
-        "Stage clip"
-      ],
-      answer: 0,
-      explanation:
-        "The Bertrand lens is used to observe interference figures."
-    },
-
-    {
-      question: "Which of the following is an accessory plate mentioned in the lecturer's notes?",
-      options: [
-        "Gypsum plate",
-        "Steel plate",
-        "Granite plate",
-        "Basalt plate"
-      ],
-      answer: 0,
-      explanation:
-        "The lecturer's notes mention gypsum plate, quartz wedge and mica plate."
-    },
-
-    {
-      question: "Maximum birefringence in a biaxial mineral is commonly related to:",
-      options: [
-        "α + β",
-        "β + γ",
-        "γ − α",
-        "α − β"
-      ],
-      answer: 2,
-      explanation:
-        "Maximum birefringence is commonly expressed as γ − α."
-    },
-
-    {
-      question: "Which statement correctly compares uniaxial and biaxial minerals?",
-      options: [
-        "Both have two optic axes",
-        "Uniaxial has one optic axis; biaxial has two",
-        "Uniaxial has three optic axes; biaxial has one",
-        "Both are isotropic"
-      ],
-      answer: 1,
-      explanation:
-        "The major distinction is one optic axis in uniaxial minerals versus two in biaxial minerals."
-    },
-
-    {
-      question: "What is the main purpose of an interference figure?",
-      options: [
-        "To determine rock colour only",
-        "To study optical character and orientation",
-        "To measure rock weight",
-        "To determine hardness only"
-      ],
-      answer: 1,
-      explanation:
-        "Interference figures provide information about optical character and orientation."
-    },
-
-    {
-      question: "Which set contains the three principal refractive indices of a biaxial mineral?",
-      options: [
-        "α, β and γ",
-        "ω and ε",
-        "P, Q and R",
-        "X, Y and Z only"
-      ],
-      answer: 0,
-      explanation:
-        "The principal refractive indices of a biaxial mineral are α, β and γ."
-    }
-  ],
-
-  examQuestions: [
-    "Define an optically biaxial mineral.",
-    "How many optic axes does a biaxial mineral possess?",
-    "Define optic axis.",
-    "What is the optic axial angle?",
-    "What does 2V represent in optical mineralogy?",
-    "State the three principal refractive indices of a biaxial mineral.",
-    "Arrange α, β and γ in order of increasing refractive index.",
-    "Explain the significance of α, β and γ in a biaxial mineral.",
-    "Define birefringence in relation to biaxial minerals.",
-    "What is maximum birefringence and how is it expressed?",
-    "What is an interference figure?",
-    "Explain how an interference figure is observed using a petrographic microscope.",
-    "State the function of the Bertrand lens.",
-    "Describe the characteristic features of a biaxial interference figure.",
-    "Explain the relationship between the two optic axes and the interference figure.",
-    "Differentiate uniaxial and biaxial minerals.",
-    "Differentiate the principal refractive indices of uniaxial and biaxial minerals.",
-    "What are accessory plates?",
-    "Mention accessory plates used in optical mineralogy.",
-    "Explain the importance of the gypsum plate, quartz wedge and mica plate in optical microscopy.",
-    "Explain how the optical sign of a biaxial mineral can be investigated.",
-    "Differentiate biaxial positive and biaxial negative minerals.",
-    "Describe the practical procedure for obtaining a biaxial interference figure.",
-    "Explain the importance of biaxial optical properties in mineral identification."
-  ]
 },
 {
   id: "nicol-prism-mineral-between-crossed-nicols",
@@ -18623,230 +12071,7 @@ export const topicsByCourse = {
     }
   ],
 
-  quiz: [
-    {
-      question: "The lower Nicol in a petrographic microscope is the:",
-      options: [
-        "Analyzer",
-        "Polarizer",
-        "Bertrand lens",
-        "Objective"
-      ],
-      answer: 1,
-      explanation:
-        "The lecturer's notes identify the polarizer as the lower Nicol."
-    },
-
-    {
-      question: "The upper Nicol is known as the:",
-      options: [
-        "Polarizer",
-        "Condenser",
-        "Analyzer",
-        "Iris diaphragm"
-      ],
-      answer: 2,
-      explanation:
-        "The analyzer is the upper Nicol."
-    },
-
-    {
-      question: "Crossed Nicols are produced when the polarizer and analyzer are oriented at:",
-      options: [
-        "0°",
-        "45°",
-        "90°",
-        "180° only"
-      ],
-      answer: 2,
-      explanation:
-        "For crossed Nicols, the vibration directions of the polarizer and analyzer are at 90°."
-    },
-
-    {
-      question: "XPL means:",
-      options: [
-        "Extra plane lens",
-        "Cross-polarized light",
-        "External polarized lens",
-        "Extra polarizing lens"
-      ],
-      answer: 1,
-      explanation:
-        "XPL refers to crossed-polarized or crossed-polarized-light observation."
-    },
-
-    {
-      question: "Which component produces plane-polarized light before it reaches the mineral?",
-      options: [
-        "Analyzer",
-        "Polarizer",
-        "Bertrand lens",
-        "Eyepiece"
-      ],
-      answer: 1,
-      explanation:
-        "The polarizer produces the plane-polarized light entering the specimen."
-    },
-
-    {
-      question: "A mineral placed between the polarizer and analyzer is being examined under:",
-      options: [
-        "Ordinary reflected light only",
-        "Crossed Nicols when the analyzer is crossed with the polarizer",
-        "Ultraviolet light only",
-        "Infrared light only"
-      ],
-      answer: 1,
-      explanation:
-        "The mineral is between the polarizer and analyzer in crossed-Nicol observation."
-    },
-
-    {
-      question: "Which mineral behaviour is characteristic of an isotropic mineral under XPL?",
-      options: [
-        "It remains dark during stage rotation",
-        "It always shows pleochroism",
-        "It always shows high birefringence",
-        "It always shows interference colours"
-      ],
-      answer: 0,
-      explanation:
-        "Isotropic minerals remain dark under crossed Nicols during stage rotation."
-    },
-
-    {
-      question: "Anisotropic minerals generally show what under XPL as the stage is rotated?",
-      options: [
-        "No change at all",
-        "Brightness changes and extinction",
-        "Permanent darkness",
-        "Only reflected light"
-      ],
-      answer: 1,
-      explanation:
-        "Anisotropic minerals change in brightness and pass through extinction positions as the stage rotates."
-    },
-
-    {
-      question: "Extinction refers to:",
-      options: [
-        "The mineral becoming dark at a particular orientation",
-        "The mineral melting",
-        "The mineral becoming permanently opaque",
-        "The microscope light switching off"
-      ],
-      answer: 0,
-      explanation:
-        "Extinction is the dark position of an anisotropic mineral under crossed polarized light."
-    },
-
-    {
-      question: "Which of the following is mainly associated with XPL observation?",
-      options: [
-        "Extinction",
-        "Rock weight",
-        "Specific gravity by balance",
-        "Chemical composition alone"
-      ],
-      answer: 0,
-      explanation:
-        "Extinction is an important optical property observed under XPL."
-    },
-
-    {
-      question: "The correct light path is:",
-      options: [
-        "Mineral → polarizer → analyzer → light source",
-        "Light source → polarizer → mineral → analyzer → eyepiece",
-        "Analyzer → mineral → polarizer → light source",
-        "Eyepiece → mineral → polarizer → light source"
-      ],
-      answer: 1,
-      explanation:
-        "The polarized-light path passes from the source through the polarizer, mineral and analyzer before reaching the observer."
-    },
-
-    {
-      question: "Which of the following is an isotropic mineral example from the lecturer's notes?",
-      options: [
-        "Quartz",
-        "Garnet",
-        "Calcite",
-        "Tourmaline"
-      ],
-      answer: 1,
-      explanation:
-        "The lecturer's notes give garnet as an example of an isotropic mineral."
-    },
-
-    {
-      question: "Which property is commonly observed under PPL?",
-      options: [
-        "Colour",
-        "Extinction only",
-        "Interference figure only",
-        "Optic axial angle only"
-      ],
-      answer: 0,
-      explanation:
-        "Colour is one of the properties studied under plane-polarized light."
-    },
-
-    {
-      question: "The rotating stage is useful because it allows the student to:",
-      options: [
-        "Change mineral orientation",
-        "Change the chemical composition",
-        "Cut the thin section",
-        "Increase specimen thickness"
-      ],
-      answer: 0,
-      explanation:
-        "Stage rotation changes the mineral's orientation relative to the polarizing components."
-    },
-
-    {
-      question: "Why is anisotropy important under crossed Nicols?",
-      options: [
-        "It causes optical properties to vary with direction",
-        "It makes every mineral isotropic",
-        "It prevents all light from entering the microscope",
-        "It changes the mineral's chemical formula"
-      ],
-      answer: 0,
-      explanation:
-        "Anisotropy means optical properties vary with direction, producing characteristic XPL behaviour."
-    }
-  ],
-
-  examQuestions: [
-    "Define a Nicol prism.",
-    "What is a polarizer?",
-    "What is an analyzer?",
-    "Differentiate the polarizer from the analyzer.",
-    "What is meant by lower Nicol and upper Nicol?",
-    "Explain the function of the polarizer in a petrographic microscope.",
-    "Explain the function of the analyzer in a petrographic microscope.",
-    "What are crossed Nicols?",
-    "What is meant by crossed-polarized light (XPL)?",
-    "At what angle are the vibration directions of the polarizer and analyzer arranged for crossed Nicols?",
-    "Describe the light path when a mineral is examined between crossed Nicols.",
-    "Explain the behaviour of an isotropic mineral between crossed Nicols.",
-    "Explain the behaviour of an anisotropic mineral between crossed Nicols.",
-    "Define extinction in optical mineralogy.",
-    "Explain why stage rotation is important when studying minerals under XPL.",
-    "Differentiate plane-polarized light (PPL) from crossed-polarized light (XPL).",
-    "List the optical properties commonly observed under PPL.",
-    "List the important optical properties observed under XPL.",
-    "Explain the relationship between double refraction and mineral behaviour under crossed Nicols.",
-    "Explain the origin of interference colours under crossed polarized light.",
-    "Why are crossed Nicols important in mineral identification?",
-    "State the difference between isotropic and anisotropic minerals under XPL.",
-    "Mention examples of isotropic minerals.",
-    "Describe the practical procedure for examining a mineral between crossed Nicols.",
-    "Draw and label the light path through a petrographic microscope under crossed Nicols."
-  ]
+ 
 },
 {
   id: "vibration-optical-orientation",
@@ -19059,181 +12284,7 @@ export const topicsByCourse = {
     "Explain the relationship between pleochroism and absorption."
   ],
 
-  quiz: [
-    {
-      question: "What does vibration direction describe in optical mineralogy?",
-      options: [
-        "The direction in which a mineral grain grows",
-        "The direction in which light vibrates as it passes through a mineral",
-        "The direction of cleavage in a mineral",
-        "The direction of movement of the microscope stage"
-      ],
-      correctIndex: 1,
-      explanation:
-        "Vibration direction refers to the direction in which light vibrates as it passes through a mineral."
-    },
-
-    {
-      question: "What is relief in optical mineralogy?",
-      options: [
-        "The external shape of a crystal",
-        "The ability of a mineral to absorb light",
-        "How strongly a mineral grain stands out from its surroundings",
-        "The angle between crystal faces"
-      ],
-      correctIndex: 2,
-      explanation:
-        "Relief describes how strongly a mineral grain stands out from the surrounding material under the microscope."
-    },
-
-    {
-      question: "Which formula represents refractive index?",
-      options: [
-        "n = Vm / Vv",
-        "n = Vv / Vm",
-        "n = Vv + Vm",
-        "n = Vv - Vm"
-      ],
-      correctIndex: 1,
-      explanation:
-        "The refractive index is defined as n = Vv / Vm, where Vv is the velocity of light in a vacuum and Vm is its velocity in the mineral."
-    },
-
-    {
-      question: "What is pleochroism?",
-      options: [
-        "Change in mineral shape during crystallization",
-        "Change in colour or colour intensity with mineral orientation",
-        "Formation of cleavage planes",
-        "Change in refractive index caused by heating"
-      ],
-      correctIndex: 1,
-      explanation:
-        "Pleochroism is observed when a coloured anisotropic mineral shows different colours or colour intensities as its orientation changes under plane-polarized light."
-    },
-
-    {
-      question: "Pleochroism is mainly associated with which type of minerals?",
-      options: [
-        "Coloured anisotropic minerals",
-        "Only colourless isotropic minerals",
-        "Only glass",
-        "Only opaque minerals"
-      ],
-      correctIndex: 0,
-      explanation:
-        "Pleochroism is mainly observed in coloured anisotropic minerals."
-    },
-
-    {
-      question: "What is absorption in mineral optics?",
-      options: [
-        "The production of crystal faces",
-        "The removal of part of the transmitted light by a mineral",
-        "The increase of mineral grain size",
-        "The rotation of the microscope stage"
-      ],
-      correctIndex: 1,
-      explanation:
-        "Absorption refers to the removal of part of the transmitted light as light passes through a mineral."
-    },
-
-    {
-      question: "What does mineral habit describe?",
-      options: [
-        "The characteristic external shape of mineral grains",
-        "The velocity of light in a mineral",
-        "The colour of the polarizer",
-        "The refractive index of glass"
-      ],
-      correctIndex: 0,
-      explanation:
-        "Mineral habit describes the characteristic external form or shape of mineral grains."
-    },
-
-    {
-      question: "Which mineral grain has well-formed crystal faces?",
-      options: [
-        "Anhedral",
-        "Subhedral",
-        "Euhedral",
-        "Amorphous"
-      ],
-      correctIndex: 2,
-      explanation:
-        "Euhedral grains have well-formed crystal faces."
-    }
-  ],
-
-  examQuestions: [
-    {
-      question:
-        "Define vibration direction and explain its importance in the optical examination of minerals.",
-      type: "theory",
-      marks: 5
-    },
-
-    {
-      question:
-        "Explain optical orientation and discuss how the orientation of a mineral can affect its observed optical properties.",
-      type: "theory",
-      marks: 6
-    },
-
-    {
-      question:
-        "Discuss the major optical properties used in the identification of minerals under the polarizing microscope.",
-      type: "theory",
-      marks: 10
-    },
-
-    {
-      question:
-        "Define refractive index and write the expression used to determine it.",
-      type: "theory",
-      marks: 4
-    },
-
-    {
-      question:
-        "What is relief? Explain the difference between high-relief and low-relief minerals.",
-      type: "theory",
-      marks: 5
-    },
-
-    {
-      question:
-        "Define pleochroism and explain how pleochroism is observed under plane-polarized light.",
-      type: "theory",
-      marks: 6
-    },
-
-    {
-      question:
-        "Explain absorption and describe its relationship with pleochroism.",
-      type: "theory",
-      marks: 6
-    },
-
-    {
-      question:
-        "Describe mineral habit and distinguish between euhedral, subhedral and anhedral grains.",
-      type: "theory",
-      marks: 6
-    }
-  ]
-},
-
-    {
-      id: "pleochroism-birefringence",
-      title: "Pleochroism & Birefringence",
-      summary: "Content will be added from the lecturer's materials.",
-      sections: [],
-      keyPoints: [],
-      examFocus: [],
-      quiz: [],
-      examQuestions: [],
-    },
+  },
   ],
 
   "GEY202": [
@@ -21650,9 +14701,10 @@ export const topicsByCourse = {
   ]
     }
   ],
+    },
+  ],
   GEY210: [],
-  GEY212: [],
-};
+  };
 
 export function getTopicsForCourse(courseCode) {
   return topicsByCourse[courseCode] ?? [];

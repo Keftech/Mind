@@ -6,6 +6,7 @@ import { getTopicProgress } from "../../lib/progressStore";
 import StrataDivider from "../../components/StrataDivider.jsx";
 import TopicVisual from "../../components/TopicVisual";
 import QuizCard from "../../components/QuizCard";
+import TheoryAnswerCard from "../../components/TheoryAnswerCard";
 
 export default function TopicDetail() {
   const { code, topicId } = useParams();
@@ -307,32 +308,54 @@ export default function TopicDetail() {
           </div>
 
           <div className="space-y-3">
-            {topic.examQuestions.map((item, index) => (
-              <div
-                key={`${topic.id}-exam-question-${index}`}
-                className="rounded-[var(--radius-card)] border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-5"
-              >
-                <div className="flex items-start justify-between gap-4">
-                  <p className="text-sm font-medium leading-6 text-[color:var(--color-ink)]">
-                    {index + 1}. {typeof item === "string" ? item : item.question}
-                  </p>
+  {topic.examQuestions.map((item, index) => {
+    const isString = typeof item === "string";
+    const questionType = !isString && typeof item.type === "string"
+      ? item.type.toLowerCase()
+      : "";
+    const needsWrittenAnswer =
+      !isString && (
+        ["theory", "practice", "past-question"].includes(questionType) ||
+        !Array.isArray(item.options)
+      );
 
-                  {typeof item !== "string" && item.marks && (
-                    <span className="shrink-0 font-mono text-xs text-[color:var(--color-slate)]">
-                      {item.marks} marks
-                    </span>
-                  )}
-                </div>
+    if (needsWrittenAnswer) {
+      return (
+        <TheoryAnswerCard
+          key={`${topic.id}-exam-question-${index}`}
+          question={item.question}
+          answerGuide={item.answerGuide}
+          marks={item.marks}
+          courseContext={`${course.code} ${course.title} — ${topic.title}`}
+        />
+      );
+    }
 
-                {typeof item !== "string" && item.type && (
-                  <p className="mt-2 font-mono text-[10px] uppercase tracking-wide text-[color:var(--color-accent)]">
-                    {item.type}
-                  </p>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
+    return (
+      <div
+        key={`${topic.id}-exam-question-${index}`}
+        className="rounded-[var(--radius-card)] border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-5"
+      >
+        <div className="flex items-start justify-between gap-4">
+          <p className="text-sm font-medium leading-6 text-[color:var(--color-ink)]">
+            {index + 1}. {isString ? item : item.question}
+          </p>
+          {!isString && item.marks && (
+            <span className="shrink-0 font-mono text-xs text-[color:var(--color-slate)]">
+              {item.marks} marks
+            </span>
+          )}
+        </div>
+        {!isString && item.type && (
+          <p className="mt-2 font-mono text-[10px] uppercase tracking-wide text-[color:var(--color-accent)]">
+            {item.type}
+          </p>
+        )}
+      </div>
+    );
+  })}
+</div>
+  </section>
       )}
 
       {/* End of Topic */}
